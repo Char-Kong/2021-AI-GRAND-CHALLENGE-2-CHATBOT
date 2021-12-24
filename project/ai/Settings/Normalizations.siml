@@ -1,0 +1,1511 @@
+﻿<Siml>
+  <!--Splitter: This splitter element is used split sentences into different Input values for processing.-->
+  <!--Text: Splits the user input wherever the given character or sequence of characters are found. -->
+  <!--Word: Splits the user input wherever the given word ( separated by SPACE ) is found.-->
+  <!--Regex: Splits the user input wherever the given Regular Expression matches.-->
+  <!--Note: The order/priority of splitting the user input is proportional to the order of elements within this Splitter element-->
+  <Splitter>
+    <Text>.</Text>
+    <Text>?</Text>
+    <Text>!</Text>
+    <Text>;</Text>
+    <Text>,</Text>
+    <Regex>\b(and)\b</Regex>
+    <Regex>\b(및|즉|곧)\b</Regex>
+    <Regex>\b(또는|결국|혹은|다만|바로|한편)\b</Regex>
+    <Regex>\b(그리고|게다가|더욱이|더구나|아울러|동시에|어쩌면|하물며|이처럼|이같이|그러나|하지만|그래도|반면에|도리어|오히려|반대로|따라서|그렇게|때문에|그래서|그러면|그러니|급기야|마침내|그런데|요컨대|여기에|아무튼|일례로|사실상|예컨대|덧붙여|끝으로)\b</Regex>
+    <Regex>\b(그렇지만|그러므로|그러니까|그럼에도|그리하여|다른 한편|다음으로|말하자면|구체적으로|왜냐하면|이와 함께|예를 들면|이를테면)\b</Regex>
+    <Regex>\b(결론적으로|마지막으로|뿐만 아니라|그런 점에서|그렇기는 해도|바꿔 말하면)\b</Regex>
+    <Regex>\b(야)\b</Regex>
+  </Splitter>
+  <Filter Value="곳이야">
+    <Word>곳임</Word>
+    <Word>곳인가요</Word>
+    <Word>곳입니까</Word>
+  </Filter>
+  <Filter Value="장점">
+    <Word>장점이</Word>
+    <Word>장점을</Word>
+  </Filter>
+  <Filter Value="위치">
+    <Word>위치가</Word>
+    <Word>위치를</Word>
+    <Word>위치 좀</Word>
+  </Filter>
+  <Filter Value="시간">
+    <Word>지금 몆시</Word>
+    <Word>지금 몆시야</Word>
+	<Word>시간을</Word>
+    <Word>몇시야</Word>
+    <Word>몇시</Word>
+    <Word>시간</Word>
+    <Word>몇분</Word>
+    <Word>몇초</Word>
+  </Filter>
+  <Filter Value="조교님들에">
+	<Word>황서림 조교님에</Word>
+	<Word>이창재 조교님에</Word>
+</Filter>
+  <Filter Value="날짜">
+  	<Word>날짜를</Word>
+  	<Word>며칠</Word>
+    <Word>며칠이야</Word>
+    <Word>몇일</Word>
+  </Filter>
+  <Filter Value="너">
+    <Word>넌</Word>
+  </Filter>
+  <Filter Value="이름">
+    <Word>이름이</Word>
+    <Word>이름은</Word>
+    <Word>별명</Word>
+  </Filter>
+  <Filter Value="연세">
+    <Word>연세대</Word>
+    <Word>연세대학교</Word>
+    <Word>연세 대학교</Word>
+    <Word>연세대학</Word>
+    <Word>연세 대학</Word>
+    <Word>연대</Word>
+    <Word>연세대는</Word>
+    <Word>연세대학교는</Word>
+    <Word>연세 대학교는</Word>
+    <Word>연세대학은</Word>
+    <Word>연세 대학은</Word>
+    <Word>연대는</Word>
+  </Filter>
+  <Filter Value="학사지원">
+    <Word>학사 지원은</Word>
+    <Word>학사 지원</Word>
+    <Word>지원</Word>
+    <Word>학사지원은</Word>
+    <Word>학사지원이</Word>
+    <Word>학사지원에</Word>
+    <Word>학사</Word>
+  </Filter>
+  <Filter Value="윤한얼">
+    <Word>한얼</Word>
+    <Word>한얼윤</Word>
+    <Word>한얼 윤</Word>
+  </Filter>
+  <Filter Value="휴학">
+    <Word>군휴학은</Word>
+    <Word>군휴학</Word>
+    <Word>군 휴학</Word>
+    <Word>군휴학</Word>
+    <Word>군휴학은</Word>
+    <Word>군 휴학은</Word>
+    <Word>군휴학은</Word>
+    <Word>휴학은</Word>
+  </Filter>
+  <Filter Value="복학">
+    <Word>복학은</Word>
+  </Filter>
+  <Filter Value="증명서">
+    <Word>증명</Word>
+  </Filter>
+  <Filter Value="초과학점신청">
+    <Word>초과학점신청은</Word>
+    <Word>초과학점</Word>
+    <Word>초과 학점</Word>
+    <Word>초과 학점 신청</Word>
+    <Word>초과 학점신청</Word>
+    <Word>초과학점 신청</Word>
+    <Word>초과 신청</Word>
+    <Word>초과신청</Word>
+    <Word>초과학점은</Word>
+    <Word>초과 학점은</Word>
+    <Word>초과 학점 신청은</Word>
+    <Word>초과 학점신청은</Word>
+    <Word>초과학점 신청은</Word>
+    <Word>초과 신청은</Word>
+    <Word>초과신청은</Word>
+  </Filter>
+  <Filter Value="수강철회">
+    <Word>수강철회는</Word>
+    <Word>철회는</Word>
+    <Word>수강 철회는</Word>
+    <Word>드랍은</Word>
+    <Word>수강철회</Word>
+    <Word>철회</Word>
+    <Word>수강 철회</Word>
+    <Word>드랍</Word>
+  </Filter>
+  <Filter Value="재수강">
+    <Word>재수강은</Word>
+    <Word>제수강</Word>
+    <Word>제수강은</Word>
+  </Filter>
+  <Filter Value="재입학">
+    <Word>재입</Word>
+    <Word>제입</Word>
+    <Word>제입학</Word>
+    <Word>재입은</Word>
+    <Word>제입은</Word>
+    <Word>제입학은</Word>
+  </Filter>
+  <Filter Value="편입학">
+    <Word>편입</Word>
+    <Word>편입은</Word>
+    <Word>편입이</Word>
+    <Word>편입학은</Word>
+    <Word>편입학이</Word>
+    <Word>편입학은</Word>
+    <Word>편입학이</Word>
+  </Filter>
+  <Filter Value="중간">
+    <Word>중간고사는</Word>
+    <Word>중간고사가</Word>
+    <Word>기말고사는</Word>
+    <Word>기말고사가</Word>
+    <Word>중간고사</Word>
+    <Word>기말</Word>
+    <Word>기말고사</Word>
+    <Word>중간시험</Word>
+    <Word>기말시험</Word>
+    <Word>시험</Word>
+  </Filter>
+  <Filter Value="학사정보">
+    <Word>학사정보는</Word>
+    <Word>학사정보가</Word>
+    <Word>학사</Word>
+    <Word>학사 정보</Word>
+    <Word>학사는</Word>
+    <Word>학사 정보는</Word>
+  </Filter>
+  <Filter Value="소속변경">
+    <Word>소속변경은</Word>
+    <Word>소속변경이</Word>
+    <Word>소변</Word>
+    <Word>소속 변경</Word>
+    <Word>소속</Word>
+    <Word>소변은</Word>
+    <Word>소속 변경은</Word>
+    <Word>소속은</Word>
+  </Filter>
+  <Filter Value="복수전공">
+    <Word>복수전공은</Word>
+    <Word>복수전공이</Word>
+    <Word>복수</Word>
+    <Word>복전</Word>
+    <Word>복수 전공</Word>
+    <Word>복수는</Word>
+    <Word>복전은</Word>
+    <Word>복수 전공은</Word>
+  </Filter>
+  <Filter Value="전공결정">
+    <Word>결정</Word>
+    <Word>전공 결정</Word>
+    <Word>결정은</Word>
+    <Word>전공 결정은</Word>
+    <Word>전공결정은</Word>
+    <Word>전공결정이</Word>
+  </Filter>
+  <Filter Value="조기졸업">
+    <Word>조기</Word>
+    <Word>조기 졸업</Word>
+    <Word>조기 졸업은</Word>
+    <Word>조기졸업은</Word>
+    <Word>조기졸업이</Word>
+  </Filter>
+  <Filter Value="가상계좌이체">
+    <Word>가상계좌</Word>
+    <Word>계좌이체</Word>
+    <Word>가상 계좌</Word>
+    <Word>계좌 이체</Word>
+    <Word>가상계좌는</Word>
+    <Word>계좌이체는</Word>
+    <Word>가상 계좌는</Word>
+    <Word>계좌 이체는</Word>
+    <Word>가상계좌 이체</Word>
+    <Word>가상 계좌 이체</Word>
+    <Word>가상 계좌이체</Word>
+    <Word>가상계좌이체는</Word>
+    <Word>가상계좌이체가</Word>
+    <Word>가상계좌 이체는</Word>
+    <Word>가상 계좌 이체는</Word>
+    <Word>가상 계좌이체는</Word>
+  </Filter>
+  <Filter Value="분할납부">
+    <Word>분할</Word>
+    <Word>분할 납부</Word>
+    <Word>분할은</Word>
+    <Word>분할 납부는</Word>
+    <Word>분할납부는</Word>
+    <Word>분할납부가</Word>
+  </Filter>
+  <Filter Value="학자금대출">
+    <Word>학자금 대출</Word>
+    <Word>학자금</Word>
+    <Word>대출</Word>
+    <Word>학자금 대출은</Word>
+    <Word>학자금은</Word>
+    <Word>대출은</Word>
+    <Word>학자금대출은</Word>
+    <Word>학자금대출이</Word>
+  </Filter>
+  <Filter Value="신용카드납부">
+    <Word>카드 납부</Word>
+    <Word>카드납부</Word>
+    <Word>신용카드</Word>
+    <Word>신용 카드</Word>
+    <Word>카드</Word>
+    <Word>신용</Word>
+    <Word>카드 납부는</Word>
+    <Word>카드납부는</Word>
+    <Word>신용카드는</Word>
+    <Word>신용 카드는</Word>
+    <Word>카드는</Word>
+    <Word>신용은</Word>
+    <Word>신용카드납부는</Word>
+  </Filter>
+  <Filter Value="관광음식">
+    <Word>먹거리</Word>
+    <Word>먹자</Word>
+    <Word>맛집</Word>
+    <Word>먹을거</Word>
+    <Word>배고파</Word>
+    <Word>밥줘</Word>
+    <Word>음식</Word>
+    <Word>먹거리는</Word>
+    <Word>맛집은</Word>
+    <Word>먹을거는</Word>
+    <Word>음식은</Word>
+  </Filter>
+  <Filter Value="관광볼거리">
+    <Word>볼거리</Word>
+    <Word>놀러</Word>
+    <Word>놀자</Word>
+    <Word>관광</Word>
+    <Word>명소</Word>
+    <Word>데이트</Word>
+    <Word>볼거리는</Word>
+    <Word>놀자</Word>
+    <Word>관광은</Word>
+    <Word>명소는</Word>
+    <Word>데이트는</Word>
+    <Word>관광명소는</Word>
+    <Word>관광 명소는</Word>
+    <Word>관광 명소</Word>
+  </Filter>
+  <Filter Value="학적">
+    <Word>학적은</Word>
+  </Filter>
+  <Filter Value="자퇴">
+    <Word>자퇴는</Word>
+    <Word>자퇴가</Word>
+  </Filter>
+  <Filter Value="전공">
+    <Word>전공은</Word>
+    <Word>전공이</Word>
+  </Filter>
+  <Filter Value="졸업">
+    <Word>졸업은</Word>
+    <Word>졸업이</Word>
+  </Filter>
+  <Filter Value="학위">
+    <Word>학위는</Word>
+    <Word>학위가</Word>
+  </Filter>
+  <Filter Value="등록금">
+    <Word>등록금은</Word>
+    <Word>등록금이</Word>
+    <Word>등록은</Word>
+    <Word>등록</Word>
+  </Filter>
+  <Filter Value="일정">
+    <Word>일정은</Word>
+    <Word>학사일정은</Word>
+    <Word>학사일정</Word>
+    <Word>학사 일정은</Word>
+    <Word>학사 일정</Word>
+  </Filter>
+  <Filter Value="명세표">
+    <Word>명세표는</Word>
+    <Word>명세표가</Word>
+  </Filter>
+  <Filter Value="납부">
+    <Word>납부는</Word>
+    <Word>납부가</Word>
+  </Filter>
+  <Filter Value="장학금">
+    <Word>장학금은</Word>
+    <Word>장학금이</Word>
+    <Word>장학은</Word>
+    <Word>장학</Word>
+  </Filter>
+  <Filter Value="소프트웨어디지털헬스케어융합대학">
+    <Word>소프트웨어디지털헬스케어융합대학에</Word>
+    <Word>소프트웨어디지털헬스케어융합대학에는</Word>
+    <Word>소프트웨어 디지털 헬스케어 융합 대학에</Word>
+    <Word>소프트웨어 디지털 헬스케어 융합 대학에는</Word>
+  </Filter>
+  <Filter Value="과학기술융합대학">
+    <Word>과학기술융합대학에</Word>
+    <Word>과학기술융합대학에는</Word>
+    <Word>과학 기술 융합 대학에</Word>
+    <Word>과학 기술 융합 대학에는</Word>
+  </Filter>
+  <Filter Value="글로벌창의융합대학">
+    <Word>글로벌창의융합대학에는</Word>
+    <Word>글로벌창의융합대학에</Word>
+    <Word>글로벌 창의 융합 대학에는</Word>
+    <Word>글로벌 창의 융합 대학에</Word>
+  </Filter>
+  <Filter Value="보건대">
+    <Word>보건대에</Word>
+    <Word>보건대에는</Word>
+    <Word>보건과학대학에는</Word>
+    <Word>보건과학대학에</Word>
+  </Filter>
+  <Filter Value="정경대">
+    <Word>정경대학에는</Word>
+    <Word>정경대학에</Word>
+    <Word>정경대에</Word>
+    <Word>정경대에는</Word>
+    <Word>정경 대학에는</Word>
+    <Word>정경 대학에</Word>
+  </Filter>
+  <Filter Value="인문예술대학">
+    <Word>인문예술대학에는</Word>
+    <Word>인문예술대학에</Word>
+    <Word>인문 예술 대학에는</Word>
+    <Word>인문 예술 대학에</Word>
+  </Filter>
+  <Filter Value="과기대">
+    <Word>과학기술대학에는</Word>
+    <Word>과학기술대학에</Word>
+    <Word>과학 기술 대학에는</Word>
+    <Word>과학 기술 대학에</Word>
+    <Word>과기대에</Word>
+    <Word>과기대에는</Word>
+  </Filter>
+  <Filter Value="학과">
+  	<Word>과가</Word>
+  	<Word>과들이</Word>
+    <Word>학과가</Word>
+    <Word>학과들이</Word>
+  </Filter>
+  <Filter Value="동아리">
+    <Word>동아리가</Word>
+  </Filter>
+  <Filter Value="기숙사">
+    <Word>기숙사에는</Word>
+    <Word>기숙사에</Word>
+    <Word>기숙사는</Word>
+  </Filter>
+  <Filter Value="편의시설">
+    <Word>편의시설이</Word>
+    <Word>편의 시설이</Word>
+  </Filter>
+  <Filter Value="수시정보">
+    <Word>수시 정보</Word>
+  </Filter>
+  <Filter Value="어떤">
+    <Word>무슨</Word>
+    <Word>뭐하는</Word>
+    <Word>무엇을 하는</Word>
+    <Word>무엇을하는</Word>
+  </Filter>
+  <Filter Value="오늘">
+    <Word>(오늘은|오늘는)</Word>
+    <Word>(오늘을|오늘를)</Word>
+  </Filter>
+  <Filter Value="what is">
+    <Word>whats</Word>
+  </Filter>
+  <Filter Value="중앙 도서관">
+    <Word>중앙도서관</Word>
+  </Filter>
+  <Filter Value="통학 버스">
+    <Word>통학버스</Word>
+  </Filter>
+  <Filter Value="백운관">
+    <Word>백운관은</Word>
+    <Word>백운관이</Word>
+    <Word>백운관에</Word>
+    <Word>백운관에는</Word>
+    <Word>백운관의</Word>
+  </Filter>
+  <Filter Value="창조관">
+    <Word>창조관은</Word>
+    <Word>창조관이</Word>
+    <Word>창조관에</Word>
+    <Word>창조관에는</Word>
+    <Word>창조관의</Word>
+  </Filter>
+  <Filter Value="청송관">
+    <Word>청송관은</Word>
+    <Word>청송관이</Word>
+    <Word>청송관에</Word>
+    <Word>청송관에는</Word>
+    <Word>청송관의</Word>
+  </Filter>
+  <Filter Value="미래관">
+    <Word>미래관은</Word>
+    <Word>미래관이</Word>
+    <Word>미래관에</Word>
+    <Word>미래관에는</Word>
+    <Word>미래관의</Word>
+  </Filter>
+  <Filter Value="정의관">
+    <Word>정의관은</Word>
+    <Word>정의관이</Word>
+    <Word>정의관에</Word>
+    <Word>정의관에는</Word>
+    <Word>정의관의</Word>
+  </Filter>
+  <Filter Value="독수리상">
+    <Word>독수리상은</Word>
+    <Word>독수리상이</Word>
+    <Word>독수리상에</Word>
+    <Word>독수리상에는</Word>
+    <Word>독수리상의</Word>
+  </Filter>
+  <Filter Value="현운재">
+    <Word>현운재는</Word>
+    <Word>현운재가</Word>
+    <Word>현운재에</Word>
+    <Word>현운재에는</Word>
+    <Word>현운재의</Word>
+  </Filter>
+  <Filter Value="학군단">
+    <Word>학군단은</Word>
+    <Word>학군단이</Word>
+    <Word>학군단에</Word>
+    <Word>학군단에는</Word>
+    <Word>학군단의</Word>
+  </Filter>
+  <Filter Value="라돈프리하우스">
+    <Word>라돈프리하우스는</Word>
+    <Word>라돈프리하우스가</Word>
+    <Word>라돈프리하우스에</Word>
+    <Word>라돈프리하우스에는</Word>
+    <Word>라돈프리하우스의</Word>
+  </Filter>
+  <Filter Value="산학관">
+    <Word>산학관은</Word>
+    <Word>산학관이</Word>
+    <Word>산학관에</Word>
+    <Word>산학관에는</Word>
+    <Word>산학관의</Word>
+  </Filter>
+  <Filter Value="노천극장">
+    <Word>노천극장은</Word>
+    <Word>노천극장이</Word>
+    <Word>노천극장에</Word>
+    <Word>노천극장에는</Word>
+    <Word>노천극장의</Word>
+  </Filter>
+  <Filter Value="산학관벤처센터">
+    <Word>산학관벤처센터는</Word>
+    <Word>산학관벤처센터가</Word>
+    <Word>산학관벤처센터에</Word>
+    <Word>산학관벤처센터에는</Word>
+    <Word>산학관벤처센터의</Word>
+    <Word>산학관 벤처센터</Word>
+    <Word>산학관 벤처센터는</Word>
+    <Word>산학관 벤처센터가</Word>
+    <Word>산학관 벤처센터에</Word>
+    <Word>산학관 벤처센터에는</Word>
+    <Word>산학관 벤처센터의</Word>
+    <Word>벤처센터</Word>
+  </Filter>
+  <Filter Value="환경친화기술센터">
+    <Word>환경친화기술센터는</Word>
+    <Word>환경친화기술센터가</Word>
+    <Word>환경친화기술센터에</Word>
+    <Word>환경친화기술센터에는</Word>
+    <Word>환경친화기술센터의</Word>
+  </Filter>
+  <Filter Value="창업보육센터">
+    <Word>창업보육센터는</Word>
+    <Word>창업보육센터가</Word>
+    <Word>창업보육센터에</Word>
+    <Word>창업보육센터에는</Word>
+    <Word>창업보육센터의</Word>
+  </Filter>
+  <Filter Value="매지1학사">
+    <Word>매지1학사는</Word>
+    <Word>매지1학사가</Word>
+    <Word>매지1학사에</Word>
+    <Word>매지1학사에는</Word>
+    <Word>매지1학사의</Word>
+    <Word>매지 1학사는</Word>
+    <Word>매지 1학사가</Word>
+    <Word>매지 1학사에</Word>
+    <Word>매지 1학사에는</Word>
+    <Word>매지 1학사의</Word>
+  </Filter>
+  <Filter Value="매지2학사">
+    <Word>매지2학사는</Word>
+    <Word>매지2학사가</Word>
+    <Word>매지2학사에</Word>
+    <Word>매지2학사에는</Word>
+    <Word>매지2학사의</Word>
+    <Word>매지 2학사는</Word>
+    <Word>매지 2학사가</Word>
+    <Word>매지 2학사에</Word>
+    <Word>매지 2학사에는</Word>
+    <Word>매지 2학사의</Word>
+  </Filter>
+  <Filter Value="매지3학사">
+    <Word>매지3학사는</Word>
+    <Word>매지3학사가</Word>
+    <Word>매지3학사에</Word>
+    <Word>매지3학사에는</Word>
+    <Word>매지3학사의</Word>
+    <Word>매지 3학사는</Word>
+    <Word>매지 3학사가</Word>
+    <Word>매지 3학사에</Word>
+    <Word>매지 3학사에는</Word>
+    <Word>매지 3학사의</Word>
+  </Filter>
+  <Filter Value="세연3학사">
+    <Word>세연3학사는</Word>
+    <Word>세연3학사가</Word>
+    <Word>세연3학사에</Word>
+    <Word>세연3학사에는</Word>
+    <Word>세연3학사의</Word>
+    <Word>세연 3학사는</Word>
+    <Word>세연 3학사가</Word>
+    <Word>세연 3학사에</Word>
+    <Word>세연 3학사에는</Word>
+    <Word>세연 3학사의</Word>
+  </Filter>
+  <Filter Value="청연학사">
+    <Word>청연학사는</Word>
+    <Word>청연학사가</Word>
+    <Word>청연학사에</Word>
+    <Word>청연학사에는</Word>
+    <Word>청연학사의</Word>
+    <Word>청연 학사는</Word>
+    <Word>청연 학사가</Word>
+    <Word>청연 학사에</Word>
+    <Word>청연 학사에는</Word>
+    <Word>청연 학사의</Word>
+  </Filter>
+  <Filter Value="세연2학사">
+    <Word>세연2학사는</Word>
+    <Word>세연2학사가</Word>
+    <Word>세연2학사에</Word>
+    <Word>세연2학사에는</Word>
+    <Word>세연2학사의</Word>
+    <Word>세연 2학사는</Word>
+    <Word>세연 2학사가</Word>
+    <Word>세연 2학사에</Word>
+    <Word>세연 2학사에는</Word>
+    <Word>세연 2학사의</Word>
+  </Filter>
+  <Filter Value="세연1학사">
+    <Word>세연1학사는</Word>
+    <Word>세연1학사가</Word>
+    <Word>세연1학사에</Word>
+    <Word>세연1학사에는</Word>
+    <Word>세연1학사의</Word>
+    <Word>세연 1학사는</Word>
+    <Word>세연 1학사가</Word>
+    <Word>세연 1학사에</Word>
+    <Word>세연 1학사에는</Word>
+    <Word>세연 1학사의</Word>
+  </Filter>
+  <Filter Value="중앙도서관">
+    <Word>중앙도서관은</Word>
+    <Word>중앙도서관이</Word>
+    <Word>중앙도서관에</Word>
+    <Word>중앙도서관에는</Word>
+    <Word>중앙도서관의</Word>
+    <Word>중도</Word>
+    <Word>중도의</Word>
+    <Word>중도는</Word>
+    <Word>중도가</Word>
+    <Word>중도에</Word>
+    <Word>중도에는</Word>
+    <Word>중앙 도서관의</Word>
+    <Word>중앙 도서관</Word>
+    <Word>중앙 도서관</Word>
+    <Word>중앙 도서관은</Word>
+    <Word>중앙 도서관이</Word>
+    <Word>중앙 도서관에</Word>
+    <Word>중앙 도서관에는</Word>
+    <Regex>\b(학교도서관|도서관|학교 도서관)\b</Regex>
+    <Word>학교도서관의</Word>
+    <Word>학교도서관</Word>
+    <Word>학교도서관은</Word>
+    <Word>학교도서관이</Word>
+    <Word>학교 도서관</Word>
+    <Word>학교 도서관이</Word>
+    <Word>학교 도서관은</Word>
+    <Word>학교 도서관의</Word>
+    <Word>도서관</Word>
+    <Word>도서관은</Word>
+    <Word>도서관이</Word>
+    <Word>도서관의</Word>
+    <Word>우리 도서관</Word>
+    <Word>우리 도서관이</Word>
+    <Word>우리 도서관은</Word>
+    <Word>우리 도서관의</Word>
+  </Filter>
+  <Filter Value="대학교회">
+    <Word>대학교회는</Word>
+    <Word>대학교회가</Word>
+    <Word>대학교회에</Word>
+    <Word>대학교회에는</Word>
+    <Word>대학교회의</Word>
+    <Word>대학 교회는</Word>
+    <Word>대학 교회가</Word>
+    <Word>대학 교회에</Word>
+    <Word>대학 교회에는</Word>
+    <Word>대학 교회의</Word>
+    <Word>대학본부</Word>
+    <Word>대학본부는</Word>
+    <Word>대학본부가</Word>
+    <Word>대학본부에</Word>
+    <Word>대학본부에는</Word>
+    <Word>대학본부의</Word>
+    <Word>대학 본부</Word>
+    <Word>대학 본부는</Word>
+    <Word>대학 본부가</Word>
+    <Word>대학 본부에</Word>
+    <Word>대학 본부에는</Word>
+    <Word>대학 본부의</Word>
+  </Filter>
+  <Filter Value="스포츠센터">
+    <Word>스포츠센터은</Word>
+    <Word>스포츠센터이</Word>
+    <Word>스포츠센터에</Word>
+    <Word>스포츠센터에는</Word>
+    <Word>스포츠센터의</Word>
+    <Word>스포츠 센터</Word>
+    <Word>스포츠 센터은</Word>
+    <Word>스포츠 센터이</Word>
+    <Word>스포츠 센터에</Word>
+    <Word>스포츠 센터에는</Word>
+    <Word>스포츠 센터의</Word>
+    <Word>스센은</Word>
+    <Word>스센이</Word>
+    <Word>스센에</Word>
+    <Word>스센에는</Word>
+    <Word>스센의</Word>
+  </Filter>
+  <Filter Value="무궁화동산">
+    <Word>무궁화동산은</Word>
+    <Word>무궁화동산의</Word>
+    <Word>무궁화동산이</Word>
+    <Word>무궁화동산에</Word>
+    <Word>무궁화 동산은</Word>
+    <Word>무궁화 동산의</Word>
+    <Word>무궁화 동산이</Word>
+    <Word>무궁화 동산에</Word>
+  </Filter>
+  <Filter Value="연세플라자">
+    <Word>연세플라자</Word>
+    <Word>연세플라자는</Word>
+    <Word>연세플라자가</Word>
+    <Word>연세플라자에</Word>
+    <Word>연세플라자에는</Word>
+    <Word>연세플라자의</Word>
+    <Word>연세 플라자</Word>
+    <Word>연세 플라자는</Word>
+    <Word>연세 플라자가</Word>
+    <Word>연세 플라자에</Word>
+    <Word>연세 플라자에는</Word>
+    <Word>연세 플라자의</Word>
+    <Word>연플</Word>
+    <Word>연플은</Word>
+    <Word>연플이</Word>
+    <Word>연플에</Word>
+    <Word>연플에는</Word>
+    <Word>연플의</Word>
+  </Filter>
+  <Filter Value="컨버전스홀">
+    <Word>컨버전스홀은</Word>
+    <Word>컨버전스홀이</Word>
+    <Word>컨버전스홀에</Word>
+    <Word>컨버전스홀에는</Word>
+    <Word>컨버전스홀의</Word>
+    <Word>컨버전스 홀은</Word>
+    <Word>컨버전스 홀이</Word>
+    <Word>컨버전스 홀에</Word>
+    <Word>컨버전스 홀에는</Word>
+    <Word>컨버전스 홀의</Word>
+  </Filter>
+  <Filter Value="학생회관">
+    <Word>학생회관은</Word>
+    <Word>학생회관이</Word>
+    <Word>학생회관에</Word>
+    <Word>학생회관에는</Word>
+    <Word>학생회관의</Word>
+    <Word>학관</Word>
+    <Word>학관은</Word>
+    <Word>학관이</Word>
+    <Word>학관에</Word>
+    <Word>학관에는</Word>
+    <Word>학관의</Word>
+  </Filter>
+  <Filter Value="어디">
+    <Word>어디에</Word>
+    <Word>어디</Word>
+    <Word>어디야</Word>
+    <Word>어디있나요</Word>
+    <Word>어딨어</Word>
+    <Word>어딨어요</Word>
+    <Word>어디임</Word>
+    <Word>어딨냐</Word>
+    <Word>어디로</Word>
+    <Word>어딨나요</Word>
+    <Word>어디있습니까</Word>
+    <Word>어디서</Word>
+    <Word>어디예요</Word>
+  </Filter>
+  <Filter Value="무엇">
+    <Word>무엇이</Word>
+    <Word>무엇</Word>
+    <Word>뭐가</Word>
+    <Word>뭐죠</Word>
+    <Word>무엇이죠</Word>
+    <Word>뭡니까</Word>
+    <Word>무엇인가요</Word>
+    <Word>무엇일까요</Word>
+    <Word>뭐니</Word>
+    <Word>무엇이니</Word>
+    <Word>뭐야</Word>
+  </Filter>
+  <Filter Value="평">
+    <Word>평인가요</Word>
+    <Word>평이에요</Word>
+    <Word>평이야</Word>
+    <Word>평임</Word>
+    <Word>평입니까</Word>
+    <Word>평 입니까</Word>
+  </Filter>
+  <Filter Value="층">
+    <Word>층인가요</Word>
+    <Word>층이에요</Word>
+    <Word>층이야</Word>
+    <Word>층임</Word>
+    <Word>층입니까</Word>
+    <Word>층 입니까</Word>
+    <Word>층에</Word>
+  </Filter>
+  <Filter Value="권">
+    <Word>권이야</Word>
+    <Word>권있어요</Word>
+    <Word>권있는거야</Word>
+    <Word>권있어</Word>
+    <Word>권있습니까</Word>
+    <Word>권 있습니까</Word>
+    <Word>권있는건가요</Word>
+    <Word>권 있는건가요</Word>
+  </Filter>
+  <Filter Value="책">
+    <Word>책이</Word>
+    <Word>책</Word>
+    <Word>책이 총</Word>
+    <Word>책 총</Word>
+  </Filter>
+  <Filter Value="커">
+    <Word>큰거야</Word>
+    <Word>큰가요</Word>
+    <Word>크죠</Word>
+    <Word>큽니까</Word>
+  </Filter>
+  <Filter Value="크기">
+    <Word>크기가</Word>
+    <Word>크기는</Word>
+  </Filter>
+  <Filter Value="지어짐">
+    <Word>지어졌나요</Word>
+    <Word>지어졌죠</Word>
+    <Word>지어진거죠</Word>
+    <Word>지어졌습니까</Word>
+    <Word>지어졌냐</Word>
+    <Word>지어졌음</Word>
+    <Word>지어졌어</Word>
+    <Word>지어졌는지 아니</Word>
+    <Word>지어졌는지 아시나요</Word>
+  </Filter>
+  <Filter Value="미래캠퍼스">
+    <Word>미래캠퍼스는</Word>
+    <Word>미래캠퍼스의</Word>
+    <Word>미래캠퍼스가</Word>
+    <Word>미래캠퍼스에</Word>
+    <Word>미래캠퍼스에는</Word>
+    <Word>학교</Word>
+    <Word>학교는</Word>
+    <Word>학교의</Word>
+    <Word>학교가</Word>
+    <Word>학교에</Word>
+    <Word>학교에는</Word>
+    <Word>우리학교</Word>
+    <Word>우리학교의</Word>
+    <Word>우리학교는</Word>
+    <Word>우리 학교</Word>
+    <Word>우리 학교의</Word>
+    <Word>우리 학교는</Word>
+  </Filter>
+  <Filter Value="주소">
+    <Word>주소가</Word>
+    <Word>주소는</Word>
+  </Filter>
+  <Filter Value="전화번호">
+    <Word>전화번호가</Word>
+    <Word>전화번호는</Word>
+    <Word>번호</Word>
+    <Word>번호를</Word>
+    <Word>번호는</Word>
+    <Word>번호은</Word>
+    <Word>전화 번호</Word>
+    <Word>전화 번호를</Word>
+    <Word>전화 번호는</Word>
+    <Word>전화번호는</Word>
+    <Word>전화번호를</Word>
+    <Word>연락처</Word>
+    <Word>연락처는</Word>
+    <Word>연락처를</Word>
+  </Filter>
+  <Filter Value="우리은행">
+    <Word>은행</Word>
+    <Word>은행은</Word>
+    <Word>은행의</Word>
+    <Word>학교은행</Word>
+    <Word>학교은행은</Word>
+    <Word>학교은행의</Word>
+    <Word>학교 은행</Word>
+    <Word>학교 은행은</Word>
+    <Word>학교 은행의</Word>
+    <Word>통장 만드는 곳</Word>
+    <Word>우리 은행</Word>
+    <Word>우리 은행은</Word>
+    <Word>원주은행</Word>
+    <Word>원주은행은</Word>
+    <Word>원주은행의</Word>
+    <Word>원주 은행</Word>
+    <Word>원주 은행은</Word>
+    <Word>원주 은행의</Word>
+    <Word>우리은행은</Word>
+    <Word>우리은행의</Word>
+    <Word>우리 은행의</Word>
+  </Filter>
+  <Filter Value="우편취급국">
+    <Word>우체국</Word>
+    <Word>우체국은</Word>
+    <Word>우체국의</Word>
+    <Word>학교우체국</Word>
+    <Word>학교우체국의</Word>
+    <Word>학교우체국은</Word>
+    <Word>학교 우체국</Word>
+    <Word>학교 우체국은</Word>
+    <Word>학교 우체국의</Word>
+    <Word>우편출장소</Word>
+    <Word>우편출장소는</Word>
+    <Word>우편출장소의</Word>
+    <Word>우편 출장소</Word>
+    <Word>우편 출장소는</Word>
+    <Word>우편 출장소의</Word>
+    <Word>우리 우체국</Word>
+    <Word>우편취급소</Word>
+    <Word>우편취급소는</Word>
+    <Word>우편취급소의</Word>
+    <Word>우편 취급소</Word>
+    <Word>우편 취급소는</Word>
+    <Word>우편 취급소의</Word>
+    <Word>우편 취급국</Word>
+    <Word>우편 취급국은</Word>
+    <Word>우편 취급국의</Word>
+    <Word>별정우체국</Word>
+    <Word>원주 우체국</Word>
+    <Word>원주 우체국은</Word>
+    <Word>원주 우체국의</Word>
+  </Filter>
+  <Filter Value="학생건강공제회">
+    <Word>건강공제회</Word>
+    <Word>건강공제회는</Word>
+    <Word>건강공제회의</Word>
+    <Word>학교건강공제회</Word>
+    <Word>학교건강공제회는</Word>
+    <Word>학교건강공제회의</Word>
+    <Word>학교 건강공제회</Word>
+    <Word>학교 건강공제회는</Word>
+    <Word>학교 건강공제회의</Word>
+    <Word>공제회</Word>
+    <Word>공제회는</Word>
+    <Word>공제회의</Word>
+    <Word>원주 건강공제회</Word>
+    <Word>원주 건강공제회는</Word>
+    <Word>원주 건강공제회의</Word>
+    <Word>연세대 건강공제회</Word>
+    <Word>연세대 건강공제회는</Word>
+    <Word>연세대 건강공제회의</Word>
+    <Word>연세대 학생건강공제회</Word>
+    <Word>연세대 학생건강공제회는</Word>
+    <Word>연세대 학생건강공제회의</Word>
+    <Word>학생 건강 공제회</Word>
+    <Word>학생 건강 공제회는</Word>
+    <Word>학생 건강 공제회의</Word>
+    <Word>학생 건강공제회</Word>
+    <Word>학생 건강공제회는</Word>
+    <Word>학생 건강공제회의</Word>
+    <Word>학생건강 공제회</Word>
+    <Word>학생건강 공제회는</Word>
+    <Word>학생건강 공제회의</Word>
+    <Word>학생건강공제회는</Word>
+    <Word>학생건강공제회의</Word>
+  </Filter>
+  <Filter Value="건강관리센터">
+    <Word>건강관리센터의</Word>
+    <Word>건강관리센터는</Word>
+    <Word>건강관리센터가</Word>
+    <Word>건강 관리센터</Word>
+    <Word>건강 관리센터의</Word>
+    <Word>건강 관리센터는</Word>
+    <Word>건강 관리센터가</Word>
+    <Word>건강 관리 센터</Word>
+    <Word>건강 관리 센터의</Word>
+    <Word>건강 관리 센터는</Word>
+    <Word>건강 관리 센터가</Word>
+    <Word>보건실</Word>
+    <Word>양호실</Word>
+  </Filter>
+  <Filter Value="학생식당">
+    <Word>식당</Word>
+    <Word>학생 식당</Word>
+    <Word>학교 식당</Word>
+    <Word>학교식당</Word>
+    <Word>급식소</Word>
+    <Word>급식실</Word>
+    <Word>식생활관</Word>
+  </Filter>
+  <Filter Value="셔틀버스">
+    <Word>통학버스</Word>
+    <Word>버스</Word>
+    <Word>셔틀 버스</Word>
+    <Word>통학 버스</Word>
+    <Word>원주 통학 버스</Word>
+    <Word>원주통학버스</Word>
+    <Word>원주통학 버스</Word>
+    <Word>원주 통학버스</Word>
+    <Word>버스는</Word>
+    <Word>버스에는</Word>
+  </Filter>
+  <Filter Value="보유시설">
+    <Word>보유시설에</Word>
+    <Word>보유시설을</Word>
+  </Filter>
+  <Filter Value="영업시간">
+    <Word>운영시간</Word>
+    <Word>운영시간을</Word>
+    <Word>운영시간에</Word>
+    <Word>영업 시간</Word>
+    <Word>영업 시간을</Word>
+    <Word>영업 시간에</Word>
+    <Word>운영 시간</Word>
+    <Word>운영 시간을</Word>
+    <Word>운영 시간에</Word>
+    <Word>영업일</Word>
+    <Word>영업일을</Word>
+    <Word>영업일에</Word>
+    <Word>운영일</Word>
+    <Word>운영일을</Word>
+    <Word>운영일에</Word>
+    <Word>이용시간</Word>
+    <Word>이용시간을</Word>
+    <Word>이용 시간</Word>
+    <Word>이용 시간을</Word>
+    <Word>사용 시간</Word>
+    <Word>사용 시간을</Word>
+    <Word>사용시간</Word>
+    <Word>사용시간을</Word>
+  </Filter>
+  <Filter Value="영업종료">
+    <Word>영업 종료</Word>
+    <Word>영업종료는</Word>
+    <Word>영업 종료는</Word>
+  </Filter>
+  <Filter Value="휴무일">
+    <Word>휴무일은</Word>
+    <Word>휴무</Word>
+    <Word>휴무는</Word>
+    <Word>휴무 일은</Word>
+  </Filter>
+  <Filter Value="전산실습실">
+    <Word>전산실습실에</Word>
+    <Word>전산 실습실에</Word>
+    <Word>전산실습실은</Word>
+    <Word>전산 실습실</Word>
+    <Word>전산실습실을</Word>
+    <Word>전산실습실의</Word>
+    <Word>전산 실습실의</Word>
+  </Filter>
+  <Filter Value="자율실습실">
+    <Word>자율실습실에</Word>
+    <Word>자율 실습실에</Word>
+    <Word>자율실습실은</Word>
+    <Word>자율 실습실</Word>
+    <Word>자율실습실을</Word>
+    <Word>자율실습실의</Word>
+    <Word>자율 실습실의</Word>
+  </Filter>
+  <Filter Value="강의실습실">
+    <Word>강의실습실에</Word>
+    <Word>강의 실습실에</Word>
+    <Word>강의실습실은</Word>
+    <Word>강의 실습실</Word>
+    <Word>강의실습실을</Word>
+    <Word>강의실습실의</Word>
+    <Word>강의 실습실의</Word>
+  </Filter>
+  <Filter Value="CAFE DICTIONARY">
+    <Word>CAFEDICTIONARY</Word>
+    <Word>CAFEDICTIONARY는</Word>
+    <Word>CAFEDICTIONARY의</Word>
+    <Word>CAFEDICTIONARY가</Word>
+    <Word>CAFE</Word>
+    <Word>CAFE는</Word>
+    <Word>CAFE의</Word>
+    <Word>CAFE가</Word>
+    <Word>카페 딕셔너리</Word>
+    <Word>카페 딕셔너리는</Word>
+    <Word>카페 딕셔너리의</Word>
+    <Word>카페 딕셔너리가</Word>
+    <Word>카페딕셔너리</Word>
+    <Word>카페딕셔너리는</Word>
+    <Word>카페딕셔너리의</Word>
+    <Word>카페딕셔너리가</Word>
+    <Word>카페 디션너리</Word>
+    <Word>카페 디션너리는</Word>
+    <Word>카페 디션너리의</Word>
+    <Word>카페 디션너리가</Word>
+    <Word>카페디션너리</Word>
+    <Word>카페디션너리는</Word>
+    <Word>카페디션너리의</Word>
+    <Word>카페디션너리가</Word>
+    <Word>카페 딕션너리</Word>
+    <Word>카페 딕션너리는</Word>
+    <Word>카페 딕션너리의</Word>
+    <Word>카페 딕션너리가</Word>
+  </Filter>
+  <Filter Value="카페">
+    <Word>카페</Word>
+    <Word>카페의</Word>
+    <Word>카페는</Word>
+    <Word>커피숍</Word>
+    <Word>커피숍은</Word>
+    <Word>커피하우스</Word>
+    <Word>커피하우스는</Word>
+    <Word>커피 하우스</Word>
+    <Word>커피 숍</Word>
+    <Word>카페테리아</Word>
+    <Word>카페 테리아</Word>
+    <Word>디저트 가게</Word>
+  </Filter>
+  <Filter Value="음식점">
+    <Word>음식점의</Word>
+    <Word>음식점은</Word>
+    <Word>음식점을</Word>
+    <Word>음식점에는</Word>
+  </Filter>
+  <Filter Value="7월의무화과">
+    <Word>7월의무화과의</Word>
+    <Word>7월의무화과는</Word>
+    <Word>7월의무화과가</Word>
+    <Word>7월의 무화과의</Word>
+    <Word>7월의 무화과는</Word>
+    <Word>7월의 무화과가</Word>
+  </Filter>
+  <Filter Value="빨래방">
+    <Word>세탁소</Word>
+    <Word>세탁소의</Word>
+    <Word>세탁소는</Word>
+    <Word>세탁소가</Word>
+    <Word>학교 세탁소</Word>
+    <Word>학교 세탁소의</Word>
+    <Word>학교 세탁소는</Word>
+    <Word>학교 세탁소가</Word>
+    <Word>우리 세탁소</Word>
+    <Word>우리 세탁소의</Word>
+    <Word>우리 세탁소는</Word>
+    <Word>우리 세탁소가</Word>
+    <Word>연세대 세탁소</Word>
+    <Word>연세대 세탁소의</Word>
+    <Word>연세대 세탁소는</Word>
+    <Word>연세대 세탁소가</Word>
+    <Word>원주 세탁소</Word>
+    <Word>원주 세탁소의</Word>
+    <Word>원주 세탁소는</Word>
+    <Word>원주 세탁소가</Word>
+    <Word>미래 캠퍼스 세탁소</Word>
+    <Word>미래 캠퍼스 세탁소의</Word>
+    <Word>미래 캠퍼스 세탁소는</Word>
+    <Word>미래 캠퍼스 세탁소가</Word>
+    <Word>캠퍼스 세탁소</Word>
+    <Word>캠퍼스 세탁소의</Word>
+    <Word>캠퍼스 세탁소는</Word>
+    <Word>캠퍼스 세탁소가</Word>
+  </Filter>
+  <Filter Value="뚜레쥬르">
+    <Word>빵집</Word>
+    <Word>빵집은</Word>
+    <Word>빵집를</Word>
+    <Word>빵집의</Word>
+    <Word>뚜레주르</Word>
+    <Word>뚜레쥬르는</Word>
+    <Word>뚜레쥬르를</Word>
+    <Word>뚜레쥬르의</Word>
+    <Word>베이커리</Word>
+    <Word>베이커리를</Word>
+    <Word>베이커리는</Word>
+    <Word>베이커리의</Word>
+    <Word>학교 빵집</Word>
+    <Word>학교 빵집은</Word>
+    <Word>학교 빵집을</Word>
+    <Word>학교 빵집의</Word>
+    <Word>학교 뚜레쥬르</Word>
+    <Word>학교 뚜레쥬르는</Word>
+    <Word>학교 뚜레쥬르를</Word>
+    <Word>학교 뚜레쥬르의</Word>
+    <Word>연세대 뚜레쥬르</Word>
+    <Word>연세대 뚜레쥬르는</Word>
+    <Word>연세대 뚜레쥬르를</Word>
+    <Word>연세대 뚜레쥬르의</Word>
+    <Word>미래캠퍼스 뚜레쥬르</Word>
+    <Word>미래캠퍼스 뚜레쥬르는</Word>
+    <Word>미래캠퍼스 뚜레쥬르를</Word>
+    <Word>미래캠퍼스 뚜레쥬르의</Word>
+  </Filter>
+  <Filter Value="미니스톱">
+    <Word>미니스톱은</Word>
+    <Word>미니스톱의</Word>
+    <Word>미니스톱이</Word>
+    <Word>편의점</Word>
+    <Word>편의점은</Word>
+    <Word>편의점의</Word>
+    <Word>편의점이</Word>
+    <Word>학교 편의점</Word>
+    <Word>학교 편의점은</Word>
+    <Word>학교 편의점의</Word>
+    <Word>학교 편의점이</Word>
+    <Word>학교 미니스톱</Word>
+    <Word>학교 미니스톱은</Word>
+    <Word>학교 미니스톱의</Word>
+    <Word>학교 미니스톱이</Word>
+    <Word>연세대 미니스톱</Word>
+    <Word>연세대 미니스톱은</Word>
+    <Word>연세대 미니스톱의</Word>
+    <Word>연세대 미니스톱이</Word>
+    <Word>미래캠퍼스 미니스톱</Word>
+    <Word>미래캠퍼스 미니스톱은</Word>
+    <Word>미래캠퍼스 미니스톱의</Word>
+    <Word>미래캠퍼스 미니스톱이</Word>
+  </Filter>
+  <Filter Value="CU">
+    <Word>CU는</Word>
+    <Word>씨유</Word>
+    <Word>시유</Word>
+    <Word>씨유는</Word>
+    <Word>시유는</Word>
+  </Filter>
+  <Filter Value="위치">
+    <Word>위치가</Word>
+    <Word>위치는</Word>
+    <Word>위치를</Word>
+  </Filter>
+  <Filter Value="비앤씨">
+    <Word>비앤씨는</Word>
+    <Word>비앤씨를</Word>
+    <Word>비앤씨의</Word>
+    <Word>비앤시</Word>
+    <Word>비앤시를</Word>
+    <Word>비앤시는</Word>
+  </Filter>
+  <Filter Value="아래향">
+    <Word>아래향는</Word>
+    <Word>아래향를</Word>
+    <Word>아래항</Word>
+    <Word>아래향을</Word>
+    <Word>아래향은</Word>
+    <Word>아래향의</Word>
+  </Filter>
+  <Filter Value="한울샘">
+    <Word>한울샘는</Word>
+    <Word>한울샘를</Word>
+    <Word>한물샘</Word>
+    <Word>한울샘을</Word>
+    <Word>한울샘은</Word>
+    <Word>한울샘의</Word>
+  </Filter>
+  <Filter Value="아이라운지">
+    <Word>아이라운지는</Word>
+    <Word>아이라운지를</Word>
+    <Word>아이라운지의</Word>
+    <Word>아이 라운지</Word>
+    <Word>아이 라운지를</Word>
+    <Word>아이 라운지는</Word>
+  </Filter>
+  <Filter Value="호야토스트">
+    <Word>호야토스트는</Word>
+    <Word>호야토스트를</Word>
+    <Word>호야토스트의</Word>
+    <Word>호야 토스트</Word>
+    <Word>호야 토스트를</Word>
+    <Word>호야 토스트는</Word>
+  </Filter>
+  <Filter Value="상근이김밥">
+    <Word>상근이김밥은</Word>
+    <Word>상근이김밥을</Word>
+    <Word>상근이김밥의</Word>
+    <Word>상근이 김밥</Word>
+    <Word>상근이 김밥을</Word>
+    <Word>상근이 김밥은</Word>
+  </Filter>
+  <Filter Value="푸드코트">
+    <Word>푸드코트는</Word>
+    <Word>푸드코트를</Word>
+    <Word>푸드코트의</Word>
+    <Word>푸드코트 엘리시온</Word>
+    <Word>푸드코트 엘리시온은</Word>
+    <Word>푸드코트 엘리시온을</Word>
+    <Word>푸드코트 엘리시온의</Word>
+    <Word>푸드코트엘리시온</Word>
+    <Word>푸드코트엘리시온은</Word>
+    <Word>푸드코트엘리시온을</Word>
+    <Word>푸드코트엘리시온의</Word>
+  </Filter>
+  <Filter Value="연세POD센터">
+    <Word>연세POD센터는</Word>
+    <Word>연세POD센터를</Word>
+    <Word>연세POD센터의</Word>
+    <Word>인쇄소</Word>
+    <Word>인쇄소는</Word>
+    <Word>인쇄소를</Word>
+    <Word>인쇄소의</Word>
+    <Word>POD센터</Word>
+    <Word>POD센터를</Word>
+    <Word>POD센터는</Word>
+    <Word>POD센터의</Word>
+    <Word>제본소</Word>
+    <Word>제본소는</Word>
+    <Word>제본소를</Word>
+    <Word>제본소의</Word>
+    <Word>복사점</Word>
+    <Word>복사점은</Word>
+    <Word>복사점을</Word>
+    <Word>복사점의</Word>
+    <Word>복사집</Word>
+    <Word>복사집은</Word>
+    <Word>복사집을</Word>
+    <Word>복사집의</Word>
+    <Word>인쇄점</Word>
+    <Word>인쇄점은</Word>
+    <Word>인쇄점을</Word>
+    <Word>인쇄점의</Word>
+  </Filter>
+  <Filter Value="복사실">
+    <Word>복사실의</Word>
+    <Word>복사실은</Word>
+  </Filter>
+  <Filter Value="머레이멀티미디어실">
+    <Word>머레이멀티미디어실은</Word>
+    <Word>머레이멀티미디어실의</Word>
+  </Filter>
+  <Filter Value="구내서점">
+    <Word>구내서점은</Word>
+    <Word>구내서점을</Word>
+    <Word>구내서점의</Word>
+    <Word>구내 서점</Word>
+    <Word>구내 서점을</Word>
+    <Word>구내 서점은</Word>
+    <Word>책방</Word>
+    <Word>책방은</Word>
+    <Word>책방을</Word>
+    <Word>책방의</Word>
+    <Word>서점</Word>
+    <Word>서점은</Word>
+    <Word>서점을</Word>
+    <Word>서점의</Word>
+    <Word>학교 서점</Word>
+    <Word>학교 서점은</Word>
+    <Word>학교 서점의</Word>
+    <Word>학교 서점을</Word>
+    <Word>교내 서점</Word>
+    <Word>교내 서점은</Word>
+    <Word>교내 서점을</Word>
+    <Word>교내 서점의</Word>
+  </Filter>
+  <Filter Value="누리샘">
+    <Word>누리샘은</Word>
+    <Word>누리샘의</Word>
+    <Word>누리샘이</Word>
+    <Word>생활용품점</Word>
+    <Word>생활용품점은</Word>
+    <Word>생활용품점의</Word>
+    <Word>생활용품점이</Word>
+  </Filter>
+  <Filter Value="안경점">
+    <Word>안경점의</Word>
+    <Word>안경점은</Word>
+    <Word>안경점이</Word>
+  </Filter>
+  <Filter Value="셔틀버스 현장 예매">
+    <Word>셔틀버스 현장 예매는</Word>
+    <Word>셔틀버스 현장 예매를</Word>
+    <Word>셔틀버스 현장 예매의</Word>
+    <Word>셔틀버스 현장예매</Word>
+    <Word>셔틀버스 현장예매를</Word>
+    <Word>셔틀버스 현장예매는</Word>
+    <Word>셔틀버스 현장예매의</Word>
+    <Word>셔틀버스현장예매를</Word>
+    <Word>셔틀버스현장예매는</Word>
+    <Word>셔틀버스현장예매의</Word>
+    <Word>셔틀버스현장예매</Word>
+  </Filter>
+  <Filter Value="셔틀버스 모바일 예매">
+    <Word>셔틀버스 모바일 예매는</Word>
+    <Word>셔틀버스 모바일 예매를</Word>
+    <Word>셔틀버스 모바일 예매의</Word>
+    <Word>셔틀버스 모바일예매</Word>
+    <Word>셔틀버스 모바일예매를</Word>
+    <Word>셔틀버스 모바일예매는</Word>
+    <Word>셔틀버스 모바일예매의</Word>
+    <Word>셔틀버스모바일예매를</Word>
+    <Word>셔틀버스모바일예매는</Word>
+    <Word>셔틀버스모바일예매의</Word>
+    <Word>셔틀버스모바일예매</Word>
+  </Filter>
+  <Filter Value="가면돼">
+    <Word>가면돼</Word>
+    <Word>가면 돼</Word>
+    <Word>가야하나요</Word>
+    <Word>가야되죠</Word>
+    <Word>가야함</Word>
+    <Word>가야돼</Word>
+    <Word>가야 돼</Word>
+  </Filter>
+  <Filter Value="날씨">
+    <Word>날씨</Word>
+    <Word>날씨가</Word>
+    <Word>날씨는</Word>
+  </Filter>
+  <Filter Value="어떻게">
+    <Word>어때</Word>
+    <Word>어때요</Word>
+    <Word>어떤가요</Word>
+    <Word>어떻습니까</Word>
+    <Word>어떻게</Word>
+  </Filter>
+  <Filter Value="설명해줘">
+    <Word>설명해줘</Word>
+    <Word>설명해주세요</Word>
+    <Word>설명해줘봐</Word>
+    <Word>설명해</Word>
+  </Filter>
+  <Filter Value="가르쳐줘">
+    <Word>가르쳐줘</Word>
+    <Word>가르쳐주세요</Word>
+    <Word>가르쳐줘봐</Word>
+  </Filter>
+  <Filter Value="알려줘">
+    <Word>알려줘</Word>
+    <Word>알려주세요</Word>
+    <Word>알려줘봐</Word>
+  </Filter>
+  <Filter Value="거북섬">
+    <Word>거북섬에</Word>
+    <Word>거북 섬에</Word>
+  </Filter>
+  <Filter Value="키스로드">
+    <Word>키스로드에</Word>
+    <Word>키스 로드에</Word>
+  </Filter>
+  <Filter Value="매지호">
+    <Word>매지호에</Word>
+    <Word>매지 호에</Word>
+    <Word>매지호수</Word>
+    <Word>매지호수에</Word>
+    <Word>매지 호수</Word>
+    <Word>매지 호수에</Word>
+  </Filter>
+  <Filter Value="매지리석조보살입상">
+    <Word>매지리석조보살입상</Word>
+    <Word>매지리석조보살입상에</Word>
+    <Word>매지리 석조 보살 입상</Word>
+    <Word>매지리 석조 보살 입상에</Word>
+    <Word>석조보살입상</Word>
+    <Word>석조보살입상에</Word>
+    <Word>석조 보살 입상</Word>
+    <Word>석조 보살 입사에</Word>
+  </Filter>
+  <Filter Value="매지정">
+    <Word>매지정에</Word>
+    <Word>매지정자</Word>
+    <Word>매지 정자</Word>
+    <Word>매지정자에</Word>
+    <Word>매지 정자에</Word>
+  </Filter>
+  <Filter Value="머레이멀티미디어실">
+    <Word>머레이멀티미디어실의</Word>
+    <Word>머레이 멀티 미디어실의</Word>
+    <Word>멀티미디어실</Word>
+    <Word>멀티미디어실의</Word>
+    <Word>멀티 미디어 실</Word>
+    <Word>멀티 미디어 실의</Word>
+    <Word>멀티 미디어실</Word>
+    <Word>멀티 미디어실의</Word>
+    <Word>머레이 멀티 미디어 실의</Word>
+  </Filter>
+  <Filter Value="노트북열람실">
+    <Word>노트북열람실의</Word>
+  </Filter>
+  <Filter Value="일반열람실">
+    <Word>일반열람실의</Word>
+  </Filter>
+  <Filter Value="교직원식당">
+    <Word>교직원식당은</Word>
+    <Word>교직원식당의</Word>
+    <Word>교직원식당이</Word>
+    <Word>교직원 식당은</Word>
+    <Word>교직원 식당의</Word>
+    <Word>교직원 식당이</Word>
+  </Filter>
+  <Filter Value="종합운동장">
+    <Word>종합운동장에</Word>
+    <Word>종합운동장은</Word>
+    <Word>종합운동장의</Word>
+    <Word>종합 운동장에</Word>
+    <Word>종합 운동장은</Word>
+    <Word>종합 운동장의</Word>
+  </Filter>
+  <Filter Value="이글플라자">
+    <Word>이글플라자에</Word>
+    <Word>이글플라자에는</Word>
+    <Word>이글플라자의</Word>
+    <Word>이글플라자는</Word>
+    <Word>이글 플라자에</Word>
+    <Word>이글 플라자에는</Word>
+    <Word>이글 플라자의</Word>
+    <Word>이글 플라자는</Word>
+  </Filter>
+  <Filter Value="너">
+    <Word>너의</Word>
+    <Word>너는</Word>
+    <Word>당신의</Word>
+    <Word>당신은</Word>
+  </Filter>
+  <Filter Value="누구">
+    <Word>누구니</Word>
+    <Word>누구세요</Word>
+    <Word>누구십니까</Word>
+  </Filter>
+  <Filter Value="만듬">
+    <Word>만들었니</Word>
+    <Word>만들었나요</Word>
+    <Word>만들었죠</Word>
+    <Word>만들었냐</Word>
+  </Filter>
+  <!--Filter: Filters here are used to filter user input BEFORE its processed. You may use <Text>, <Word> and <Regex> tags.-->
+  <!--Text: Text element is used to filter all occurance of a the specified text within the input-->
+  <!--Word: Word element is used to filter individual words that may be separated by a SPACE character-->
+  <!--Regex: Regular Expression that is used to replace textual strings wherever a pattern is matched-->
+  <!--Note: Depending on your requirement ( considering defined Regular Expressions ) you should make sure certain characters/words are NOT filtered-->
+  <!--Note: Your filters should not conflict with Pattern Reductions. If you filter out important words you may render a pattern reduction useless-->
+</Siml>

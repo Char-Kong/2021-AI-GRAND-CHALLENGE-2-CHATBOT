@@ -1,0 +1,44 @@
+﻿<Siml>
+  <!--Map: Transforms the element of one set into an element of another.-->
+  <Map Name="2ndPerson">
+    <MapItem Content="너는" Value="나는" />
+    <MapItem Content="나는" Value="너는" />
+    <MapItem Content="너" Value="나" />
+    <MapItem Content="넌" Value="난" />
+    <MapItem Content="나" Value="너" />
+    <MapItem Content="당신" Value="나" />
+    <MapItem Content="너의" Value="나의" />
+    <MapItem Content="그들의" Value="그들의" />
+    <MapItem Content="당신의" Value="나의" />
+  </Map>
+  <Map Name="gender">
+    <MapItem Content="he" Value="she" />
+    <MapItem Content="she" Value="he" />
+    <MapItem Content="to him" Value="to her" />
+    <MapItem Content="for him" Value="for her" />
+    <MapItem Content="with him" Value="with her" />
+    <!--And so on...-->
+  </Map>
+  <Map Name="person">
+    <MapItem Content="i was" Value="he or she was" />
+    <MapItem Content="i am" Value="he or she is" />
+    <MapItem Content="i" Value="he or she" />
+    <MapItem Content="he was" Value="i was" />
+    <!--And so on...-->
+  </Map>
+  <Map Name="person2">
+    <MapItem Content="with you" Value="with me" />
+    <MapItem Content="with me" Value="with you" />
+    <MapItem Content="to you" Value="to me" />
+    <MapItem Content="to me" Value="to you" />
+    <MapItem Content="you" Value="me" />
+    <!--And so on...-->
+  </Map>
+  <Siml>
+    <Map Name="number2word" Reverse="word2number">
+      <MapItem Content="하나" Value="1" />
+      <MapItem Content="둘" Value="2" />
+      <MapItem Content="셋" Value="3" />
+    </Map>
+  </Siml>
+</Siml>

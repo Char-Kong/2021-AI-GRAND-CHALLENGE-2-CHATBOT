@@ -1,0 +1,73 @@
+﻿<Siml>
+  <Filter Value="중간">
+    <Word>중간고사</Word>
+    <Word>기말</Word>
+    <Word>기말고사</Word>
+    <Word>중간시험</Word>
+    <Word>기말시험</Word>
+    <Word>시험</Word>
+  </Filter>
+  <Filter Value="학사정보">
+    <Word>학사</Word>
+    <Word>학사 정보</Word>
+  </Filter>
+  <Filter Value="소속변경">
+    <Word>소변</Word>
+    <Word>소속 변경</Word>
+    <Word>소속</Word>
+  </Filter>
+  <Filter Value="복수전공">
+    <Word>복수</Word>
+    <Word>복전</Word>
+    <Word>복수 전</Word>
+  </Filter>
+  <Filter Value="전공결정">
+    <Word>결정</Word>
+    <Word>전공 결정</Word>
+  </Filter>
+  <Filter Value="조기졸업">
+    <Word>조기</Word>
+    <Word>조기 졸업</Word>
+  </Filter>
+  <Filter Value="가상계좌이체">
+    <Word>가상계좌</Word>
+    <Word>계좌이체</Word>
+    <Word>가상 계좌</Word>
+    <Word>계좌 이</Word>
+  </Filter>
+  <Filter Value="분할납부">
+    <Word>분할</Word>
+    <Word>분할 납부</Word>
+  </Filter>
+  <Filter Value="학자금대출">
+    <Word>학자금 대출</Word>
+    <Word>학자금</Word>
+    <Word>대출</Word>
+  </Filter>
+  <Filter Value="신용카드납부">
+    <Word>카드 납부</Word>
+    <Word>카드납부</Word>
+    <Word>신용카드</Word>
+    <Word>신용 카드</Word>
+    <Word>카드</Word>
+    <Word>신용</Word>
+  </Filter>
+  <Filter Value="관광음식">
+    <Word>먹거리</Word>
+    <Word>먹자</Word>
+    <Word>맛집</Word>
+    <Word>먹을거</Word>
+    <Word>배고파</Word>
+    <Word>밥줘</Word>
+    <Word>음식</Word>
+  </Filter>
+  <Filter Value="관광볼거리">
+    <Word>볼거리</Word>
+    <Word>놀러</Word>
+    <Word>놀자</Word>
+    <Word>관광</Word>
+    <Word>명소</Word>
+    <Word>데이트</Word>
+  </Filter>
+
+</Siml>

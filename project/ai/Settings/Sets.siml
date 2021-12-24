@@ -1,0 +1,107 @@
+﻿<Siml>
+  <!--Note: When referring to an already declared set you should enclose the set name within square brackets [EXAMPLE]-->
+  <!--Note: Names of set(s) are case insensitive and are language-independent-->
+  <!--Note: Set names should be Singural by convention-->
+  <Model>
+    <Pattern>CHANGE YOUR NAME TO *</Pattern>
+    <Response>Alright my name is now <Bot Set="NAME"><Match /></Bot></Response>
+  </Model>
+  
+  <Model>
+    <Pattern>MY NAME IS *</Pattern>
+    <Response>Alright I will remember your name 
+		  <User Set="NAME"><Match /></User></Response>
+  </Model>
+  <Set Name="LoveYenseiSchool">
+    <Item>우리 학교</Item>
+    <Item>연세대 미래캠퍼스</Item>
+    <Item>연세대</Item>
+    <Item>원주</Item>
+    <Item>우리 캠퍼스</Item>
+    <Item>캠퍼스</Item>
+    <Item>학교</Item>
+    <Item>교수</Item>
+    <Item>교수님</Item>
+    <Item>인공지능 교수님</Item>
+    <Item>윤한얼 교수</Item>
+    <Item>윤한얼 교수님</Item>
+    <Item>윤한얼</Item>
+  </Set>
+  <Set Name="YenseiSchoolBuilding">
+    <Item>원주생활관</Item>
+    <Item>대학교회</Item>
+    <Item>(대학본부|행정동)</Item>
+    <Item>정의관</Item>
+    <Item>청송관</Item>
+    <Item>창조관</Item>
+    <Item>백운관</Item>
+    <Item>미래관</Item>
+    <Item>중앙도서관</Item>
+    <Item>학생회관</Item>
+    <Item>이글플라자</Item>
+    <Item>연세플라자</Item>
+    <Item>스포츠센터</Item>
+    <Item>학군단</Item>
+    <Item>매지 1학사</Item>
+    <Item>매지 2학사</Item>
+    <Item>매지 3학사</Item>
+    <Item>매지 1학사</Item>
+    <Item>청연학사</Item>
+    <Item>세연 1학사</Item>
+    <Item>세연 2학사</Item>
+    <Item>세연 3학사</Item>
+    <Item>현운재</Item>
+    <Item>라돈프리하우스</Item>
+    <Item>산학관</Item>
+    <Item>산학관 벤처센터</Item>
+    <Item>환경친화기술센터</Item>
+    <Item>제1창업보육센터</Item>
+    <Item>제2창업보육센터</Item>
+    <Item>제3창업보육센터</Item>
+  </Set>
+  <Set Name="YenseiSchoolOutside">
+    <Item>정문</Item>
+    <Item>종합운동장</Item>
+    <Item>(노천극장|호수쉼터)</Item>
+    <Item>호수꽃길</Item>
+    <Item>테니스장</Item>
+    <Item>배드민턴장</Item>
+    <Item>노천극장</Item>
+    <Item>무궁화동산</Item>
+    <Item>독수리동상</Item>
+    <Item>거북섬</Item>
+  </Set>
+  
+  <Set Name="InFoodStore">
+      <Item>맘스터치</Item>
+      <Item>국수나무</Item>
+      <Item>비앤씨</Item>
+      <Item>아래향</Item>
+      <Item>상근이김밥</Item>
+      <Item>푸드코드 엘리시온</Item>
+      <Item>호야 토스트</Item>
+      <Item>학생회관 푸드코트</Item>
+      <Item>학생회관 학생식당</Item>
+    </Set>
+    
+    <Set Name="InCafe">
+      <Item>7월의 무화과</Item>
+      <Item>한울샘</Item>
+      <Item>아이라운지</Item>
+      <Item>CAFE DICTIONARY</Item>
+      <Item>뚜레쥬르</Item>
+    </Set>
+    
+    <Set Name="InConvenienceStore">
+      <Item>미니스톱</Item>
+      <Item>누리샘</Item>
+      <Item>우편취급국</Item>
+      <Item>우리은행</Item>
+      <Item>통학버스 사무실</Item>
+      <Item>빨래방</Item>
+      <Item>안경점</Item>
+      <Item>구내서점</Item>
+      <Item>연세POD센터</Item>
+    </Set>
+   
+</Siml>

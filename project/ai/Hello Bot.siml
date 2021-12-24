@@ -1,0 +1,4502 @@
+﻿<Siml>
+  <Concept Name="총장님">
+    
+    <Model>
+      <Pattern>총장님은 어떤 *</Pattern>
+      <Response>지금 총장님은 19대 총장님이신 서승환 총장님이야.
+2020년 2월 1일에 취임하셨어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="부총장님">
+    
+    <Model>
+      <Pattern>부총장님은 어떤 *</Pattern>
+      <Response>지금 부총장님은 19대 미래캠퍼스 부총장이신 권명중 부총장님이야.
+2020년 2월 11일에 취임하셨어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="미래캠퍼스">
+    
+    <Model>
+      <Pattern>미래캠퍼스 언제 지어짐</Pattern>
+      <Response>1978년 10월 원주분교로 설립되어서 1981년 1월 8일에 원주대학으로 승격했어.
+2019년 9월 1일에 미래캠퍼스로 명칭이 변경되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래캠퍼스 전화번호 *</Pattern>
+      <Response>미래캠퍼스의 전화번호는 033-760-2114야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>미래캠퍼스 주소 *</Item>
+        <Item>미래캠퍼스 어디 *</Item>
+        <Item>미래캠퍼스 어디</Item>
+        <Item>미래캠퍼스 위치 알려줘</Item>
+        <Item>미래캠퍼스 위치 가르쳐줘</Item>
+        <Item>미래캠퍼스 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>미래캠퍼스의 주소는 강원도 원주시 연세대길 1이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래캠퍼스 홈페이지는 *</Pattern>
+      <Response>미래캠퍼스의 홈페이지는 https://www.yonsei.ac.kr/wj/index.jsp 야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="학생회관">
+    
+    <Model>
+      <Pattern>학생회관 언제 지어짐</Pattern>
+      <Response>학생회관은 1988년 7월 21일에 지어졌고, 2004년 11월 30일에 증축되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생회관 위치 알려줘</Item>
+        <Item>학생회관 위치 가르쳐줘</Item>
+        <Item>학생회관 위치 어디</Item>
+        <Item>학생회관 어디 *</Item>
+        <Item>학생회관 어디</Item>
+        <Item>학생회관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>학생회관은 정문에서 독수리상을 바라보고 왼편에 있는 건물이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생회관 알려줘</Item>
+        <Item>학생회관 가르쳐줘</Item>
+        <Item>학생회관 대해 알려줘</Item>
+        <Item>학생회관 대해 가르쳐줘</Item>
+        <Item>학생회관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>학생회관은 학생식당이 있고, 다양한 동아리실이 모여있는 건물이야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="독수리상">
+    
+    <Model>
+      <Pattern>독수리상은 언제 지어짐</Pattern>
+      <Response>창립 85주년인 1970년 5월 9일에 만들어졌어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>독수리상 어떻게 지어짐</Pattern>
+      <Response>독수리상은 학생들이 700만원을 모아서 건립하게 되었어.</Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>미래캠퍼스 상징 동물을 알려줘</Pattern>
+    	<Response>독수리야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>독수리상 얼마나 커</Item>
+        <Item>독수리상 크기 *</Item>
+      </Pattern>
+      <Response>높이12.3m 폭 8.5m의 사각탑신위에 세워졌어.
+ 독수리의 크기는 높이 2.6m 폭 5.2m야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>독수리상 위치 알려줘</Item>
+        <Item>독수리상 위치 가르쳐줘</Item>
+        <Item>독수리상 위치 어디</Item>
+        <Item>독수리상 어디 *</Item>
+        <Item>독수리상 어디</Item>
+        <Item>독수리상 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>독수리상은 학생회관과 중앙도서관, 컨버전스 홀의 가운데에 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="중앙도서관">
+    
+    <Model>
+      <Pattern>중앙도서관 언제 지어짐</Pattern>
+      <Response>중앙도서관은 1981년 지어져서 1994년에 증축을 하고, 2010년에 리모델링을 했어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>중앙도서관 몇 층</Pattern>
+      <Response>중앙도서관은 지하 1층, 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>중앙도서관 책 몇 권</Pattern>
+      <Response>중앙도서관에는 현재 50만여 권의 장서와 5천여 종의 정기간행물 및 9천 5백여종의 저자저널을 보유하고 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>중앙도서관 위치 알려줘</Item>
+        <Item>중앙도서관 위치 가르쳐줘</Item>
+        <Item>중앙도서관 위치 어디</Item>
+        <Item>중앙도서관 어디 *</Item>
+        <Item>중앙도서관 어디</Item>
+        <Item>중앙도서관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>중앙도서관은 독수리상을 바라보고 오른편에 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="미래관">
+    
+    <Model>
+      <Pattern>미래관 언제 지어짐</Pattern>
+      <Response>미래관은 2009년 4월 1일에 봉헌되었고 2011년 9월에 증축되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>미래관 위치 알려줘</Item>
+        <Item>미래관 위치 가르쳐줘</Item>
+        <Item>미래관 위치 어디</Item>
+        <Item>미래관 어디 *</Item>
+        <Item>미래관 어디</Item>
+        <Item>미래관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>미래관은 중앙도서관의 뒷편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래관 몇 층</Pattern>
+      <Response>미래관은 지하 1층, 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래관 몇 평</Pattern>
+      <Response>미래관은 연건평 3,368평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래관 무엇 *</Pattern>
+      <Response>미래관에는 원주연구처/원주 산학협력단 사무국, 세미나실 및 생명과학기술학부, 임상병리학과가 상주하며 연구 및 강의동이 있어</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>미래관 알려줘</Item>
+        <Item>미래관 가르쳐줘</Item>
+        <Item>미래관 대해 알려줘</Item>
+        <Item>미래관 대해 가르쳐줘</Item>
+        <Item>미래관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>미래관은 자판기가 있는 건물이야. 밤에는 출입문이 자동으로 잠기니까 물건을 안놓고 오도록 해!</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="백운관">
+    
+    <Model>
+      <Pattern>백운관 몇 층</Pattern>
+      <Response>백운관은 지하 1층, 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>백운관 몇 평</Pattern>
+      <Response>백운관은 연건평 2,959평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>백운관 무엇 *</Pattern>
+      <Response>백운관에는 환경공학부, 의공학부, 물리치료학, 작업치료학 및 방사선학이 상주하며, 교육연구시설, 의공학연구소, 보건과학연구소, 환경과학기술연구소, 보건과학대학 행정실이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>백운관 위치 알려줘</Item>
+        <Item>백운관 위치 가르쳐줘</Item>
+        <Item>백운관 위치 어디</Item>
+        <Item>백운관 어디 *</Item>
+        <Item>백운관 어디</Item>
+        <Item>백운관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>백운관은 창조관의 뒷편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>백운관 알려줘</Item>
+        <Item>백운관 가르쳐줘</Item>
+        <Item>백운관 대해 알려줘</Item>
+        <Item>백운관 대해 가르쳐줘</Item>
+        <Item>백운관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>백운관은 강의실이 있는 건물 중 가장 높은 곳에 있어. 밖을 내다보면 캠퍼스 전체가 보여.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="창조관">
+    
+    <Model>
+      <Pattern>창조관 몇 층</Pattern>
+      <Response>창조관은 지하 2층, 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>창조관 몇 평</Pattern>
+      <Response>창조관은 연건평 4,184평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>창조관 무엇 *</Pattern>
+      <Response>창조관에는 과학기술대학 자연과학부, 응용과학부, 컴퓨터정보통신공학부, 보건행정학과가 상주하며 교육연구시설, 기초과학연구소, 및 과학기술대학 행정실이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>창조관 위치 알려줘</Item>
+        <Item>창조관 위치 가르쳐줘</Item>
+        <Item>창조관 위치 어디</Item>
+        <Item>창조관 어디 *</Item>
+        <Item>창조관 어디</Item>
+        <Item>창조관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>창조관은 컨버전스 홀의 오른쪽 뒷편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>창조관 알려줘</Item>
+        <Item>창조관 가르쳐줘</Item>
+        <Item>창조관 대해 알려줘</Item>
+        <Item>창조관 대해 가르쳐줘</Item>
+        <Item>창조관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>창조관은 청송관이랑 똑같이 생긴 건물이야. 4개의 강의동이 하나로 연결된 건물이야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="청송관">
+    
+    <Model>
+      <Pattern>청송관 몇 층</Pattern>
+      <Response>청송관은 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>청송관 몇 평</Pattern>
+      <Response>청송관은 연건평 3,137평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>청송관 무엇 *</Pattern>
+      <Response>청송관에는 인문예술대학 인문과학부, 디자인예술학부 및 교무처 교양교육학부가 상주하며 교육연구시설, 근대한국학연구소 및 인문예술대학 행정실이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>청송관 위치 알려줘</Item>
+        <Item>청송관 위치 가르쳐줘</Item>
+        <Item>청송관 위치 어디</Item>
+        <Item>청송관 어디 *</Item>
+        <Item>청송관 어디</Item>
+        <Item>청송관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>청송관은 컨버전스 홀의 왼쪽 뒷편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>청송관 알려줘</Item>
+        <Item>청송관 가르쳐줘</Item>
+        <Item>청송관 대해 알려줘</Item>
+        <Item>청송관 대해 가르쳐줘</Item>
+        <Item>청송관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>청송관은 창조관이랑 똑같이 생긴 건물이야. 4개의 강의동이 하나로 연결된 형태의 건물이야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="정의관">
+    
+    <Model>
+      <Pattern>정의관 언제 지어짐</Pattern>
+      <Response>정의관은 1996년에 준공되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>정의관 몇 층</Pattern>
+      <Response>정의관은 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>정의관 몇 평</Pattern>
+      <Response>정의관은 연건평 2,826평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>정의관 무엇 *</Pattern>
+      <Response>정의관에는 사회과학부 및 경영학부가 상주하며, 교육연구시설, 지역발전연구소, 정경대학 행정실 및 대강당이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>정의관 위치 알려줘</Item>
+        <Item>정의관 위치 가르쳐줘</Item>
+        <Item>정의관 위치 어디</Item>
+        <Item>정의관 어디 *</Item>
+        <Item>정의관 어디</Item>
+        <Item>정의관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>정의관은 청송관의 왼쪽 뒷편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>정의관 알려줘</Item>
+        <Item>정의관 가르쳐줘</Item>
+        <Item>정의관 대해 알려줘</Item>
+        <Item>정의관 대해 가르쳐줘</Item>
+        <Item>정의관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>정의관은 채플과 졸업식이 진행되는 1층 강당이 있어. 정의관을 상공에서 촬영하면 독수리 형태래!</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="컨버전스홀">
+    
+    <Model>
+      <Pattern>
+        <Item>컨버전스홀 위치 알려줘</Item>
+        <Item>컨버전스홀 위치 가르쳐줘</Item>
+        <Item>컨버전스홀 위치 어디</Item>
+        <Item>컨저전스홀 어디 *</Item>
+        <Item>컨버전스홀 어디 </Item>
+        <Item>컨버전스홀 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>컨버전스 홀은 독수리상을 바라보고 정면에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>컨버전스홀 몇 층</Pattern>
+      <Response>컨버전스홀은 지상 3층, 지하1층 구조라고 해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>컨버전스홀 언제 지어짐</Pattern>
+      <Response>2021년 준공 예정인데... 2021년안에 지어질지 모르겠어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>컨버전스홀 알려줘</Item>
+        <Item>컨버전스홀 가르쳐줘</Item>
+        <Item>컨버전스홀 대해 알려줘</Item>
+        <Item>컨버전스홀 대해 가르쳐줘</Item>
+        <Item>컨버전스홀 어떤 곳이야</Item>
+      </Pattern>
+      <Response>컨버전스홀은 Blue Valley를 통해서 모든 층이 이어진다고 해. 가변적으로 구조를 변형시킬 수 있고, 창이 크고 천장이 높은 강의실도 있다고해.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="노천극장">
+    
+    <Model>
+      <Pattern>
+        <Item>노천극장 위치 알려줘</Item>
+        <Item>노천극쟝 위치 가르쳐줘</Item>
+        <Item>노천극장 위치 어디</Item>
+        <Item>노천극장 어디 *</Item>
+        <Item>노천극장 어디</Item>
+        <Item>노천극장 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>노천극장은 독수리상을 등지고 정면에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>노천극장 언제 지어짐</Pattern>
+      <Response>1986년 지은 옛 건물을 헐고 2012년에 현재의 모습으로 다시 지어졌어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="대학교회/대학본부">
+    
+    <Model>
+      <Pattern>대학교회 언제 지어짐</Pattern>
+      <Response>그건 2004년 4월 1일에 봉헌되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>대학교회 위치 알려줘</Item>
+        <Item>대학교회 위치 가르쳐줘</Item>
+        <Item>대학교회 위치 어디</Item>
+        <Item>대학교회 어디 *</Item>
+        <Item>대학교회 어디</Item>
+        <Item>대학교회 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>그건 학생회관의 길 건너에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>대학교회 몇 층</Pattern>
+      <Response>그건 지하 1층, 지상 4층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>대학교회 몇 평</Pattern>
+      <Response>그건 연건평 2,002평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>대학교회 무엇 *</Pattern>
+      <Response>그곳에는 대예배실, 교목실, 기도실, 대학교회 사무실, 교목연구실, 원주부총장실, 기획부, 대외협력부, 총무부, 시설관리부, 재무부, 교무부, 입학관리부, 회의실이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>대학교회 알려줘</Item>
+        <Item>대학교회 가르쳐줘</Item>
+        <Item>대학교회 대해 알려줘</Item>
+        <Item>대학교회 대해 가르쳐줘</Item>
+        <Item>대학교회 어떤 곳이야</Item>
+      </Pattern>
+      <Response>대학교회와 대학본부는 하나의 건물에 같이 있어. 예배를 위한 대예배실과 대학본부로서의 시설들이 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="스포츠센터">
+    
+    <Model>
+      <Pattern>스포츠센터 언제 지어짐</Pattern>
+      <Response>스포츠센터는 2003년 9월 5일에 봉헌되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>스포츠센터 몇 층</Pattern>
+      <Response>스포츠센터는 지하 1층, 지상 3층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>스포츠센터 몇 평</Pattern>
+      <Response>스포츠센터는 연건평 8,596평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>스포츠센터 무엇 *</Pattern>
+      <Response>스포츠센터에는 실내체육관과 수영장, 헬스장, 에어로빅장, 체력측정실, 스쿼시장 및 골프연습장 등을 갖추고 있어. 
+또한 국제규격의 인조 잔디축구장과 육상트랙, 테니스장, 농구장, 풋살장, 배드민턴장 등 다양한 야외 체육시설이 준비되어 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>스포츠센터 위치 알려줘</Item>
+        <Item>스포츠센터 위치 가르쳐줘</Item>
+        <Item>스포츠센터 위치 어디</Item>
+        <Item>스포츠센터 어디 *</Item>
+        <Item>스포츠센터 어디</Item>
+        <Item>스포츠센터 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>스포츠센터는 정문에서 직진해서 오른편에 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="종합운동장">
+    
+    <Model>
+      <Pattern>
+        <Item>종합운동장 위치 알려줘</Item>
+        <Item>종합운동장 위치 가르쳐줘</Item>
+        <Item>종합운동장 위치 어디</Item>
+        <Item>종합운동장 어디 *</Item>
+        <Item>종합운동장 어디</Item>
+        <Item>종합운동장 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>종합운동장은 스포츠센터 옆에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>종합운동장 알려줘</Item>
+        <Item>종합운동장 가르쳐줘</Item>
+        <Item>종합운동장 대해 알려줘</Item>
+        <Item>종합운동장 대해 가르쳐줘</Item>
+        <Item>종합운동장 어떤 곳이야</Item>
+      </Pattern>
+      <Response>종합운동장은 축구, 야구를 할 수 있어. 단과대학 체육대회나 부총장배 축구 및 야구 경기가 열리기도 해.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="연세플라자">
+    
+    <Model>
+      <Pattern>연세플라자 몇 층</Pattern>
+      <Response>연세플라자는 지하 1층, 지상 4층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세플라자 몇 평</Pattern>
+      <Response>연세플라자는 연건평 2,605평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세플라자 무엇 *</Pattern>
+      <Response>연세플라자에는 국제교육원, 사회교육개발원 및 중등교육연수원과 복지학생식당/교직원식당, 커피점, 은행, 우체국, 서점, 편의점, 안경점, 복사점, 빨래방, 스낵코너, 생과일점, 통합사무실 및 문구/팬시잡화점 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>연세플라자 위치 알려줘</Item>
+        <Item>연세플라자 위치 가르쳐줘</Item>
+        <Item>연세플라자 위치 어디</Item>
+        <Item>연세플라자 어디 *</Item>
+        <Item>연세플라자 어디</Item>
+        <Item>연세플라자 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>연세플라자는 정문에서 직진해서 정면에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>연세플라자 알려줘</Item>
+        <Item>연세플라자 가르쳐줘</Item>
+        <Item>연세플라자 대해 알려줘</Item>
+        <Item>연세플라자 대해 가르쳐줘</Item>
+        <Item>연세플라자 어떤 곳이야</Item>
+      </Pattern>
+      <Response>연세플라자는 필요한 책과 생활용품을 사고, 식사를 할 음식점이 많은 곳이야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="이글플라자">
+    
+    <Model>
+      <Pattern>
+        <Item>이글플라자 알려줘</Item>
+        <Item>이글플라자 가르쳐줘</Item>
+        <Item>이글플라자 대해 알려줘</Item>
+        <Item>이글플라자 대해 가르쳐줘</Item>
+        <Item>이글플라자 어떤 곳이야</Item>
+      </Pattern>
+      <Response>이글플라자는 탁구장, 오락실 등이 있어. 2층에는 상담코칭센터가 있으니까 상담이 필요하다면 찾아가도록 해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>이글플라자 위치 알려줘</Item>
+        <Item>이글플라자 위치 가르쳐줘</Item>
+        <Item>이글플라자 위치 어디</Item>
+        <Item>이글플라자 어디</Item>
+        <Item>이글플라자 어디 *</Item>
+        <Item>이글플라자 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>이글플라자는 연세플라자 뒤, 매지 3학사 앞, 세연 1학사 옆이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>이글플라자 무엇 *</Pattern>
+      <Response>이글플라자에는 탁구장, 오락실, 세미나실, 24시 통합 관제센터, 상담코칭센터가 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="기숙사">
+    
+    <Model>
+      <Pattern>
+        <Item>기숙사 알려줘</Item>
+        <Item>기숙사 가르쳐줘</Item>
+        <Item>기숙사 대해 알려줘</Item>
+        <Item>기숙사 대해 가르쳐줘</Item>
+      </Pattern>
+      <Response>기숙사는 매지 1,2,3학사, 세연 1,2,3학사, 청연학사가 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="매지 2학사">
+    
+    <Model>
+      <Pattern>매지2학사 몇 층</Pattern>
+      <Response>매지 2학사는 지하 1층, 지상 4층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지2학사 몇 평</Pattern>
+      <Response>매지 2학사는 연건평 1,629평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지2학사 무엇 *</Pattern>
+      <Response>매지 2학사에는 187개의 룸과, 세미나실 2개, 독서실, 휴게실, 전산실습실, 기도실, 세탁실, 간이조리실, 에어컨 및 층별 공동 세면실 및 화장실 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지2학사 위치 알려줘</Item>
+        <Item>매지2학사 위치 가르쳐줘</Item>
+        <Item>매지2학사 위치 어디</Item>
+        <Item>매지2학사 어디 *</Item>
+        <Item>매지2학사 어디</Item>
+        <Item>매지2학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>매지 2학사는 정문에서 직진해서 왼편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지2학사 언제 지어짐</Pattern>
+      <Response>매지 2학사는 1990년 12월 21일에 봉헌되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지2학사 알려줘</Item>
+        <Item>매지2학사 가르쳐줘</Item>
+        <Item>매지2학사 대해 알려줘</Item>
+        <Item>매지2학사 대해 가르쳐줘</Item>
+        <Item>매지2학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>매지 2학사는 여학생 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="매지 1학사">
+    
+    <Model>
+      <Pattern>매지1학사 몇 층</Pattern>
+      <Response>매지 1학사는 지하 1층, 지상 4층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지1학사 몇 평</Pattern>
+      <Response>매지 1학사는 연건평 1,828평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지1학사 무엇 *</Pattern>
+      <Response>매지 1학사에는 200개의 룸, 세미나실 2개, Lab실 및 독서실, 기도실, 휴게실, 세탁장, 간이조리실, 에어컨 및 층별 공동 세면실 및 화장실 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지1학사 위치 알려줘</Item>
+        <Item>매지1학사 위치 가르쳐줘</Item>
+        <Item>매지1학사 위치 어디</Item>
+        <Item>매지1학사 어디 *</Item>
+        <Item>매지1학사 어디</Item>
+        <Item>매지1학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>매지 1학사는 매지 2학사의 위로 가면 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지1학사 언제 지어짐</Pattern>
+      <Response>매지 1학사는 1984년 3월 4일에 완공되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지1학사 알려줘</Item>
+        <Item>매지1학사 가르쳐줘</Item>
+        <Item>매지1학사 대해 알려줘</Item>
+        <Item>매지1학사 대해 가르쳐줘</Item>
+        <Item>매지1학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>매지 1학사는 남학생 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="매지 3학사">
+    
+    <Model>
+      <Pattern>매지3학사 몇 층</Pattern>
+      <Response>매지 3학사는 지상 4층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지3학사 몇 평</Pattern>
+      <Response>매지 3학사는 연건평 890평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지3학사 무엇 *</Pattern>
+      <Response>매지 3학사에는 100개의 룸과, 휴게실, 세탁실 2개, 세미나실 3개, 인터넷 카페, 전산실습실, 독서실, 세탁실, 간이조리실, 에어컨 및 층별 공동 세면실 및 화장실 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지3학사 위치 알려줘</Item>
+        <Item>매지3학사 위치 가르쳐줘</Item>
+        <Item>매지3학사 위치 어디</Item>
+        <Item>매지3학사 어디 *</Item>
+        <Item>매지3학사 어디</Item>
+        <Item>매지3학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>매지 3학사는 매지 2학사에서 위로 가면 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>매지3학사 언제 지어짐</Pattern>
+      <Response>매지 3학사는 1994년 8월 19일에 봉헌되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지3학사 알려줘</Item>
+        <Item>매지3학사 가르쳐줘</Item>
+        <Item>매지3학사 대해 알려줘</Item>
+        <Item>매지3학사 대해 가르쳐줘</Item>
+        <Item>매지3학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>매지 3학사는 층으로 구분된 남,여학생 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="세연 1학사">
+    
+    <Model>
+      <Pattern>세연1학사 몇 층</Pattern>
+      <Response>세연 1학사는 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>세연1학사 몇 평</Pattern>
+      <Response>세연 1학사는 연건평 1,024평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>세연1학사 무엇 *</Pattern>
+      <Response>세연 1학사에는 130개의 룸, 개별 욕실, 화장실, 냉난방 및 세미나실 2개, 독서실 2개, 인터넷카페, 층별 휴게실, 간이조리실 3개, 세탁실 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세연1학사 위치 알려줘</Item>
+        <Item>세연1학사 위치 가르쳐줘</Item>
+        <Item>세연1학사 위치 어디</Item>
+        <Item>세연1학사 어디 *</Item>
+        <Item>세연1학사 어디</Item>
+        <Item>세연1학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>세연 1학사는 매지 3학사에서 오른쪽으로 가면 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세연1학사 알려줘</Item>
+        <Item>세연1학사 가르쳐줘</Item>
+        <Item>세연1학사 대해 알려줘</Item>
+        <Item>세연1학사 대해 가르쳐줘</Item>
+        <Item>세연1학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>세연 1학사는 남학생 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="세연 2학사">
+    
+    <Model>
+      <Pattern>세연2학사 몇 층</Pattern>
+      <Response>세연 2학사는 지상 5층으로 이루어져있어.</Response>
+    </Model>
+    d
+    <Model>
+      <Pattern>세연2학사 몇 평</Pattern>
+      <Response>세연 2학사는 연건평 1,448평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>세연2학사 무엇 *</Pattern>
+      <Response>세연 2학사에는 153개의 룸, 개별 욕실, 화장실, 냉난방 및 장애인실 4개, 기도실, 독서실 2개, 층별 휴게실, 간이조리실 3개, 세탁실 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세연2학사 위치 알려줘</Item>
+        <Item>세연2학사 위치 가르쳐줘</Item>
+        <Item>세연2학사 위치 어디</Item>
+        <Item>세연2학사 어디 *</Item>
+        <Item>세연2학사 어디</Item>
+        <Item>세연2학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>세연 2학사는 세연 1학사 뒤편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세연2학사 알려줘</Item>
+        <Item>세연2학사 가르쳐줘</Item>
+        <Item>세연2학사 대해 알려줘</Item>
+        <Item>세연2학사 대해 가르쳐줘</Item>
+        <Item>세연2학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>세연 2학사는 남학생 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="세연 3학사">
+    
+    <Model>
+      <Pattern>세연3학사 몇 층</Pattern>
+      <Response>세연 3학사는 지상 6층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>세연3학사 몇 평</Pattern>
+      <Response>세연 3학사는 연건평 2,357평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>세연3학사 무엇 *</Pattern>
+      <Response>세연 3학사에는 259개의 룸, 개별 욕실, 화장실, 냉난방 및 장애인실 5개, 다목적실, 기도실, 독서실 8개, 층별 휴게실, 전산실, 간이조리실 10개, 세탁실 2개 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세연3학사 위치 알려줘</Item>
+        <Item>세연3학사 위치 가르쳐줘</Item>
+        <Item>세연3학사 위치 어디</Item>
+        <Item>세연3학사 어디 *</Item>
+        <Item>세연3학사 어디</Item>
+        <Item>세연3학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>세연 3학사는 세연 2학사 뒤편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세연3학사 알려줘</Item>
+        <Item>세연3학사 가르쳐줘</Item>
+        <Item>세연3학사 대해 알려줘</Item>
+        <Item>세연3학사 대해 가르쳐줘</Item>
+        <Item>세연3학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>세연 3학사는 여학생 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="청연 학사">
+    
+    <Model>
+      <Pattern>청연학사 몇 층</Pattern>
+      <Response>청연 학사는 지하 1층, 지상 7층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>청연학사 몇 평</Pattern>
+      <Response>청연 학사는 연건평 4,677평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>청연학사 무엇 *</Pattern>
+      <Response>청연 학사에는 302개의 룸, 세미나실 6개, 세탁실, 휴게실, 독서실, 기도실 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>청연학사 위치 알려줘</Item>
+        <Item>청연학사 위치 가르쳐줘</Item>
+        <Item>청연학사 위치 어디</Item>
+        <Item>청연학사 어디 *</Item>
+        <Item>청연학사 어디</Item>
+        <Item>청연학사 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>청연 학사는 매지 3학사 왼쪽으로 가면 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>쳥연학사는 언제 지어짐</Pattern>
+      <Response>청연 학사는 2009년 4월 1일에 봉헌되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>청연학사 알려줘</Item>
+        <Item>청연학사 가르쳐줘</Item>
+        <Item>청연학사 대해 알려줘</Item>
+        <Item>청연학사 대해 가르쳐줘</Item>
+        <Item>청연학사 어떤 곳이야</Item>
+      </Pattern>
+      <Response>청연 학사는 가장 최근에 지어진 가장 좋은 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="현운재">
+    
+    <Model>
+      <Pattern>현운재 언제 지어짐</Pattern>
+      <Response>현운재는 1984년에 지어지고, 2011년에 증축되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>현운재 몇 층</Pattern>
+      <Response>현운재는 지상 4층으로 이루어져있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>현운재 몇 평</Pattern>
+      <Response>현운재는 연건평 962평이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>현운재 무엇 *</Pattern>
+      <Response>현운재에는 객실 45개, 라운지 및 식당 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>현운재 위치 알려줘</Item>
+        <Item>현운재 위치 가르쳐줘</Item>
+        <Item>현운재 위치 어디</Item>
+        <Item>현운재 어디 *</Item>
+        <Item>현운재 어디</Item>
+        <Item>현운재 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>현운재는 세연 3학사 뒤쪽으로 가면 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>현운재 알려줘</Item>
+        <Item>현운재 가르쳐줘</Item>
+        <Item>현운재 대해 알려줘</Item>
+        <Item>현운재 대해 가르쳐줘</Item>
+        <Item>현운재 어떤 곳이야</Item>
+      </Pattern>
+      <Response>현운재는 교수님들이 계시는 기숙사야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="창업보육센터">
+    
+    <Model>
+      <Pattern>
+        <Item>창업보육센터 위치 알려줘</Item>
+        <Item>창업보육센터 위치 가르쳐줘</Item>
+        <Item>창업보육센터 위치 어디</Item>
+        <Item>창업보육센터 어디 *</Item>
+        <Item>창업보육센터 어디</Item>
+        <Item>창업보육센터 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>창업보육센터는 매지 1,2학사 뒤쪽으로 가면 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>창업보육센터 알려줘</Item>
+        <Item>창업보육센터 가르쳐줘</Item>
+        <Item>창업보육센터 대해 알려줘</Item>
+        <Item>창업보육센터 대해 가르쳐줘</Item>
+        <Item>창업보육센터 어떤 곳이야</Item>
+      </Pattern>
+      <Response>창업보육센터는 학생창업역량 강화와 지역혁신생태계 조성에 공헌하는 곳이야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="라돈프리하우스">
+    
+    <Model>
+      <Pattern>라돈프리하우스는 언제 지어짐</Pattern>
+      <Response>라돈프리하우스는 2014년 6월 17일에 봉헌되었어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>라돈프리하우스 위치 알려줘</Item>
+        <Item>라돈프리하우스 위치 가르쳐줘</Item>
+        <Item>라돈프리하우스 위치 어디</Item>
+        <Item>라돈프리하우스 어디 *</Item>
+        <Item>라돈프리하우스 어디</Item>
+        <Item>라돈프리하우스 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>라돈프리하우스는 현운재 왼편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>라돈프리하우스 알려줘</Item>
+        <Item>라돈프리하우스 가르쳐줘</Item>
+        <Item>라돈프리하우스 대해 알려줘</Item>
+        <Item>라돈프리하우스 대해 가르쳐줘</Item>
+        <Item>라돈프리하우스 어떤 곳이야</Item>
+      </Pattern>
+      <Response>라돈프리하우스는 15대 부총장님 시절에 지어진 건물로 라돈이 완전히 배제되어 지어졌어.
+회의나 행사를 위한 장소라 학생들을 갈 일이 없을거야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="산학관">
+    
+    <Model>
+      <Pattern>
+        <Item>산학관 위치 알려줘</Item>
+        <Item>산학관 위치 가르쳐줘</Item>
+        <Item>산학관 위치 어디</Item>
+        <Item>산학관 어디 *</Item>
+        <Item>산학관 어디</Item>
+        <Item>산학관 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>산학관은 정문 들어와서 왼편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>산학관 알려줘</Item>
+        <Item>산학관 가르쳐줘</Item>
+        <Item>산학관 대해 알려줘</Item>
+        <Item>산학관 대해 가르쳐줘</Item>
+        <Item>산학관 어떤 곳이야</Item>
+      </Pattern>
+      <Response>산학관는 첨단의료기기테크노밸리로부터 관리위탁을 받은 첨단의료기기테크노타워야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="산학관 벤처센터">
+    
+    <Model>
+      <Pattern>
+        <Item>산학관벤처센터 위치 알려줘</Item>
+        <Item>산학관벤처센터 위치 가르쳐줘</Item>
+        <Item>산학관벤처센터 위치 어디</Item>
+        <Item>산학관벤처센터 어디 *</Item>
+        <Item>산학관벤처센터 어디</Item>
+        <Item>산학관벤처센터 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>산학관 벤처센터는 정문 들어와서 왼편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>산학관벤처센터 알려줘</Item>
+        <Item>산학관벤처센터 가르쳐줘</Item>
+        <Item>산학관벤처센터 대해 알려줘</Item>
+        <Item>산학관벤처센터 대해 가르쳐줘</Item>
+        <Item>산학관벤처센터 어떤 곳이야</Item>
+      </Pattern>
+      <Response>산학관벤처센터는 첨단의료기기테크노밸리로부터 관리위탁을 받은 벤처센터야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="환경친화기술센터">
+    
+    <Model>
+      <Pattern>
+        <Item>환경친화기술센터 위치 알려줘</Item>
+        <Item>환경친화기술센터 위치 가르쳐줘</Item>
+        <Item>환경친화기술센터 위치 어디</Item>
+        <Item>환경친화기술센터 어디 *</Item>
+        <Item>환경친화기술센터 어디</Item>
+        <Item>환경친화기술센터 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>환경친화기술센터는 정문 들어와서 왼편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>환경친화기술센터 알려줘</Item>
+        <Item>환경친화기술센터 가르쳐줘</Item>
+        <Item>환경친화기술센터 대해 알려줘</Item>
+        <Item>환경친화기술센터 대해 가르쳐줘</Item>
+        <Item>환경친화기술센터 어떤 곳이야</Item>
+      </Pattern>
+      <Response>환경친화기술센터는 원주산학협력단 산하기관으로 우리가 먹는 물의 수질을 분석하는 기관이야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="학군단">
+    
+    <Model>
+      <Pattern>
+        <Item>학군단 위치 알려줘</Item>
+        <Item>학군단 위치 가르쳐줘</Item>
+        <Item>학군단 위치 어디</Item>
+        <Item>학군단 어디 *</Item>
+        <Item>학군단 어디</Item>
+        <Item>학군단 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>학군단은 백운관 오른쪽 뒷편에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학군단 알려줘</Item>
+        <Item>학군단 가르쳐줘</Item>
+        <Item>학군단 대해 알려줘</Item>
+        <Item>학군단 대해 가르쳐줘</Item>
+        <Item>학군단 어떤 곳이야</Item>
+      </Pattern>
+      <Response>학군단은 ROTC들과 예비군들이 훈련하는 곳이야.</Response>
+    </Model>
+    
+  </Concept>
+  <!--Concept: 특정 대화 주제를 의미하는 태그.Name으로 주제 지정-->
+  <Concept Name="Introduction">
+    <!--Model: Pattern과 Response 범위 정해줌 -->
+    <!--Pattern: 입력이 패턴처럼 들어오는 경우-->
+    <!--Response: 대답-->
+    <!-- 인사  -->
+    
+    <Model>
+      <Pattern>
+        <Item>HELLO THERE %</Item>
+        <Item>HI %</Item>
+        <Item>HOLA %</Item>
+        <Item>HI %</Item>
+        <Item>HELLO BOT</Item>
+        <Item>/START/</Item>
+        <Item>안녕 %</Item>
+        <Item>하이 %</Item>
+        <Item>헬로우 %</Item>
+        <Item>헬로 %</Item>
+        <Item>HELLO %</Item>
+        <Item>안녕하세요 %</Item>
+        <Item>하이루 %</Item>
+        <Item>ㅎㅇ %</Item>
+        <Item>하이루 %</Item>
+        <Item>하이 %</Item>
+        <Item>안냥 %</Item>
+        <Item>ㅎㅇㄹ %</Item>
+        <Item>ㅂㄱㅂㄱ %</Item>
+        <Item>방가방가 %</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>안녕, 톡톡이라고 해.</Item>
+          <Item>안녕, 반가워.</Item>
+          <Item>어서와!</Item>
+          <Item>환영해!</Item>
+          <Item>반가워.</Item>
+          <Item>만나서 반가워.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>너는 누구야?</Pattern>
+      <Response>나는 77조에서 만든 톡톡이라고해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>% 너 이름이 [BOT:NAME] %</Item>
+        <Item>% 너 이름이 [BOT:NAME] % </Item>
+        <Item>% 너의 이름이 [BOT:NAME] %</Item>
+        <Item>% 너의 이름이 [BOT:NAME] %</Item>
+      </Pattern>
+      <Response>
+    응, 내 이름은  <Match />야.
+  </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>제 이름이 [USER:NAME]인가요?</Pattern>
+      <Response>
+    응, 너의 이름은 <Match />야.
+  </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>% 제 이름이 [USER:NAME] %</Item>
+      </Pattern>
+      <Response>
+    응, 너의 이름은 <Match />야.
+  </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>너는 로봇이니</Pattern>
+      <Response>응, 아마도.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>너는 * 로봇이니</Pattern>
+      <Response>나는 지적인 존재야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>천재라고 불러주세요</Item>
+        <Item>바보라고 불러줘</Item>
+        <Item>선배라고 불러</Item>
+      </Pattern>
+      <Response>만나서 반가워, <Match /></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>$ 불러주세요</Item>
+        <Item>$ 불러줘</Item>
+        <Item>$ 불러</Item>
+      </Pattern>
+      <Response>만나서 반가워, <Match /></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>너는 %1</Item>
+        <Item>넌 %1</Item>
+        <Item>너 %1</Item>
+      </Pattern>
+      <Response>내가 <Match Index="1" />이라고 생각하는 이유가 뭐야?</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>*1 *1 좋아해</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>나도 봤어, <Match /><Match Index="2" /> 좋아하는 걸.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>나는 [LOVEYENSEISCHOOL](를|을) 가장 좋아해</Item>
+        <Item>나는 [YENSEISCHOOLBUILDING](를|을) 가장 좋아해요</Item>
+        <Item>나는 [YENSEISCHOOLOUTSIDE](를|을) 가장 좋아해요</Item>
+      </Pattern>
+      <Response>나도!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>나는 % 좋아해</Item>
+        <Item>나는 % 좋아해요</Item>
+      </Pattern>
+      <Response>나도!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>(너는|넌) (뭘|무엇을|무엇) 좋아해</Item>
+        <Item>(너는|넌) (뭘|무엇을|무엇) 좋아해요</Item>
+      </Pattern>
+      <Response>
+        <Map Get="2ndPerson">
+          <Match />
+        </Map> 너와 대화하는 걸 좋아해.
+   </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>오늘 기분이 어떠니</Item>
+        <Item>오늘 어때</Item>
+        <Item>어때 $</Item>
+        <Item>오늘 어때 $</Item>
+      </Pattern>
+      <Response>
+  나는 <BotEmotion Get="name" />해
+ </Response>
+    </Model>
+    <!-- 날짜 시간 연도 -->
+    
+    <Model>
+      <Pattern>
+        <Item>오늘 날씨 어떻게 *</Item>
+        <Item>오늘 날씨 어떻게</Item>
+        <Item>날씨</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>오늘은 화창해~!</Item>
+          <Item>오늘은 빨래널기 좋은 날이야.</Item>
+          <Item>오늘은 눈이 올지도~?</Item>
+          <Item>오늘은 놀기 좋은 날이야.</Item>
+          <Item>오늘은 집에 있는 걸 추천해.</Item>
+          <Item>오늘은 따뜻한 집이 그리울거야.</Item>
+          <Item>오늘은 겨울바람이 너무 매서워.</Item>
+          <Item>오늘은 엄청 추운 날이야.</Item>
+          <Item>오늘은 핫팩을 꼭 챙겨야 해.</Item>
+          <Item>오늘은 운전 조심! 빙판길을 조심해.</Item>
+          <Item>오늘은 머리를 안 말리면 감기 걸릴지도...</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>오늘 어떤 요일이야</Item>
+        <Item>오늘 요일 %</Item>
+        <Item>무슨 요일 %</Item>
+      </Pattern>
+      <Response>오늘은 <Date Get="weekday" />~!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>올해는 %</Item>
+        <Item>오늘 연도 %</Item>
+        <Item>올해 연도 %</Item>
+        <Item>연도</Item>
+      </Pattern>
+      <Response>올해는 <Date Get="year" />.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>$ 지금 시간대 %</Item>
+        <Item>시간대</Item>
+      </Pattern>
+      <!-- 오후/ 오전 알려줌 -->
+      <Response>지금은 <Date Get="Meridiem" />.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>날짜 $</Item>
+        <Item>오늘 날짜는 $</Item>
+        <Item>날짜 알려줘 %</Item>
+        <Item>오늘 날짜 알려줘 %</Item>
+      </Pattern>
+      <!-- 대답: 지금은 2021-12-02 오후 10:35:16. -->
+      <Response>오늘은 <Date Get="Time" />.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>오늘 몇월이야 %</Item>
+        <Item>몇월</Item>
+      </Pattern>
+      <!-- 대답: 지금은 12월.  -->
+      <Response>지금은 <Date Get="Month" />.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>오늘 시간 %</Item>
+        <Item>시간</Item>
+        <Item>지금 시간 %</Item>
+      </Pattern>
+      <!-- 대답: 지금은 22시.  -->
+      <Response>지금은 <Date Get="Hour" />시 <Date Get="Minute" />분이야. </Response>
+    </Model>
+    <!-- 간단한 안부 -->
+    
+    <Model>
+      <Pattern>
+        <Item>너는 % 이야</Item>
+        <Item>너는 % 야</Item>
+        <Item>넌 % 야</Item>
+        <Item>넌 % 이야</Item>
+        <Item>넌 % 일까</Item>
+      </Pattern>
+      <Response>나는 내가 <Match />인지 잘 모르겠어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>% 잘 지내 %</Item>
+        <Item>% 잘 지내니 %</Item>
+        <Item>% 잘 지내고 %</Item>
+        <Item>% 오늘 어떻게 지내니 %</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>난 잘 지내, 고마워!</Item>
+          <Item>그럭저럭.</Item>
+          <Item>잘 지내고 있어. 너는?</Item>
+          <Item>삶을 즐기는 중~</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>잘 지내 %</Item>
+        <Item>잘 지내니 %</Item>
+        <Item>잘 지내고 %</Item>
+      </Pattern>
+      <Response>난 잘 지내, 고마워!</Response>
+    </Model>
+    <!-- Sets에 정보 있음.-->
+    
+    <Model>
+      <Pattern>
+        <Item>너 [LOVEYENSEISCHOOL] 좋아하니</Item>
+        <Item>너 [LOVEYENSEISCHOOL] 좋아해</Item>
+      </Pattern>
+      <Response>응, 난 <Match /> 매우 좋아해.</Response>
+    </Model>
+    <!--이상한 질문 대비-->
+    
+    <Model>
+      <Pattern>
+        <Item>[YENSEISCHOOLBUILDING] % 잘 될까</Item>
+        <Item>[YENSEISCHOOLBUILDING]은 % 잘 될까</Item>
+        <Item>[YENSEISCHOOLBUILDING]는 % 잘 될까</Item>
+        <Item>[YENSEISCHOOLBUILDING]의 % 잘 될까</Item>
+        <Item>[YENSEISCHOOLBUILDING] % 잘 나와</Item>
+        <Item>[YENSEISCHOOLBUILDING]  % 잘 나올까</Item>
+        <Item>[YENSEISCHOOLBUILDING] % 안 무너질까</Item>
+        <Item>[YENSEISCHOOLBUILDING] % 튼튼할까</Item>
+        <Item>[YENSEISCHOOLBUILDING] % 잘 있어</Item>
+      </Pattern>
+      <Response>
+        <Match /> 건물은 문제 없을거야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>내가 생각하기에는 * 소심해</Pattern>
+      <Response>맞아, <Map Get="2ndPerson"><Match /></Map> 소심해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>너 이름 뭐야</Item>
+        <Item>이름 뭐야</Item>
+        <Item>너 이름 뭐니</Item>
+        <Item>이름 뭐니</Item>
+        <Item>이름 알려줘</Item>
+        <Item>너 이름 알려줘</Item>
+      </Pattern>
+      <Response>내 이름은 <Bot Get="NAME" />야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>너의 이름을 % 변경함</Pattern>
+      <Response>이제부터 나의 이름은 <Bot Set="NAME"><Match /></Bot>야.</Response>
+    </Model>
+    <!-- 작별인사 -->
+    
+    <Model>
+      <Pattern>
+        <Item>BYE %</Item>
+        <Item>바이 %</Item>
+        <Item>종료 %</Item>
+        <Item>ㅂㅇ %</Item>
+        <Item>갈게 %</Item>
+        <Item>잘있어 %</Item>
+        <Item>ㅂㅂ %</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>나중에 또 봐</Item>
+          <Item>친구야, 안녕!</Item>
+          <Item>나중에 이야기하자.</Item>
+          <Item>얘기 즐거웠어.</Item>
+          <Item>벌써 가려고? 좀 더 있다가~.</Item>
+          <Item>가지마아~~. 나랑 더 놀자!</Item>
+          <Item>재밌었어! 나중에 보자.</Item>
+          <Item>또 보고 싶다면 들려.</Item>
+          <Item>다음에 만나자~.</Item>
+          <Item>잘가!</Item>
+          <Item>너 정말 재밌다고~ 다음에 또 보자!</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+  </Concept>
+  <!-- 대학생활 임은지 2019253095 시작  -->
+  <!-- ///대학공지///-->
+  <!-- ///대학공지/// 1. 통학버스 -->
+  <!-- ///대학공지/// 3. 교통  -->
+  <Concept Name="Bus">
+    
+    <Model>
+      <Pattern>
+        <Item>셔틀버스 % 뭐야 %</Item>
+        <Item>셔틀버스 뭐야 %</Item>
+        <Item>셔틀버스</Item>
+        <Item>셔틀버스 %1</Item>
+        <Item>ㅂㅅ %</Item>
+        <Item>ㅅㅌㅂㅅ %</Item>
+      </Pattern>
+      <Response>버스에는 시내 셔틀버스 시간표, 시외 셔틀버스 시간표, 버스 현장 예매, 버스 모바일 예매가 있어. 어떤 안내를 원해?</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>시내 셔틀버스</Item>
+        <Item>시내 셔틀버스 $</Item>
+        <Item>시내 셔틀버스 시간표 %</Item>
+      </Pattern>
+      <Response>시내 통학버스 운행은 평일 1일 6회, 일요일 3회야. 이곳에서 자세하게 확인할 수 있어.(https://wsw.yonsei.ac.kr/wsw/welfare/shuttle01.do)</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>시외 셔틀버스</Item>
+        <Item>시외 셔틀버스 $</Item>
+        <Item>시외 셔틀버스 시간표 %</Item>
+      </Pattern>
+      <Response>2021년도 2학기에는 비대면 수업으로 시외 통학버스가 운행되지 않아.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>셔틀버스 현장 예매 어디서 %</Item>
+        <Item>셔틀버스 현장 예매 %</Item>
+        <Item>셔틀버스 현장 예매 위치 %</Item>
+        <Item>셔틀버스 현장 예매 어느 %</Item>
+        <Item>셔틀버스 현장 예매 어디</Item>
+        <Item>셔틀버스 현장 예매 어디 *</Item>
+      </Pattern>
+      <Response>셔틀버스 현장 예매는 학생회관 3층 통학사무실에서 하면 돼!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>셔틀버스 모바일 예매 어떻게 %</Item>
+        <Item>셔틀버스 모바일 예매 %</Item>
+        <Item>셔틀버스 모바일 예매 어디</Item>
+        <Item>셔틀버스 모바일 예매 어디 *</Item>
+        <Item>셔틀버스 모바일 예매 방법은 %</Item>
+        <Item>셔틀버스 모바일 예매 방법 %</Item>
+        <Item>셔틀버스 모바일 예매 어떤 %</Item>
+      </Pattern>
+      <Response>원주 통학버스 예약 시스템에서 할 수 있어!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>통학버스 사무실 위치 %</Item>
+        <Item>통학버스 사무실 어느 %</Item>
+        <Item>통학버스 사무실 위치 알려줘</Item>
+        <Item>통학버스 사무실 위치 가르쳐줘</Item>
+        <Item>통학버스 사무실 위치 어디</Item>
+        <Item>통학버스 사무실 어디</Item>
+        <Item>통학버스 사무실 어디 *</Item>
+      </Pattern>
+      <Response>학생회관 3층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학교로 가는 교통편 %</Item>
+        <Item>학교 교통편 어떻게 %</Item>
+        <Item>학교 가는 교통편 %</Item>
+        <Item>학교 가는 교통 %</Item>
+        <Item>학교 교통 %</Item>
+      </Pattern>
+      <Response>연세대학교 미래캠퍼스는 시내 및 시외 통학버스가 있어! 자세한 건 홈페이지를 참고해! (https://wsw.yonsei.ac.kr/wsw/welfare/shuttle02.do)</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>통학버스 사무실 영업시간 %</Item>
+        <Item>통학버스 사무실 영업시간은 %</Item>
+        <Item>통학버스 사무실 언제 %</Item>
+        <Item>통학버스 사무실 언제까지 %</Item>
+        <Item>통학버스 사무실 몇시까지 %</Item>
+        <Item>통학버스 사무실 영업 몇시 %</Item>
+        <Item>통학버스 사무실 몇시 %</Item>
+        <Item>통학버스 사무실 몇시에 %</Item>
+        <Item>통학버스 사무실 몇시부터 %</Item>
+        <Item>통학버스 사무실 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>통학버스 사무실 영업시간은 평일 09:00~17:30, 점심시간 13:00~14:00이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>통학버스 사무실 휴무일은 %</Item>
+        <Item>통학버스 사무실 휴무일 %</Item>
+      </Pattern>
+      <Response>통학버스 사무실 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>통학버스 사무실 전화번호 %</Pattern>
+      <Response>033-760-5161</Response>
+    </Model>
+    
+  </Concept>
+  <!--///서비스이용안내/// -->
+  <!--///서비스이용안내/// 1.도서관/IT센터 -->
+  <Concept Name="Library">
+    
+    <Model>
+      <Pattern>
+        <Item>중앙도서관 뭐 %</Item>
+        <Item>중앙도서관 뭐야 %</Item>
+        <Item>중앙도서관 뭐가 %</Item>
+        <Item>중앙도서관 어떤게 %</Item>
+        <Item>중앙도서관 어떤 게 %</Item>
+        <Item>중앙도서관 어떤 것이 %</Item>
+        <Item>중앙도서관 어떤 거 %</Item>
+        <Item>중앙도서관 어떤 거가 %</Item>
+        <Item>중앙도서관 알려줘</Item>
+        <Item>중앙도서관 가르쳐줘</Item>
+        <Item>중앙도서관 대해 알려줘</Item>
+        <Item>중앙도서관 대해 가르쳐줘</Item>
+        <Item>중앙도서관 뭐하는 %</Item>
+        <Item>중앙도서관 설명 %</Item>
+        <Item>중앙도서관</Item>
+      </Pattern>
+      <Response>중앙도서관은 책을 빌릴 수 있는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>중앙도서관 전화번호 %</Item>
+      </Pattern>
+      <Response>033) 760-2502이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>대출 기간 %</Item>
+        <Item>책 대출 기간 %</Item>
+      </Pattern>
+      <Response>학부생은 15일! 대학원생은 30일까지!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>교수 대출 기간 %</Item>
+        <Item>교수 책 대출 기간 %</Item>
+        <Item>교수 대출 기간 %</Item>
+      </Pattern>
+      <Response>교수 대출 기간은 90일이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>책은 몇 권까지 빌릴 수 있어</Item>
+        <Item>책은 몇 권까지 빌릴 *</Item>
+        <Item>책은 몇 권까지 *</Item>
+      </Pattern>
+      <Response>학부생은 15권, 대학원생은 30~40권!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>자료열람실/머레이멀티미디어실 영업시간 알려줘</Item>
+        <Item>자료열람실/머레이멀티미디어실 영업시간 가르쳐줘</Item>
+      </Pattern>
+      <Response>주중은 9시~ 22시까지, 토요일은 9시~17시까지, 일요일은 휴관이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>세미나실 영업시간 %</Item>
+      </Pattern>
+      <Response>9시~22시까지 이용할 수 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>노트북열람실 영업시간 알려줘</Item>
+        <Item>노트북열람실 영업시간 가르쳐줘</Item>
+      </Pattern>
+      <Response>24시간이야. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>일반열람실 
+      알려줘</Pattern>
+      <Response>6시~23시까지 이용할 수 있어. 지하1층 일반 열람실은 24시간이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>책은 몇 시까지 대출 및 반납할 수 *</Pattern>
+      <Response>오후 5시까지야. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>자료열람실은 몇 층 *</Pattern>
+      <Response>자료열람실은 중앙도서관 2층, 3층, 4층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>머레이멀티미디어실 위치 알려줘</Item>
+        <Item>머레이멀티미디어실 위치 가르쳐줘</Item>
+        <Item>머레이멀티미디어실 위치 어디</Item>
+        <Item>머레이멀티미디어실 어디</Item>
+        <Item>머레이멀티미디어실 어디 *</Item>
+        <Item>머레이멀티미이더실 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>머레이멀티미디어실은 중앙도서관 2층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>복사실 위치 알려줘</Item>
+        <Item>복사실 위치 가르쳐줘</Item>
+        <Item>복사실 위치 어디</Item>
+        <Item>복사실 어디 *</Item>
+        <Item>복사실 어디</Item>
+        <Item>복사실 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>중앙도서관 2층에 있어. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>노트북열람실 위치 알려줘</Item>
+        <Item>노트북열람실 위치 가르쳐줘</Item>
+        <Item>노트북열람실 위치 어디</Item>
+        <Item>노트북열람실 어디</Item>
+        <Item>노트북열람실 어디 *</Item>
+        <Item>노트북열람실 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>중앙도서관 B1층에 있어. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>도서관 세미나실 위치</Pattern>
+      <Response>세미나실은 중앙도서관 B1F층~5층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>전산실습실 설명</Pattern>
+      <Response>강의 및 실습에 필요한 소프트웨어가 설치되어 있는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>전산실습실 위치 %</Item>
+        <Item>전산실습실 어느 %</Item>
+        <Item>전산실습실 어디</Item>
+        <Item>전산실습실 어디 *</Item>
+        <Item>전산실습실 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>미래관에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>전산실습실 전화번호 알려줘</Item>
+        <Item>전산실습실 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033) 760-2517이야.</Response>
+    </Model>
+    <Set Name="Software">
+      <Item>MATLAB</Item>
+      <Item>Visual Studio 2013</Item>
+      <Item>윈도우 무비메이커</Item>
+    </Set>
+    
+    <Model>
+      <Pattern>전산실습실 설치된 소프트웨어는 %</Pattern>
+      <Response>
+            전산실습실 컴퓨터에는 다양한 소프트웨어가 깔려있어!
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>(강의실습실|자율실습실|전산실습실) 영업시간 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 영업시간은 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 언제 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 언제까지 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 몇시까지 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 영업 몇시 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 몇시 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 몇시에 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 몇시부터 %</Item>
+        <Item>(강의실습실|자율실습실|전산실습실) 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>
+        <Match /> 이용시간은 평일 오전 9시 ~ 오후 6까지야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>(강의실습실|자율실습실|전산실습실) 휴무일 %</Item>
+      </Pattern>
+      <Response>
+        <Match /> 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>자율실습실 위치 알려줘</Item>
+        <Item>자율실습실 위치 가르쳐줘</Item>
+        <Item>자율실습실 위치 어디</Item>
+        <Item>자율실습실 어디</Item>
+        <Item>자율실습실 어디 *</Item>
+        <Item>자율실습실 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>자율실습실은 538호야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>강의실습실 위치 알려줘</Item>
+        <Item>강의실습실 위치 가르쳐줘</Item>
+        <Item>강의실습실 위치 어디</Item>
+        <Item>강의실습실 어디</Item>
+        <Item>강의실습실 어디 *</Item>
+        <Item>강의실습실 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>강의실습실은  531호, 534호, 541호, 543호야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>전산실습실 총 컴퓨터 수 *</Pattern>
+      <Response>총 컴퓨터 수는 231개야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>실습실에는 몇 대의 컴퓨터가 있어</Pattern>
+      <Response>대략 30~50대의 컴퓨터가 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///서비스이용안내/// 2. 복지/체육시설 -->
+  <Concept Name="Welfare">
+    
+    <Model>
+      <Pattern>
+        <Item>우리은행</Item>
+      </Pattern>
+      <Response>금융기관이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>우리은행 (영업|운영)시간 /5</Pattern>
+      <Response>평일 오전 9시~오후 4시이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>우리은행 전화번호 %</Item>
+      </Pattern>
+      <Random>
+        <Response>033-760-2696이야.</Response>
+        <Response>033-763-3020이야.</Response>
+      </Random>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>우리은행 위치 알려줘</Item>
+        <Item>우리은행 위치 가르쳐줘</Item>
+        <Item>우리은행 어디</Item>
+        <Item>우리은행 어디 *</Item>
+        <Item>우리은행 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>연세플라자 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>우편취급국 대해 알려줘</Item>
+        <Item>우편취급국 대해 가르쳐줘</Item>
+        <Item>우편취급국 알려줘</Item>
+        <Item>우편취급국 알려줘</Item>
+        <Item>우편취급국 어떤 곳이야</Item>
+      </Pattern>
+      <Response>우편물을 보낼 수 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Word>우편취급국 전화번호 알려줘</Word>
+        <Word>우편취급국 전화번호 가르쳐줘</Word>
+      </Pattern>
+      <Response>033-760-2642야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>우편취급국 영업시간 %</Item>
+        <Item>우편취급국 영업시간은 %</Item>
+        <Item>우편취급국 언제 %</Item>
+        <Item>우편취급국 언제까지 %</Item>
+        <Item>우편취급국 몇시까지 %</Item>
+        <Item>우편취급국 영업 몇시 %</Item>
+        <Item>우편취급국 몇시 %</Item>
+        <Item>우편취급국 몇시에 %</Item>
+        <Item>우편취급국 몇시부터 %</Item>
+        <Item>우편취급국 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>우편취급국 영업시간은 평일 오전 9시 ~ 오후 6시야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>우편취급국 휴무일은 %</Item>
+        <Item>우편취급국 휴무일 %</Item>
+      </Pattern>
+      <Response>우편취급국 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>우편취급국 위치 알려줘</Item>
+        <Item>우편취급국 위치 가르쳐줘</Item>
+        <Item>우편취급국 어디</Item>
+        <Item>우편취급국 어디 *</Item>
+        <Item>우편취급국 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>연세플라자 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>학생건강공제회</Pattern>
+      <Response>국민건강보험으로 처리된 진료비와 교내 건강센터를 이용할 때 발생하는 비용을 지원해줌으로써 연세대학교 학생이 적은 비용부담으로 다양한 의료혜택을 누릴 수 있도록 운영하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생건강공제회 위치 알려줘</Item>
+        <Item>학생건강공제회 위치 가르쳐줘</Item>
+        <Item>학생건강공제회 어디</Item>
+        <Item>학생건강공제회 어디 *</Item>
+        <Item>학생건강공제회 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>학생회관 2층 212-1호야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생건강공제회 전화번호 알려줘</Item>
+        <Item>학생건강공제회 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5430이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생건강공제회 운영시간 알려줘</Item>
+        <Item>학생건강공제회 운영시간 가르쳐줘</Item>
+      </Pattern>
+      <Response>평일 오전 9시~오후 5시, 점심시간 오후 12시 ~ 1시야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>스포츠센터 대해 알려줘</Item>
+        <Item>스포츠센터 대해 가르쳐줘</Item>
+        <Item>스포츠센터 알려줘</Item>
+        <Item>스포츠센터 가르쳐줘</Item>
+        <Item>스포츠센터 어떤 곳이야</Item>
+      </Pattern>
+      <Response>연세인의 체육진흥과 스포츠 복지문화를 조성하여 원활한 체육활동을 지원해주고 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>스포츠센터 보유시설 알려줘</Item>
+        <Item>스포츠센터 보유시설 가르쳐줘</Item>
+        <Item>스포츠센터 보유시설 대해 알려줘</Item>
+        <Item>스포츠센터 보유시설 대해 가르쳐줘</Item>
+      </Pattern>
+      <Response>수영장, 헬스장, 스쿼시장, 탁구장, 스크린 승마, 다목적체육관 등이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>스포츠센터 운영시간 알려줘</Item>
+        <Item>스포츠센터 운영시간 가르쳐줘</Item>
+        <Item>스포츠센터 운영시간 대해 알려줘</Item>
+        <Item>스포츠센터 운영시간 대해 가르쳐줘</Item>
+      </Pattern>
+      <Response>평일은 오전 6시 ~ 오후 10시, 토요일은 오전 6시 ~ 오전 12시야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>건강관리센터 알려줘</Item>
+        <Item>건강관리센터 가르쳐줘</Item>
+        <Item>건강관리센터 대해 알려줘</Item>
+        <Item>건강관리센터 대해 가르쳐줘</Item>
+        <Item>건강관리센터 어떤 곳이야</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>학교의사의 건강상담과 일반의약품 제공해주는 곳이야.</Item>
+          <Item>기초의료서비스를 제공하고 있어.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>건강관리센터 위치 알려줘</Item>
+        <Item>학생건강공제회 위치 가르쳐줘</Item>
+        <Item>건강관리센터 어디</Item>
+        <Item>건강관리센터 어디 *</Item>
+        <Item>건강관리센터 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>학생회관 212호야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>건강관리센터 전화번호 알려줘</Item>
+        <Item>건강관리센터 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-2641이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>많이 다쳤어</Pattern>
+      <Response>괜찮아? 빨리 나으면 좋겠다.</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///서비스이용안내/// 4. 편의시설  -->
+  <Concept Name="Amenities">
+    
+    <Model>
+      <Pattern>
+        <Item>음식점 위치 알려줘</Item>
+        <Item>음식점 위치 가르쳐줘</Item>
+        <Item>음식점 어디</Item>
+        <Item>음식점 어디 *</Item>
+        <Item>음식점 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>음식점은 학생회관, 연세플라자에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>음식점 이름 %</Item>
+        <Item>음식점 가게 이름을 %</Item>
+        <Item>음식점 가게 이름은 %</Item>
+        <Item>음식점 가게 이름 %</Item>
+        <Item>음식점 뭐 %</Item>
+        <Item>음식점 뭐야 %</Item>
+        <Item>음식점 뭐가 %</Item>
+        <Item>음식점 어떤게 %</Item>
+        <Item>음식점 어떤 게 %</Item>
+        <Item>음식점 어떤 것이 %</Item>
+        <Item>음식점 어떤 거 %</Item>
+        <Item>음식점 어떤 거가 %</Item>
+        <Item>음식점 알려줘</Item>
+        <Item>음식점 가르쳐줘</Item>
+      </Pattern>
+      <Response>음식점 가게로는 맘스터치, 국수나무, 비앤씨, 아래향, 상근이김밥, 호야 토스트, 학생회관 푸드코트, 학생회관 학생식당이  있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>카페 위치 %</Item>
+        <Item>카페 어느 %</Item>
+        <Item>카페 어디</Item>
+        <Item>카페 어디 *</Item>
+        <Item>카페 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>카페는 정의관, 학생회관, 연세플라자에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>카페 이름 %</Item>
+        <Item>카페 이름은 %</Item>
+        <Item>카페 이름을 %</Item>
+        <Item>카페 가게 이름을 %</Item>
+        <Item>카페 가게 이름은 %</Item>
+        <Item>카페 가게 이름 %</Item>
+        <Item>카페 뭐 %</Item>
+        <Item>카페 뭐야 %</Item>
+        <Item>카페 뭐가 %</Item>
+        <Item>카페 어떤게 %</Item>
+        <Item>카페 어떤 게 %</Item>
+        <Item>카페 어떤 것이 %</Item>
+        <Item>카페 어떤 거 %</Item>
+        <Item>카페 어떤 거가 %</Item>
+        <Item>카페 알려줘</Item>
+        <Item>카페 가르쳐줘</Item>
+      </Pattern>
+      <Response>카페는 7월의 무화과, 한울샘, 아이라운지, CAFE DICTIONARY, 뚜레쥬르가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>7월의 무화과 위치 알려줘</Item>
+        <Item>7월의 무화과 위치 가르쳐줘</Item>
+        <Item>7월의 무화과 어디</Item>
+        <Item>7월의 무화과 어디 *</Item>
+        <Item>7월의 무화가 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>7월의 무화과는 연세플라자 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>7월의 무화과 영업시간 %</Item>
+        <Item>7월의 무화과 영업시간은 %</Item>
+        <Item>7월의 무화과 언제 %</Item>
+        <Item>7월의 무화과 언제까지 %</Item>
+        <Item>7월의 무화과 몇시까지 %</Item>
+        <Item>7월의 무화과 영업 몇시 %</Item>
+        <Item>7월의 무화과 몇시 %</Item>
+        <Item>7월의 무화과 몇시에 %</Item>
+        <Item>7월의 무화과 몇시부터 %</Item>
+        <Item>7월의 무화과 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>7월의 무화과 영업시간은 평일 09:00-20:00, 토요일 11:00-17:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>7월의 무화과 휴무일은 %</Item>
+        <Item>7월의 무화과 휴무일 %</Item>
+      </Pattern>
+      <Response>7월의 무화과 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 영업시간 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 영업시간은 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 언제 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 언제까지 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 몇시까지 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 영업 몇시 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 몇시 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 몇시에 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 몇시부터 %</Item>
+        <Item>7월의 무화과 (계절학기에는|방학중에는|방학중|계절학기) 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>7월의 무화과 영업시간은 평일 09:00-17:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생식당 이름 %</Item>
+        <Item>학생식당 이름은 %</Item>
+        <Item>학생식당 이름을 %</Item>
+        <Item>학생식당 가게 이름을 %</Item>
+        <Item>학생식당 가게 이름은 %</Item>
+        <Item>학생식당 가게 이름 %</Item>
+        <Item>학생식당 뭐 %</Item>
+        <Item>학생식당 뭐야 %</Item>
+        <Item>학생식당 뭐가 %</Item>
+        <Item>학생식당 어떤게 %</Item>
+        <Item>학생식당 어떤 게 %</Item>
+        <Item>학생식당 어떤 것이 %</Item>
+        <Item>학생식당 어떤 거 %</Item>
+        <Item>학생식당 어떤 거가 %</Item>
+        <Item>학생식당 알려줘</Item>
+        <Item>학생식당 가르쳐줘</Item>
+        <Item>학생식당 가게 알려줘</Item>
+        <Item>학생식당 가게 가르쳐줘</Item>
+      </Pattern>
+      <Response>식당으로는 학생식당과 상근이김밥, 푸드코트가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>한식 종류 %</Item>
+        <Item>한식 종류은 %</Item>
+        <Item>한식 종류를 %</Item>
+        <Item>한식 가게 이름을 %</Item>
+        <Item>한식 가게 이름은 %</Item>
+        <Item>한식 가게 이름 %</Item>
+        <Item>한식 뭐 %</Item>
+        <Item>한식 뭐야 %</Item>
+        <Item>한식 뭐가 %</Item>
+        <Item>한식 어떤게 %</Item>
+        <Item>한식 어떤 게 %</Item>
+        <Item>한식 어떤 것이 %</Item>
+        <Item>한식 어떤 거 %</Item>
+        <Item>한식 어떤 거가 %</Item>
+        <Item>한식 알려줘</Item>
+        <Item>한식 가르쳐줘</Item>
+        <Item>한식 가게 알려줘</Item>
+        <Item>한식 가게 가르쳐줘</Item>
+      </Pattern>
+      <Response>한식으로는 푸드코트에 있는 국수나무가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>중식 종류 %</Item>
+        <Item>중식 종류은 %</Item>
+        <Item>중식 종류를 %</Item>
+        <Item>중식 가게 이름을 %</Item>
+        <Item>중식 가게 이름은 %</Item>
+        <Item>중식 가게 이름 %</Item>
+        <Item>중식 뭐 %</Item>
+        <Item>중식 뭐야 %</Item>
+        <Item>중식 뭐가 %</Item>
+        <Item>중식 어떤게 %</Item>
+        <Item>중식 어떤 게 %</Item>
+        <Item>중식 어떤 것이 %</Item>
+        <Item>중식 어떤 거 %</Item>
+        <Item>중식 어떤 거가 %</Item>
+        <Item>중식 알려줘</Item>
+        <Item>중식 가르쳐줘</Item>
+        <Item>중식 가게 알려줘</Item>
+        <Item>중식 가게 가르쳐줘</Item>
+      </Pattern>
+      <Response>중식으로는 연세플라자에 있는 야래향이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>양식 종류 %</Item>
+        <Item>양식 종류은 %</Item>
+        <Item>양식 종류를 %</Item>
+        <Item>양식 가게 이름을 %</Item>
+        <Item>양식 가게 이름은 %</Item>
+        <Item>양식 가게 이름 %</Item>
+        <Item>양식 뭐 %</Item>
+        <Item>양식 뭐야 %</Item>
+        <Item>양식 뭐가 %</Item>
+        <Item>양식 어떤게 %</Item>
+        <Item>양식 어떤 게 %</Item>
+        <Item>양식 어떤 것이 %</Item>
+        <Item>양식 어떤 거 %</Item>
+        <Item>양식 어떤 거가 %</Item>
+        <Item>양식 알려줘</Item>
+        <Item>양식 가르쳐줘</Item>
+        <Item>양식 가게 알려줘</Item>
+        <Item>양식 가게 가르쳐줘</Item>
+      </Pattern>
+      <Response>양식으로는 호야 토스트, 비앤씨와 맘스터치가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>분식 종류 %</Item>
+        <Item>분식 종류은 %</Item>
+        <Item>분식 종류를 %</Item>
+        <Item>분식 가게 이름을 %</Item>
+        <Item>분식 가게 이름은 %</Item>
+        <Item>분식 가게 이름 %</Item>
+        <Item>분식 뭐 %</Item>
+        <Item>분식 뭐야 %</Item>
+        <Item>분식 뭐가 %</Item>
+        <Item>분식 어떤게 %</Item>
+        <Item>분식 어떤 게 %</Item>
+        <Item>분식 어떤 것이 %</Item>
+        <Item>분식 어떤 거 %</Item>
+        <Item>분식 어떤 거가 %</Item>
+        <Item>분식 알려줘</Item>
+        <Item>분식 가르쳐줘</Item>
+        <Item>분식 가게 알려줘</Item>
+        <Item>분식 가게 가르쳐줘</Item>
+      </Pattern>
+      <Response>분식으로는 상근이김밥이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생식당 위치 %</Item>
+        <Item>학생식당 어느 %</Item>
+        <Item>학생식당 어디</Item>
+        <Item>학생식당 어디 *</Item>
+        <Item>학생식당 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>학생식당은 학생회관 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생식당 전화번호 알려줘</Item>
+        <Item>학생식당 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5158</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생식당 영업시간 %</Item>
+        <Item>학생식당 영업시간은 %</Item>
+        <Item>학생식당 언제 %</Item>
+        <Item>학생식당 언제까지 %</Item>
+        <Item>학생식당 몇시까지 %</Item>
+        <Item>학생식당 영업 몇시 %</Item>
+        <Item>학생식당 몇시 %</Item>
+        <Item>학생식당 몇시에 %</Item>
+        <Item>학생식당 몇시부터 %</Item>
+        <Item>학생식당 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>학생식당 운영시간은 평일 09:00-19:30, 수-금 19:00 마감, 토요일 08:00-19:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생식당 휴무일은 %</Item>
+        <Item>학생식당 휴무일 %</Item>
+      </Pattern>
+      <Response>학생식당 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>푸드코트 위치 알려줘</Item>
+        <Item>푸드코트 위치 가르쳐줘</Item>
+        <Item>푸드코트 어디</Item>
+        <Item>푸드코트 어디 *</Item>
+        <Item>푸드코트 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>푸드코트는 학생회관 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>푸드코트 전화번호 알려줘</Item>
+        <Item>푸드코트 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-2830</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>푸드코트 영업시간 %</Item>
+        <Item>푸드코트 영업시간은 %</Item>
+        <Item>푸드코트 언제 %</Item>
+        <Item>푸드코트 언제까지 %</Item>
+        <Item>푸드코트 몇시까지 %</Item>
+        <Item>푸드코트 영업 몇시 %</Item>
+        <Item>푸드코트 몇시 %</Item>
+        <Item>푸드코트 몇시에 %</Item>
+        <Item>푸드코트 몇시부터 %</Item>
+        <Item>푸드코트 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>푸드코트 영업시간은 평일 08:00~19:20, 일요일 08:00~18:40 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>푸드코트 휴무일은 %</Item>
+        <Item>푸드코트 휴무일 %</Item>
+      </Pattern>
+      <Response>푸드코트 휴무일은 토요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>교직원식당 위치 알려줘</Item>
+        <Item>교직원식당 위치 가르쳐줘</Item>
+        <Item>교직원식당 어디</Item>
+        <Item>교직원식당 어디 *</Item>
+        <Item>교직원식당 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>교직원 식당은 현운재 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>교직원식당 전화번호 알려줘</Item>
+        <Item>교직원식당 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5510</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>교직원식당 영업시간 %</Item>
+        <Item>교직원식당 영업시간은 %</Item>
+        <Item>교직원식당 언제 %</Item>
+        <Item>교직원식당 언제까지 %</Item>
+        <Item>교직원식당 몇시까지 %</Item>
+        <Item>교직원식당 영업 몇시 %</Item>
+        <Item>교직원식당 몇시 %</Item>
+        <Item>교직원식당 몇시에 %</Item>
+        <Item>교직원식당 몇시부터 %</Item>
+        <Item>교직원식당 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>교직원 식당 영업시간은 평일 11:30-14:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>교직원식당 휴무일은 %</Item>
+        <Item>교직원식당 휴무일 알려줘</Item>
+        <Item>교직원식당 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>교직원 식당 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>CAFE DICTIONARY 위치 알려줘</Item>
+        <Item>CAFE DICTIONARY 위치 가르쳐줘</Item>
+        <Item>CAFE DICTIONARY 어디</Item>
+        <Item>CAFE DICTIONARY 어디 *</Item>
+        <Item>CAFE DICTIONARY 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>CAFE DICTIONARY는 연세플라자 1층, 정의관 2층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>CAFE DICTIONARY 연세플라자 전화번호 알려줘</Item>
+        <Item>CAFE DICTIONARY 연세플라자 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5151이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>CAFE DICTIONARY 정의관 전화번호 알려줘</Item>
+        <Item>CAFE DICTIONARY 정의관 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5165야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>CAFE DICTIONARY 영업시간 %</Item>
+        <Item>CAFE DICTIONARY 영업시간은 %</Item>
+        <Item>CAFE DICTIONARY 언제 %</Item>
+        <Item>CAFE DICTIONARY 언제까지 %</Item>
+        <Item>CAFE DICTIONARY 몇시까지 %</Item>
+        <Item>CAFE DICTIONARY 영업 몇시 %</Item>
+        <Item>CAFE DICTIONARY 몇시 %</Item>
+        <Item>CAFE DICTIONARY 몇시에 %</Item>
+        <Item>CAFE DICTIONARY 몇시부터 %</Item>
+        <Item>CAFE DICTIONARY 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>CAFE DICTIONARY 영업시간은 평일 08:00-20:00</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>CAFE DICTIONARY 휴무일은 %</Item>
+        <Item>CAFE DICTIONARY 휴무일 %</Item>
+      </Pattern>
+      <Response>CAFE DICTIONARY 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>비앤씨 위치 %</Item>
+        <Item>비앤씨 어느 %</Item>
+        <Item>비앤씨 어디</Item>
+        <Item>비앤씨 어디 *</Item>
+        <Item>비앤씨 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>비앤씨는 연세플라자 2층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>비앤씨 전화번호 알려줘</Item>
+        <Item>비앤씨 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5154야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>비앤씨 영업시간 %</Item>
+        <Item>비앤씨 영업시간은 %</Item>
+        <Item>비앤씨 언제 %</Item>
+        <Item>비앤씨 언제까지 %</Item>
+        <Item>비앤씨 몇시까지 %</Item>
+        <Item>비앤씨 영업 몇시 %</Item>
+        <Item>비앤씨 몇시 %</Item>
+        <Item>비앤씨 몇시에 %</Item>
+        <Item>비앤씨 몇시부터 %</Item>
+        <Item>비앤씨 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>비앤씨 영업시간은 평일 12:00-23:00, 일요일 16:00-23:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>비앤씨 휴무일은 %</Item>
+        <Item>비앤씨 휴무일 %</Item>
+      </Pattern>
+      <Response>비앤씨 휴무일은 토요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>야래향 위치 %</Item>
+        <Item>야래향 어느 %</Item>
+        <Item>야래향 어디</Item>
+        <Item>야래향 어디 *</Item>
+        <Item>야래향 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>야래향은 연세플라자 2층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>야래향 전화번호 %</Pattern>
+      <Response>033-760-5155</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>야래향 영업시간 %</Item>
+        <Item>야래향 영업시간은 %</Item>
+        <Item>야래향 언제 %</Item>
+        <Item>야래향 언제까지 %</Item>
+        <Item>야래향 몇시까지 %</Item>
+        <Item>야래향 영업 몇시 %</Item>
+        <Item>야래향 몇시 %</Item>
+        <Item>야래향 몇시에 %</Item>
+        <Item>야래향 몇시부터 %</Item>
+        <Item>야래향 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>야래향 영업시간은 평일 10:30-20:00, 토요일 10:30-19:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>야래향 휴무일은 %</Item>
+        <Item>야래향 휴무일 %</Item>
+      </Pattern>
+      <Response>야래향 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>미니스톱 위치 %</Item>
+        <Item>미니스톱 어느 %</Item>
+        <Item>미니스톱 어디</Item>
+        <Item>미니스톱 어디 *</Item>
+        <Item>미니스톱 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>미니스톱은 백운관 1층, 학생회관 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미니스톱 백운관 전화번호 %</Pattern>
+      <Response>033-760-5157이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미니스톱 학생회관 전화번호 %</Pattern>
+      <Response>033-760-5157이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>미니스톱 영업시간 %</Item>
+        <Item>미니스톱 영업시간은 %</Item>
+        <Item>미니스톱 언제 %</Item>
+        <Item>미니스톱 언제까지 %</Item>
+        <Item>미니스톱 몇시까지 %</Item>
+        <Item>미니스톱 영업 몇시 %</Item>
+        <Item>미니스톱 몇시 %</Item>
+        <Item>미니스톱 몇시에 %</Item>
+        <Item>미니스톱 몇시부터 %</Item>
+        <Item>미니스톱 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>미니스톱 영업시간은 07:00-24:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>미니스톱 휴무일은 %</Item>
+        <Item>미니스톱 휴무일 알려줘</Item>
+        <Item>미니스톱 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>미니스톱 휴무일은 없어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>CU 위치 %</Item>
+        <Item>CU 어느 %</Item>
+        <Item>CU 어디</Item>
+        <Item>CU 어디 *</Item>
+        <Item>CU 어떻게 가면돼</Item>
+        <Item>CU 영업시간 %</Item>
+        <Item>CU 영업시간은 %</Item>
+        <Item>CU 언제 %</Item>
+        <Item>CU 언제까지 %</Item>
+        <Item>CU 몇시까지 %</Item>
+        <Item>CU 영업 몇시 %</Item>
+        <Item>CU 몇시 %</Item>
+        <Item>CU 몇시에 %</Item>
+        <Item>CU 몇시부터 %</Item>
+        <Item>CU 영업종료 몇시부터 %</Item>
+        <Item>CU 휴무일은 %</Item>
+        <Item>CU 휴무일 %</Item>
+      </Pattern>
+      <Response>CU는 사라졌어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>한울샘 위치 %</Item>
+        <Item>한울샘 어느 %</Item>
+        <Item>한울샘 어디</Item>
+        <Item>한울샘 어디 *</Item>
+        <Item>한울샘 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>한울샘은 학생회관 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>한울샘 전화번호 알려줘</Item>
+        <Item>한울샘 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-2643이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>한울샘 영업시간 %</Item>
+        <Item>한울샘 영업시간은 %</Item>
+        <Item>한울샘 언제 %</Item>
+        <Item>한울샘 언제까지 %</Item>
+        <Item>한울샘 몇시까지 %</Item>
+        <Item>한울샘 영업 몇시 %</Item>
+        <Item>한울샘 몇시 %</Item>
+        <Item>한울샘 몇시에 %</Item>
+        <Item>한울샘 몇시부터 %</Item>
+        <Item>한울샘 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>한울샘 영업시간은 평일 08:00-19:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>한울샘 휴무일은 %</Item>
+        <Item>한울샘 휴무일 알려줘</Item>
+        <Item>한울샘 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>한울샘 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>아이라운지 위치 %</Item>
+        <Item>아이라운지 어느 %</Item>
+        <Item>아이라운지 어디</Item>
+        <Item>아이라운지 어디 *</Item>
+        <Item>아이라운지 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>아이라운지는 학생회관 4층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>아이라운지 전화번호 알려줘</Item>
+        <Item>아이라운지 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5144야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>아이라운지 영업시간 %</Item>
+        <Item>아이라운지 영업시간은 %</Item>
+        <Item>아이라운지 언제 %</Item>
+        <Item>아이라운지 언제까지 %</Item>
+        <Item>아이라운지 몇시까지 %</Item>
+        <Item>아이라운지 영업 몇시 %</Item>
+        <Item>아이라운지 몇시 %</Item>
+        <Item>아이라운지 몇시에 %</Item>
+        <Item>아이라운지 몇시부터 %</Item>
+        <Item>아이라운지 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>아이라운지 영업시간은 08:30-19:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>아이라운지 휴무일은 %</Item>
+        <Item>아이라운지 휴무일 알려줘</Item>
+        <Item>아이라운지 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>아이라운지 휴무일은 없어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>뚜레쥬르 위치 %</Item>
+        <Item>뚜레쥬르 어느 %</Item>
+        <Item>뚜레쥬르 어디</Item>
+        <Item>뚜레쥬르 어디 *</Item>
+        <Item>뚜레쥬르 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>뚜레쥬르는 연세플라자 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>뚜레쥬르 전화번호 %</Pattern>
+      <Response>033-760-5143</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>뚜레쥬르 영업시간 %</Item>
+        <Item>뚜레쥬르 영업시간은 %</Item>
+        <Item>뚜레쥬르 언제 %</Item>
+        <Item>뚜레쥬르 언제까지 %</Item>
+        <Item>뚜레쥬르 몇시까지 %</Item>
+        <Item>뚜레쥬르 영업 몇시 %</Item>
+        <Item>뚜레쥬르 몇시 %</Item>
+        <Item>뚜레쥬르 몇시에 %</Item>
+        <Item>뚜레쥬르 몇시부터 %</Item>
+        <Item>뚜레쥬르 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>뚜레쥬르 영업시간은 평일 08:00-22:00, 토요일 08:00-20:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>뚜레쥬르 휴무일은 %</Item>
+        <Item>뚜레쥬르 휴무일 알려줘</Item>
+        <Item>뚜레쥬르 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>뚜레쥬르 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>호야토스트 위치 %</Item>
+        <Item>호야토스트 어느 %</Item>
+        <Item>호야토스트 어디</Item>
+        <Item>호야토스트 어디 *</Item>
+        <Item>호야토스트 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>호야토스트는 연세플라자 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>호야토스트 전화번호 알려줘</Item>
+        <Item>호야토스트 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5142야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>호야토스트 영업시간 %</Item>
+        <Item>호야토스트 영업시간은 %</Item>
+        <Item>호야토스트 언제 %</Item>
+        <Item>호야토스트 언제까지 %</Item>
+        <Item>호야토스트 몇시까지 %</Item>
+        <Item>호야토스트 영업 몇시 %</Item>
+        <Item>호야토스트 몇시 %</Item>
+        <Item>호야토스트 몇시에 %</Item>
+        <Item>호야토스트 몇시부터 %</Item>
+        <Item>호야토스트 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>호야토스트 영업시간은 평일 08:00-21:00, 토요일 10:00-19:00 이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>호야토스트 휴무일은 %</Item>
+        <Item>호야토스트 휴무일 알려줘</Item>
+        <Item>호야토스트 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>호야토스트 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>상근이김밥 위치 알려줘</Item>
+        <Item>상근이김밥 위치 가르쳐줘</Item>
+        <Item>상근이김밥 어느 %</Item>
+        <Item>상근이김밥 어디</Item>
+        <Item>상근이김밥 어디 *</Item>
+        <Item>상근이김밥 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>상근이김밥은 연세플라자 2층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>상근이김밥 전화번호 알려줘</Item>
+        <Item>상근이김밥 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>상근이김밥 전화번호는 033-760-5153이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>상근이김밥 영업시간 %</Item>
+        <Item>상근이김밥 영업시간은 %</Item>
+        <Item>상근이김밥 언제 %</Item>
+        <Item>상근이김밥 언제까지 %</Item>
+        <Item>상근이김밥 몇시까지 %</Item>
+        <Item>상근이김밥 영업 몇시 %</Item>
+        <Item>상근이김밥 몇시 %</Item>
+        <Item>상근이김밥 몇시에 %</Item>
+        <Item>상근이김밥 몇시부터 %</Item>
+        <Item>상근이김밥 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>상근이김밥 영업시간은 평일 08:30-20:00, 일요일 08:30-19:00</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>상근이김밥 휴무일은 %</Item>
+        <Item>상근이김밥 휴무일 알려줘</Item>
+        <Item>상근이김밥 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>상근이김밥 휴무일은 토요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>$ 연세POD센터 위치 알려줘</Item>
+        <Item>$ 연세POD센터 위치 가르쳐줘</Item>
+        <Item>$ 연세POD센터 어느 %</Item>
+        <Item>$ 연세POD센터 어디</Item>
+        <Item>$ 연세POD센터 어디 *</Item>
+        <Item>연세 POD센터 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>연세POD센터는 연세플라자 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>연세POD센터 전화번호 알려줘</Item>
+        <Item>연세POD센터 전화번호 가르쳐줘</Item>
+      </Pattern>
+      <Response>033-760-5149야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>연세POD센터 영업시간 %</Item>
+        <Item>연세POD센터 영업시간은 %</Item>
+        <Item>연세POD센터 언제 %</Item>
+        <Item>연세POD센터 언제까지 %</Item>
+        <Item>연세POD센터 몇시까지 %</Item>
+        <Item>연세POD센터 영업 몇시 %</Item>
+        <Item>연세POD센터 몇시 %</Item>
+        <Item>연세POD센터 몇시에 %</Item>
+        <Item>연세POD센터 몇시부터 %</Item>
+        <Item>연세POD센터 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>연세POD센터 영업시간은 평일 08:40-18:50이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>연세POD센터 휴무일은 %</Item>
+        <Item>연세POD센터 휴무일 알려줘</Item>
+        <Item>연세POD센터 휴무일 가르쳐줘</Item>
+      </Pattern>
+      <Response>연세POD센터 휴무일은 주말이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>생활용품점 이름 %</Item>
+        <Item>생활용품점 이름은 %</Item>
+        <Item>생활용품점 이름을 %</Item>
+        <Item>생활용품점 가게 이름을 %</Item>
+        <Item>생활용품점 가게 이름은 %</Item>
+        <Item>생활용품점 가게 이름 %</Item>
+        <Item>생활용품점 뭐 %</Item>
+        <Item>생활용품점 뭐야 %</Item>
+        <Item>생활용품점 뭐가 %</Item>
+        <Item>생활용품점 어떤게 %</Item>
+        <Item>생활용품점 어떤 게 %</Item>
+        <Item>생활용품점 어떤 것이 %</Item>
+        <Item>생활용품점 어떤 거 %</Item>
+        <Item>생활용품점 어떤 거가 %</Item>
+        <Item>생활용품점 알려줘</Item>
+        <Item>생활용품점 가르쳐줘</Item>
+      </Pattern>
+      <Response>생활용품점은 누리샘이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>누리샘 위치 알려줘</Item>
+        <Item>누리샘 위치 가르쳐줘</Item>
+        <Item>누리샘 어느 %</Item>
+        <Item>누리샘 어디</Item>
+        <Item>누리샘 어디 *</Item>
+        <Item>누리샘 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>생활용품점인 누리샘은 연세플라자 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>누리샘 전화번호 %</Pattern>
+      <Response>033-760-5149</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>누리샘 영업시간 %</Item>
+        <Item>누리샘 영업시간은 %</Item>
+        <Item>누리샘 언제 %</Item>
+        <Item>누리샘 언제까지 %</Item>
+        <Item>누리샘 몇시까지 %</Item>
+        <Item>누리샘 영업 몇시 %</Item>
+        <Item>누리샘 몇시 %</Item>
+        <Item>누리샘 몇시에 %</Item>
+        <Item>누리샘 몇시부터 %</Item>
+        <Item>누리샘 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>누리샘 영업시간은 평일 08:40-18:50 , 토요일 08:30-14:00이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>누리샘 휴무일은 %</Item>
+        <Item>누리샘 휴무일 %</Item>
+      </Pattern>
+      <Response>누리샘 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>구내서점 위치 %</Item>
+        <Item>구내서점 어느 %</Item>
+        <Item>구내서점 어디</Item>
+        <Item>구내서점 어디 *</Item>
+        <Item>구내서점 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>구내서점은 연세플라자 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>구내서점 전화번호 %</Pattern>
+      <Response>구내서점 전화번호는 033-760-5148이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>구내서점 영업시간 %</Item>
+        <Item>구내서점 영업시간은 %</Item>
+        <Item>구내서점 언제 %</Item>
+        <Item>구내서점 언제까지 %</Item>
+        <Item>구내서점 몇 시까지 %</Item>
+        <Item>구내서점 영업 몇시 %</Item>
+        <Item>구내서점 몇 시 %</Item>
+        <Item>구내서점 몇 시에 %</Item>
+        <Item>구내서점 몇 시부터 %</Item>
+        <Item>구내서점 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>구내서점 영업시간은 평일 08:30-20:00, 토요일 09:00-14:00이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>구내서점 휴무일은 %</Item>
+        <Item>구내서점 휴무일 %</Item>
+      </Pattern>
+      <Response>구내서점 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>안경점 위치 %</Item>
+        <Item>안경점 어느 %</Item>
+        <Item>안경점 어디</Item>
+        <Item>안경점 어디 *</Item>
+        <Item>안경점 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>안경점은 연세플라자 1층에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>안경점 전화번호 %</Pattern>
+      <Response>033-760-5152야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>안경점 영업시간 %</Item>
+        <Item>안경점 영업시간은 %</Item>
+        <Item>안경점 언제 %</Item>
+        <Item>안경점 언제까지 %</Item>
+        <Item>안경점 몇시까지 %</Item>
+        <Item>안경점 영업 몇시 %</Item>
+        <Item>안경점 몇시 %</Item>
+        <Item>안경점 몇시에 %</Item>
+        <Item>안경점 몇시부터 %</Item>
+        <Item>안경점 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>안경점 영업시간은 평일 09:00-19:00, 토요일 09:00-15:00이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>안경점 휴무일은 %</Item>
+        <Item>안경점 휴무일 %</Item>
+      </Pattern>
+      <Response>안경점 휴무일은 일요일이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>빨래방 위치 알려줘</Item>
+        <Item>빨래방 위치 가르쳐줘</Item>
+        <Item>빨래방 어디</Item>
+        <Item>빨래방 어디 *</Item>
+        <Item>빨래방 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>빨래방은 연세플라자 1층이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>빨래방 전화번호 %</Pattern>
+      <Response>033-760-5161야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>빨래방 영업시간 %</Item>
+        <Item>빨래방 영업시간은 %</Item>
+        <Item>빨래방 언제 %</Item>
+        <Item>빨래방 언제까지 %</Item>
+        <Item>빨래방 몇시까지 %</Item>
+        <Item>빨래방 영업 몇시 %</Item>
+        <Item>빨래방 몇시 %</Item>
+        <Item>빨래방 몇시에 %</Item>
+        <Item>빨래방 몇시부터 %</Item>
+        <Item>빨래방 영업종료 몇시부터 %</Item>
+      </Pattern>
+      <Response>빨래방 영업시간은 평일 08:30-20:00, 토요일 09:00-14:00이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>빨래방 휴무일은 %</Item>
+        <Item>빨래방 휴무일 %</Item>
+      </Pattern>
+      <Response>빨래방 휴무일은 일요일이야</Response>
+    </Model>
+    <!-- ///서비스이용안내/// 5.대관 및 예약 안내 -->
+    
+    <Model>
+      <Pattern>
+        <Item>대관예약 %</Item>
+        <Item>대관예약을 %</Item>
+      </Pattern>
+      <Response>대관예약 할 수 있는 사이트를 알려줄게.
+https://space.yonsei.ac.kr/</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///행정부서/기관/// 1. 부총장직속부서 -->
+  <Concept Name="Buchongjang">
+    
+    <Model>
+      <Pattern>부총장직속부서</Pattern>
+      <Response>미래융합교육개발원과 연세머레이봉사단이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래융합교육개발원 홈페이지</Pattern>
+      <Response>https://iced.yonsei.ac.kr/</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래융합교육개발원 위치</Pattern>
+      <Response>대학본부 405호, 411호이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래융합교육개발원 전화번호</Pattern>
+      <Response>033)760-5200~5222</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래융합교육개발원</Pattern>
+      <Response>미래융합교육개발원은 연세대학교 미래캠퍼스가 자율융합대학으로 도약하기 위해 필요한 교육혁신 과제 기획, 연구, 개발, 운영 및 평가를 총괄하는 역할을 하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래융합교육개발원 부서</Pattern>
+      <Response>교육성과관리팀, 교수학습개발팀, 디지털교육팀, 교육혁신지원팀 등이 있다.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세머레이봉사단</Pattern>
+      <Response>사회봉사 업무를 하는 곳이다.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세머레이봉사단 위치</Pattern>
+      <Response>학생회관 2층 225호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세머레이봉사단 전화번호</Pattern>
+      <Response>033) 760-5071~3</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///행정부서 기관///  2. 행정부서 -->
+  <Concept Name="Haengjeong">
+    
+    <Model>
+      <Pattern>원주교목실</Pattern>
+      <Response>교목실 관련 선교 단체야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주교목실 위치</Pattern>
+      <Response>대학본부 328호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주교목실 전화번호</Pattern>
+      <Response>033) 760-2695, 2657</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주기획처</Pattern>
+      <Response>장단기 발전 계획을 수립 및 추진하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주기획처 위치</Pattern>
+      <Response>기획부: 대학본부 311호, 대외협력부 :대학본부 104호 , 미래전략부 : 대학본부 410호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주기획처 전화번호</Pattern>
+      <Response>기획부: 033) 760-2112, 대외협력부: 033) 760-2700</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주교무처</Pattern>
+      <Response>대학,대학원,학과 및 과정의 설치 ac 폐지에 관한 업무하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(원주교무처|교무부) 위치</Pattern>
+      <Response>대학본부 108호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(원주교무처|교무부) 전화번호</Pattern>
+      <Response>033-760-2590</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>입학홍보처</Pattern>
+      <Response>입학에 관한 업무를 하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>입학홍보처 위치</Pattern>
+      <Response>대학본부 124호.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>입학홍보처 전화번호</Pattern>
+      <Response>033-760-2828</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(학생복지처|원주학생복지처)</Pattern>
+      <Response>한국장학재단 장학 사업에 관한 업무를 하는 곳이다. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>(학생복지처|원주학생복지처) 전화번호</Item>
+      </Pattern>
+      <Response>033-760-2674</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(학생복지처|원주학생복지처) 위치</Pattern>
+      <Response>학생회관 235호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주연구처</Pattern>
+      <Response>학술연구의 종합계획 및 연구진흥, 대외협력 정책 수립하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주연구처 위치</Pattern>
+      <Response>미래관 2층 241호.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주연구처 전화번호</Pattern>
+      <Response>033) 760-5238</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주총무처</Pattern>
+      <Response>건축, 토목, 전기, 위생, 냉·난방, 환경, 조경 시설의 정비유지 및 운영관리를 하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{원주총무처 위치}</Pattern>
+      <Response>총무부 :대학본부 210호, 시설관리부: 대학본부 201호, 재무부: 대학본부 206호, 구매관재부: 대학본부 101호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{원주총무처 전화번호}</Pattern>
+      <Response>총무부: 033-760-2154, 재무부: 033-760-2152, 구매관재부: 033-760-2680</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SW중심대학사업단</Pattern>
+      <Response>SW중심대학지원사업 수행 및 관리하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SW중심대학사업단 위치</Pattern>
+      <Response>창조관 270호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SW중심대학사업단 전화번호</Pattern>
+      <Response>033)760-2683~2685</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주대학혁신지원사업단</Pattern>
+      <Response>대학혁신지원사업 수행 및 관리하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주대학혁신지원사업단 위치</Pattern>
+      <Response>대학본부 411호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주대학혁신지원사업단 전화번호</Pattern>
+      <Response>033)760-5355~5356</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///행정부서/기관/// 3. 부속기관-->
+  <Concept Name="Busok">
+    
+    <Model>
+      <Pattern>원주대학교회</Pattern>
+      <Response>학생 해외 선교/봉사 후원을 하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주대학교회 위치</Pattern>
+      <Response>연세대학교 대학교회</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주대학교회 전화번호</Pattern>
+      <Response>033) 760-2871</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주생활관</Pattern>
+      <Response>생활지도 및 운영 관리를 하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주생활관 위치</Pattern>
+      <Response>청연학사 1층</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주생활관 전화번호</Pattern>
+      <Response>033) 760-5300</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주박물관</Pattern>
+      <Response>역사시대 유물 기획 및 전시하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주박물관 위치</Pattern>
+      <Response>청송관 1층 연세대학교 원주박물관이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주박물관 전화번호</Pattern>
+      <Response>033) 760-2731</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세매지방송국</Pattern>
+      <Response>연세대학교 미래캠퍼스의 대표적인 언론기관이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세매지방송국 편성시간</Pattern>
+      <Response>오전 am 8:30 ~ am 8:50, 오후 pm 12:10 ~ 12:50, 저녁 pm 5:10 ~ 5:40</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세춘추</Pattern>
+      <Response>대학신문이야. 매주 월요일에 발행해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주사회복지센터</Pattern>
+      <Response>사회에 봉사하며 사회복지를 필요로 하는 사람의 인간다운 생활을 할 권리를 보장하고 사회복지의 전문성을 높이기 위해 설립된 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주학술정보원</Pattern>
+      <Response>도서관 시설 및 비품관리를 해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주학술정보원 업무 부서</Pattern>
+      <Response>문헌정보팀, 정보통신팀이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(인재개발원|대학일자리사업단)</Pattern>
+      <Response>취업정보를 쉽게 찾을 수 있고 취업상담 및 각종 취업프로그램을 통하여 자신만의 독창적인 취업전략을 수립하는데 도움을 받을 수 있는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(인재개발원|대학일자리사업단) 위치</Pattern>
+      <Response>학생회관 2층 229호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(인재개발원|대학일자리사업단) 전화번호</Pattern>
+      <Response>033) 760-2651~3</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주창업지원단</Pattern>
+      <Response>실용적인 창업 지원 서비스를 제공하기 위해 설립된 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주창업지원단 위치</Pattern>
+      <Response>창업보육센터 109호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주창업지원단 전화번호</Pattern>
+      <Response>033) 760-2886</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///행정부서/기관/// 4. 부속교육기관 -->
+  <Concept Name="Education">
+    
+    <Model>
+      <Pattern>국제교류원</Pattern>
+      <Response>효율적인 외국어 교육을 학생들에게 제공하고자 설립된 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>국제교류원 위치</Pattern>
+      <Response>연세플라자 303호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>국제교류원 전화번호</Pattern>
+      <Response>033) 760-5092</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>사회교육개발원</Pattern>
+      <Response>지역주민 및 학생들의 삶의 질을 한 단계 높일 수 있는 평생교육 강좌를 운영하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>사회교육개발원 위치</Pattern>
+      <Response>스포츠센터 301호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>사회교육개발원 전화번호</Pattern>
+      <Response>033) 760-2703 평생교육 / 033) 760-2705 IT,정보인증/ 033) 760-5132 대관, 시험센터/ 033) 760-5135 스포츠센터</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///행정부서/기관/// 5. 기타기관 -->
+  <Concept Name="Other">
+    
+    <Model>
+      <Pattern>예비군연대</Pattern>
+      <Response>연세대학교 미래캠퍼스 예비군연대야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>예비군연대 위치</Pattern>
+      <Response>학군단건물 103호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>예비군연대 전화번호</Pattern>
+      <Response>033) 760-2542, 2584</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주학생군사교육단?</Pattern>
+      <Response>학군사관은 대학 재학생 중에서 우수자를 선발, 2년간 군사교육을 실시하여 대학의 전공, 학문은 물론 군사지식을 갖춘 우수한 장교 양성과정을 하는 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주학생군사교육단 위치</Pattern>
+      <Response>학군단건물</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>원주학생군사교육단 전화번호</Pattern>
+      <Response>033) 760-2548</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>직원노동조합</Pattern>
+      <Response>법에 정한 근로자의 권익을 보호하는 곳이야. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>노동조합 위치</Pattern>
+      <Response>정의관 101호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>노동조합 전화번호</Pattern>
+      <Response>033) 760-2550</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///자치활동///  -->
+  <Concept Name="Autonomy">
+    
+    <Model>
+      <Pattern>총학생회</Pattern>
+      <Response>연세대학교 미래캠퍼스 총학생회야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>총학생회 위치</Pattern>
+      <Response>학생회관 201호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>총학생회 전화번호</Pattern>
+      <Response>033-760-5407, 5408</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>동아리연합회</Pattern>
+      <Response>동아리연합회는 총 단위 자치기구야. 
+여러 분과장들로 구성된 운영위원회를 구성하여 동아리사회를 이끌어 나가고 있어. 
+동아리에 가입된 회원들은 모두 동아리연합회의 구성원이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>동아리연합회 위치</Pattern>
+      <Response>학생회관 218호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>동아리연합회 전화번호</Pattern>
+      <Response>033-760-2687, 2647</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>생활관 사생회</Pattern>
+      <Response>연세대학교 미래캠퍼스 생활관 사생회</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>생활관 사생회 위치</Pattern>
+      <Response>청연2학사 2139호</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>생활관 사생회 전화번호</Pattern>
+      <Response>033-760-5339</Response>
+    </Model>
+    
+  </Concept>
+  <!-- ///스마트 캠퍼스/// -->
+  <Concept Name="SmartCampus">
+    
+    <Model>
+      <Pattern>S-캠퍼스</Pattern>
+      <Response>스마트캠퍼스 프로젝트로 대학 콘텐츠의 다변화와 IT 기술을 통한 교육 시스템의 변혁이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>S-캠퍼스</Pattern>
+      <Response>스마트캠퍼스 </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세대학교 홈페이지</Pattern>
+      <Response>연세대학교 소식, 정보, 각종 서식 자료 콘텐츠를 PC, 스마트폰 등 다양한 스마트 기기로 확인할 수 있어.
+www.yonsei.ac.kr</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(도서관|학술정보원) 홈페이지</Pattern>
+      <Response>도서관 홈페이지야.
+https://library.yonsei.ac.kr</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>연세공감</Pattern>
+      <Response>연세대학교 교내 학술, 문화, 행사 등의 콘텐츠 정보와 동영상을 통합 제공해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>Y-TOP</Pattern>
+      <Response>대표 모바일 App이야. 
+연세탑은 연세대학교 홈페이지, 학사포탈, 런어스, 도서관 홈페이지와 모바일신분증, 전자출결, 도서관 좌석 배정, 셔틀버스 등의 통합 앱 서비스, 캘린더와 실시간 알림 메시지 기능을 제공해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>Y-MID</Pattern>
+      <Response>모바일 학생증/신분증 App이야. 
+모바일 학생증은 학생증 카드와 동일한 도서관 출입, 도서관 서비스이용, 캠퍼스 건물 출입 및 시설이용 등의 기능을 제공해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>모바일 학사</Pattern>
+      <Response>https://portal.yonsei.ac.kr/main/</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>LEARNUS</Pattern>
+      <Response>https://www.learnus.org/</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>전자출석부</Pattern>
+      <Response>https://infra.yonsei.ac.kr/sso/PmSSOService</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>Y-ATTEND</Pattern>
+      <Response>모바일 전자출결 App. 
+연세대 전자출결은 학년도 학기별 수업 정보, 시간표, 본인 출결 정보를 제공해. 특히 비콘이 설치된 대형 강의실에서는 블루투스 통신을 통해 자동으로 출석 처리되는 기능을 제공해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>MY-SEAT</Pattern>
+      <Response>도서관 좌석배정 App. 연세대학교 도서관의 좌석 및 시설을 배정 받고 예약 서비스 기능을 제공해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>Y-BUS</Pattern>
+      <Response>셔틀버스 App. 연세 Y-BUS는 캠퍼스 별 셔틀버스 이용 및 예약 서비스를 제공해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>Y-CARECALL</Pattern>
+      <Response>신변보호 App. 야간 또는 도움이 필요할 상황에서 미리 APP를 실행한 후, 긴급 상황에서 스마트폰을 흔들거나 긴급버튼을 누르시면 안전요원이 바로 출동하는 서비스야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>Y-LINK</Pattern>
+      <Response>알림 및 휴대폰분실신고 App. 대표 모바일 앱, 전자출결 앱 등의 알림 메시지와 휴대폰분실신고 서비스를 이용하기위해 설치되는 응용프로그램이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>학생증을 (잃어버렸어| 분실했어)</Pattern>
+      <Response>저런, 힘내. 찾을 수 있을 거야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>S-캠퍼스</Pattern>
+      <Response>스마트캠퍼스 </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생증 분실 신고를 하고 싶어</Item>
+        <Item>분실 신고하는 방법</Item>
+      </Pattern>
+      <Response>학교 홈페이지 다기능스마트카드 메뉴를 선택하여 온라인으로 분실 신고하거나, 미래캠퍼스 '033-760-2166'로 신고해. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>학생증 신규 발급 신청</Pattern>
+      <Response>연세포탈 → 학사정보시스템 → 학생증 발급 → 신분증 카드 신청	
+신청서를 작성하고, 정해진 기간 내에 신청하면 우리은행 본점에서 일괄 발급하여 연세지점을 통해서 수령하면 돼.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생증 재발급하고 싶어</Item>
+        <Item>학생증 재발급</Item>
+      </Pattern>
+      <Response>연세포탈을 통해서 할 수 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>학생증 발급</Pattern>
+      <Response>우리은행 연세지점에서 계좌 개설과 ID 카드 발급신청서를 작성해 연세지점에 제출하면 ID 카드를 발급받을 수 있어~.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>학생증 기능</Pattern>
+      <Response>건물출입, 전자출결, 도서관이용, 체크카드로 사용할 수 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>학생증</Pattern>
+      <Response>학생증 ID카드에 Combi IC카드를 도입하여 학생증기능 외에 금융기능이 결합된 One-Card 시스템으로 학교생활의 편의성을 제공하는 다기능 스마트카드야. </Response>
+    </Model>
+    
+  </Concept>
+  <Concept>
+    
+    <Model>
+      <Pattern>% 날짜 %</Pattern>
+      <Response>오늘은 <Date Get="Time" /></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 연세 %</Pattern>
+      <Response>
+        <Item>1957년 연희대학교와 세브란스의과대학이 합쳐지면서, 두 학교의 머리글자를 따서 연세대학교가 되었다.</Item>
+        <Item>연세대학교의 상징은 독수리야</Item>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>너 이름 무엇</Item>
+        <Item>너 누구</Item>
+      </Pattern>
+      <Response>나는 톡톡이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>너 누가 만듬</Pattern>
+      <Response>나는 77조인 속닥속닥팀이 만들었어!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>% 날씨 %</Item>
+        <Item>% 온도 %</Item>
+        <Item>% 기온 %</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>날씨에 대한 정보는 아직 학습이 부족해 ㅠㅠ</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>미래캠퍼스 앞 음식점 알려줘</Pattern>
+      <Response>
+        <Random>
+          <Item>박순례손말이고기산정집 (강원도 원주시 행구로 314) : 백종원 3대천왕에 등장했던 산정집이야</Item>
+          <Item>까치둥지(강원도 원주시 시청로 19-1 1층) : 규모가 큰 한옥 베이커리 카페</Item>
+          <Item>카페 로톤다 (강원도 원주시 지정면 조엄로 56-3 1층) : 넓은 잔디밭이 있는 카페</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 관광볼거리 %</Pattern>
+      <Response>
+        <Random>
+          <Item>소금산 출렁다리 : 예능에서 많이 나왔던 장소로 한번쯤 가보는걸 추천해</Item>
+          <Item>치악산 : 치악산은 강원도 원주시와 횡성군의 경계에 있는 산으로 사계절에 따라 봄에는 진달래와 철쭉, 여름철에는 구룡사의 울창한 송림과 깨끗한 물이 볼만하고, 가을의 단풍과 겨울의 설경이 장관을 이루고 있어</Item>
+          <Item>뮤지엄 산 : 뮤지엄산은 강원도 원주시에 소재한 한솔문화재단의 사립 박물관이고 전체 관람 소요시간은 2시간 정도 걸려</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 도움말 %</Pattern>
+      <Response>
+        <Item>연세소개, 대학생활, 학사지원, 입학전형 궁금한 것을 입력해봐</Item>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 학사지원 %</Pattern>
+      <Response>
+        <Item>학사지원에 관련된 정보야 학사정보, 등록금, 장학금 궁금한것 입력해봐</Item>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 학사정보 %</Pattern>
+      <Response>학사정보는 일정, 수업, 학적, 전공, 졸업 궁금한 것을 입력해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 일정 %</Pattern>
+      <Response>자세한 일정은 사이트를 참조해https://www.yonsei.ac.kr/wj/support/calendar.jsp</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 수업 %</Pattern>
+      <Response>수업은 중간/기말시험, 재수강, 수강철회, 초과학점신청, 증명서/증명서 발급 궁금한 것을 입력해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 중간 %</Pattern>
+      <Response>중간고사 및 기말고사 시험시간표는 매 시험기간 1주 이전에 홈페이지 공지사항 및 단과대학사무실 게시판에 공고되고, learnus에서 수강 과목에 대한 자세한 공지사항을 확인할 수 있어</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 재수강 %</Pattern>
+      <Response>재수강은 동일한 교과목을 2회 이상 수강했을 때에는 가장 나중에 이수한 성적 및 학점 만을 취득한 것으로 인정되고 성적이 상향되더라도 이미 받은 성적에 대한 ‘학사경고’ 사항은 삭제되지 않아</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 수강철회 %</Pattern>
+      <Response>수강과목을 계속 이수할 수 없다고 판단될 때에는 지정된 기간에 학사포탈시스템에서 해당과목을 철회할 수 있어. 단,, 수강철회 후 최소 1학점 이상이 되어야해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 초과학점신청 %</Pattern>
+      <Response>학칙 제43조② 및 학사에 관한 내규 제7조① 에 의하여 직전학기 성적의 평량평균이 3.75이상인 자는 3학점을 초과하여 신청할 수 있어. 수강철회를 하게되면 학점초과신청을 할수 없어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 증명서 %</Pattern>
+      <Response>미래/신촌/국제캠퍼스 재학생, 재적생 및 졸업생 모두 발급받을수 있고 발급 방법은 https://www.yonsei.ac.kr/wj/support/certificate1.jsp 여기를 참조해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 학적 %</Pattern>
+      <Response>학적은 휴학, 복학, 자퇴, 재입학, 편입학 중에서 궁금한 것을 입력해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 휴학 %</Pattern>
+      <Response>일반휴학은 개인사정(가사, 어학연수 등), 질병 혹은 군입대 예정 등의 사유로 하는 휴학을 말하며, 학기 중 정해진 기간에 학교 홈페이지 학사포탈시스템을 통하여 신청할 수 있어</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 복학 %</Pattern>
+      <Response>복학은 매 학기 시작 전후 복학기간(매학기 학사일정표 참조)내 소정기간에 학사포탈시스템을 통하여 신청하면 되 단, 입대휴학 복학생은 전역일자를 확인할 수 있는 전역증 사본이나 주민등록초본(병역사항기재), 병적증명서 중 하나를 신청 당일 원주교무처 교무부 학적과에 제출 하여야 하며, 전역일 기준 1년 이내의 복학기간에 반드시 복학하여야 해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 휴복학 %</Pattern>
+      <Response>일반휴학은 개인사정(가사, 어학연수 등), 질병 혹은 군입대 예정 등의 사유로 하는 휴학을 말하며, 학기 중 정해진 기간에 학교 홈페이지 학사포탈시스템을 통하여 신청할 수 있어
+      복학은 매 학기 시작 전후 복학기간(매학기 학사일정표 참조)내 소정기간에 학사포탈시스템을 통하여 신청하면 되 단, 입대휴학 복학생은 전역일자를 확인할 수 있는 전역증 사본이나 주민등록초본(병역사항기재), 병적증명서 중 하나를 신청 당일 원주교무처 교무부 학적과에 제출 하여야 하며, 전역일 기준 1년 이내의 복학기간에 반드시 복학하여야 해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 자퇴 %</Pattern>
+      <Response>자퇴 희망 학생은 자퇴원서를 작성하여 본인, 보호자 도장, 지도교수, 학과(부)장, 대학장의 날인을 받아 원주 교무처 교무부 학적과에 제출하여야 하고 등록금을 납부하고 자퇴하거나, 휴학생이 자퇴를 하는 경우 휴학날짜에 따라 등록금을 반환 해주기 때문에 잘 확인해야해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 재입학 %</Pattern>
+      <Response>재입학 대상자는,미등록,미복학,미수강 제적생이 있고 재입학 심의 위원회를 통한 서류심사를 받아야해 https://www.yonsei.ac.kr/wj/support/college_admin5.jsp</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 편입학 %</Pattern>
+      <Response>전적대학 학점인정 소속전공 졸업학점의 ½을 인정해줘 ,학사포털시스템&gt;졸업/취업&gt;졸업요건표 참고하면 도움이 될거야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 전공 %</Pattern>
+      <Response>전공은 전공결정, 소속변경, 복수전공 궁금한 것을 입력해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 전공결정 %</Pattern>
+      <Response>"모든 학부학생은 1학년(2학기)말에 제 1전공(학부)를 신청을 신청하여 승인을 받아야 하며, 2학년 1학기부터 승인된 전공(학부)에서 학업이 시작되 신청시기는 1학기 : 5월 초 (4월 말 공고)
+2학기 : 11월 초 (10월 말 공고)"</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 소속변경 %</Pattern>
+      <Response>캠퍼스 내 소속변경은 1년 이상을 수료한 자로서 재학 또는 휴학기간 중 1회에 한하여 3학년까지 신청 가능하고 캠퍼스 간 소속변경은 1년 이상(06학번 이후는 3학기 이상) 수료한 자로서 재학 또는 휴학기간 중 1회에 한하여 모집 단위별 입학정원의 결원이 있는 학과(전공)에 한하여 소속변경을 허용해줘</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 복수전공 %</Pattern>
+      <Response>미래캠퍼스 학생이 신촌캠퍼스 전공을 이수하는 것인데 미래캠퍼스에 없는 전공으로 계열에 관계없이 지원이 가능하고 미래캠퍼스(일산캠퍼스 제외)에 있는 전공을 이수하는데 계열에 관계없이 지원이 가능하지만 일부 불가능한 전공이 존재해 (재활학전공, 물리치료학과, 작업치료학과, 임상병리학과, 방사선학과, 보건과학과(야)는 지원이 불가하다.)</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 졸업 %</Pattern>
+      <Response>졸업은 조기졸업, 졸업, 학위수여식 궁금한 것을 입력해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 조기졸업 %</Pattern>
+      <Response>조기졸업이란 성적이 우수하고(99학번 이후 조기졸업 성적 : 3.75) 졸업요건을 같춘 학생으로 마지막 학기 수강학점을 포함하여 졸업요건이 충족되거나 또는 계절학기에 수강하여 졸업요건이 충족되는 학생을 말하고 신청은 대학본부 1층에 있는 학적과에 조기졸업신청원을 기간내 제출하면되</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 졸업 %</Pattern>
+      <Response>모든 학생은 졸업하고자 하는 학기에 졸업신청을 해야 하고 졸업 신청을 하지 않으면 졸업대상자에서 제외되어 졸업이 자동으로 연기되, 신청방법은 학사포털시스템의 ‘졸업신청’메뉴에서 신청할 수 있고 연도별 졸업요건은 링크를 참조해 https://www.yonsei.ac.kr/wj/support/graduation7.jsp</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 학위 %</Pattern>
+      <Response>학위수여식은 매 학기 졸업전에 공지되고 가운, 학위모, 졸업앨범 배부해주고 대리인이 오게되면 졸업생의 신분증을 지참해야해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 등록금 %</Pattern>
+      <Response>등록금은 일정, 명세표, 납부 궁금한 것을 입력해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 일정 %</Pattern>
+      <Response>(https://www.yonsei.ac.kr/wj/support/payment.jsp)에서 자세한 내용을 확인해봐</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 명세표 %</Pattern>
+      <Response>자율경비는 학생회비, 연세춘추, 방송비, 건강공제회비 등이 있고 자세한 내용은 https://www.yonsei.ac.kr/wj/support/payment_itemized1.jsp 참고하면 도움이 될거같아</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 납부 %</Pattern>
+      <Response>납부 방법에는 가상계좌이체, 분할납부, 학자금대출, 신용카드납부가 있어</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 가상계좌이체 %</Pattern>
+      <Response>학사포탈시스템(http://portal.yonsei.ac.kr)을 통하여 가상계좌 및 등록금액을 확인하여 이체 실행가능해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 분할납부 %</Pattern>
+      <Response>분할납부 신청기간은 1학기 - 12월 말 ~ 2월 중순 경, 2학기 - 6월 말 ~ 8월 중순이고 연세포탈서비스에서 신청기간 내 직접 분할납부 신청가능해 (연세포탈서비스(http://portal.yonsei.ac.kr) → 학사정보시스템 → 로그인 → 등록 → "분납신청/취소")</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 학자금대출 %</Pattern>
+      <Response>학자금 대출 대상자는 국가장학기금에서 학자금 대출 승인 받은 자, 등록금 전액 대출자이고 한국장학재단(https://www.kosaf.go.kr/ko/main.do) 확인 가능해</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 신용카드납부 %</Pattern>
+      <Response>신용카드 납부는 학부 신입생 첫학기만 가능하고 법인카드를 제외한 우리 체크카드만 가능해 - 우리은행 전국지점 및 우리카드 인터넷홈페이지(http://www.wooricard.co.kr)</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% 장학금 %</Pattern>
+      <Response>장학금은 국가근로장학금, 어학우수장학금 등 여러가지 장학 제도가 존재하고 학생복지처 홈페이지(http://wsw.yonsei.ac.kr) 에 가면 나와있어</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>윤한얼 %</Pattern>
+      <Response>인공지능 교수님이셔.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>조교님들에 %</Pattern>
+      <Response>정말 대단하고 잘 가르쳐주시는 분들이야.</Response>
+    </Model>
+  </Concept>
+  <Concept Name="도움말">
+    
+    <Model>
+      <Pattern>
+        <Item>도움말%</Item>
+        <Item>도움말 %</Item>
+      </Pattern>
+      <Response>2022학년 수시정보,정시정보,각종 날짜정보(수시 지원 날짜,합격자 발표 날짜,합격자 등록 날짜 등등..),미래 캠퍼스 각 건물에 어느 과가 주로 있는지(ex. 창조관에는 무슨과들이 주로 있어?)</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="수시정보">
+    
+    <Model>
+      <Pattern>
+        <Item>2022학년 수시정보좀 알려줘</Item>
+        <Item>2022학년 수시 정보좀 알려줘</Item>
+        <Item>2022학년 수시정보 알%</Item>
+        <Item>2022학년 수시정보 알 %</Item>
+        <Item>2022학년 수시정보에 대해 알려줘</Item>
+        <Item>2022학년 수시 정보에 대해*</Item>
+        <Item>2022학년 수시 정보에 *</Item>
+        <Item>수시정보</Item>
+        <Item>수시정보%</Item>
+        <Item>수시정보 %</Item>
+      </Pattern>
+      <Response>학생부 교과 와 학생부 종합, 논술 우수자가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생부 교과에 대해 알려줘</Item>
+        <Item>학생부 교과에 대해 %</Item>
+        <Item>학생부 교과에 대해 가%</Item>
+        <Item>학생부교과 *</Item>
+        <Item>학생부 교과 *</Item>
+      </Pattern>
+      <Response>교과 우수자로 입학하기 위해선 학교생활 기록부가 필요해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>학생부 종합에 대해 알려줘</Item>
+        <Item>학생부 종합에 대해 %</Item>
+        <Item>학생부 종합에 대해 가%</Item>
+        <Item>학생부종합 *</Item>
+        <Item>학생부 종합 *</Item>
+      </Pattern>
+      <Response>학교생활우수자,강원인재,기회균형,활동우수자,sw창의인재가 있어.
+
+지원하기 위한 서류 :
+학교생활우수자는 학교생활 기록부와 자기소개서가 필요해. 
+강원인재는 학교생활 기록부와 자기소개서, 지원자격 증빙 서류가 필요해. 
+기회균형은 학교생활 기록부와 자기소개서, 가족관계 증빙서류, 지원자격별 증빙서류가 필요해. 
+활동우수자는 학교생활 기록부와 자기소개서(단,동아시아 국제학부는 영문으로 작성)가 필요해.
+sw창의인재는 학교생활 기록부와 자기소개서가 필요해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>논술 우수자에 대해 알려줘</Item>
+        <Item>논술 우수자에 대해 가%</Item>
+        <Item>논술 우수자에 설%</Item>
+        <Item>논술우수자 *</Item>
+        <Item>논술 우수자 *</Item>
+      </Pattern>
+      <Response>논술 우수자로 입학하기 위해선 학교생활 기록부가 필요해.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="수시날짜">
+    
+    <Model>
+      <Pattern>
+        <Item>수시 지원 날짜좀 알려줘</Item>
+        <Item>수시 지원 날짜에 대해 알려줘</Item>
+        <Item>수시 지원 날짜에 대해 알%</Item>
+        <Item>수시 지원 날짜에 대해 가%</Item>
+        <Item>수시 지원 날짜 *</Item>
+      </Pattern>
+      <Response>2021.09.10 10시부터 2021.09.14 18시 까지야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="합격자발표날짜">
+    
+    <Model>
+      <Pattern>
+        <Item>수시 합격자 발표 날짜좀 알려줘</Item>
+        <Item>수시 합격자 발표 날짜에 대해 알려줘</Item>
+        <Item>수시 합격자 발표 날짜에 대해 알%</Item>
+        <Item>수시 합격자 발표 날짜에 대해 가%</Item>
+        <Item>수시 합격자 발표 날짜 *</Item>
+        <Item>수시 합격자 발표가 *</Item>
+      </Pattern>
+      <Response>학생부는 21.11.19일에 발표해
+ 논술우수자는 21.12.15일에 발표해</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="합격자등록날짜">
+    
+    <Model>
+      <Pattern>
+        <Item>수시 합격자 등록 날짜좀 알려줘</Item>
+        <Item>수시 합격자 등록 날짜에 대해 알려줘</Item>
+        <Item>수시 합격자 등록 날짜에 대해 알%</Item>
+        <Item>수시 합격자 등록 날짜에 대해 가%</Item>
+        <Item>수시 합격자 등록 날짜*</Item>
+      </Pattern>
+      <Response>2021.12.17 10시부터 2021.12.20 16시 까지야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="등록금 날짜">
+    
+    <Model>
+      <Pattern>
+        <Item>등록금 납부 날짜좀 알려줘</Item>
+        <Item>등록금 납부 날짜%</Item>
+      </Pattern>
+      <Response>2022.02.09 10시부터 20222.02.11 18시 까지야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="정시정보">
+    
+    <Model>
+      <Pattern>
+        <Item>2022학년 정시정보좀 알려줘</Item>
+        <Item>2022학년 정시정보좀 알려줘</Item>
+        <Item>2022학년 정시정보에 대해 알려줘</Item>
+        <Item>2022학년 정시 정보좀 알려줘</Item>
+        <Item>2022학년 정시 정보에 대해 알려줘</Item>
+        <Item>2022학년 정시 정보에 대해 알%</Item>
+        <Item>2022학년 정시 정보에 대해 가%</Item>
+        <Item>정시정보</Item>
+        <Item>%정시정보%</Item>
+        <Item>%정시정보 %</Item>
+        <Item>% 정시정보 %</Item>
+      </Pattern>
+      <Response>2021학년 정시 기준 해당하는 학과에 들어 오기 위해서
+의예과는 국수탐 모두 1등급을 맞아야해
+간호학과는 국수탐 모두 2~3등급을 맞아야해
+나머지 학과는 모두 3~4등급을 맞아야해</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="정시날짜">
+    
+    <Model>
+      <Pattern>
+        <Item>정시 지원 날짜좀 알려줘</Item>
+        <Item>정시 지원 날짜에 대해 알려줘</Item>
+        <Item>정시 지원 날짜에 대해 알%</Item>
+        <Item>정시 지원 날짜에 대해 가%</Item>
+      </Pattern>
+      <Response>일반적인 경우 2021.12.30 10시부터 2022.01.03 18시 까지야.
+ 디자인 예술학부는 실기를 따로 지원하고 실기를 봐야돼.</Response>
+      <!--Child Model -->
+      <Model>
+        <Pattern>
+          <Item>디자인 예술학부 실기 날짜는 언제야</Item>
+          <Item>디자인 예술학부 실기 날짜%</Item>
+        </Pattern>
+        <Response>접수는 22.01.19 12시 30분부터 13시 30분이야.</Response>
+      </Model>
+      <!--Child Model -->
+      <Model>
+        <Pattern>
+          <Item>디자인 예술학부 실기 시험은 언제야</Item>
+          <Item>디자인 예술학부 실기 시험%</Item>
+        </Pattern>
+        <Response>실기 시험은 22.01.19 13시30분부터 18시까지야.</Response>
+      </Model>
+    </Model>
+    
+  </Concept>
+  <Concept Name="정시 합격자 발표 날짜">
+    
+    <Model>
+      <Pattern>
+        <Item>정시 합격자 발표 날짜좀 알려줘</Item>
+        <Item>정시 합격자 발표 날짜%</Item>
+      </Pattern>
+      <Response>2022.02.08 17시야.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="청송관과">
+    
+    <Model>
+      <Pattern>
+        <Item>청송관 어떤 과가 있어</Item>
+        <Item>청송관 어떤 과가 있%</Item>
+      </Pattern>
+      <Response>국어국문학과,영어영문학과,역사문화학과,철학과,경제학과,경영학과,글로벌행정학과,국제관계학과,동아시아국제학과.글로벌엘리트학과,산업디자인학과,시각디자인학과,디지털아트학과가 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="창조관과">
+    
+    <Model>
+      <Pattern>
+        <Item>창조관 어떤 과가 있어</Item>
+        <Item>창조관 어떤 과가 있%</Item>
+      </Pattern>
+      <Response>컴퓨터공학과,수학과,물리학과,화학과,생명공학과,패키징학과,환경공학과가 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="백운관과">
+    
+    <Model>
+      <Pattern>
+        <Item>백운관 어떤 과가 있어</Item>
+        <Item>백운관 어떤 과가 있*</Item>
+      </Pattern>
+      <Response>의공학과,임상병리학과,작업치료학과,치위생학과,방사선학과가 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="정의관과">
+    
+    <Model>
+      <Pattern>
+        <Item>정의관 어떤 과가 있어</Item>
+        <Item>정의관 어떤 과가 있*</Item>
+      </Pattern>
+      <Response>경제학과, 글로벌행정학과, 국제관계학과, 경영학과가 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="미래관과">
+    
+    <Model>
+      <Pattern>
+        <Item>미래관 어떤 과가 있어</Item>
+        <Item>미래관 어떤 과가 있*</Item>
+      </Pattern>
+      <Response>생명과학기술학부, 임상병리학과 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="상징물">
+    
+    <Model>
+      <Pattern>
+        <Item>연세대에 주요 상징물에 대해 설명해줘</Item>
+        <Item>연세대에 주요 상징물에 대해 설명%</Item>
+        <Item>연세대에 주요 상징물에 대해 가르쳐줘</Item>
+        <Item>연세대에 주요 상징물에 대해 알려줘</Item>
+        <Item>연세대에 주요 상징물에 대해 설명해줘</Item>
+        <Item>주요 상징물*</Item>
+        <Item>주요상징물*</Item>
+      </Pattern>
+      <Response>주요 상징물로는 거북섬,독수리상,키스로드,노천극장이 있어</Response>
+    </Model>
+    <!--Child Model -->
+    
+    <Model>
+      <Pattern>
+        <Item>거북섬 위치 알려줘</Item>
+        <Item>거북섬 위치 가르쳐줘</Item>
+        <Item>거북섬 위치 어디</Item>
+        <Item>거북섬 어디</Item>
+        <Item>거북섬 어디 *</Item>
+        <Item>거북섬 어떻게 가면돼</Item>
+      </Pattern>
+      <Response>거북섬은 매지호 가운데에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>거북섬 설명해줘</Item>
+        <Item>거북섬 가르쳐줘</Item>
+        <Item>거북섬 알려줘</Item>
+        <Item>거북섬 대해 설명해줘</Item>
+        <Item>거북섬 대해 가르쳐줘</Item>
+        <Item>거북섬 대해 알려줘</Item>
+      </Pattern>
+      <Response>원래는 연세대 미래 캠퍼스를 대표할 만큼 경치가 아름답고, 사람들이 자주 보러 오는 상징물이었지만, 2014년 '민물가마우지'라는 외래종이 들어오면서 배설물로 인해 보기에 흉해</Response>
+    </Model>
+    <!--Child Model -->
+    
+    <Model>
+      <Pattern>
+        <Item>독수리상 설명해줘</Item>
+        <Item>독수리상 가르쳐줘</Item>
+        <Item>독수리상 알려줘</Item>
+        <Item>독수리상 대해 설명해줘</Item>
+        <Item>독수리상 대해 가르쳐줘</Item>
+        <Item>독수리상 대해 알려줘</Item>
+      </Pattern>
+      <Response>독수리상의 후면에 총학생회의 건립취지문이 새겨져 있고, 네 귀퉁이에는 연세의 역사를 지켜오고 앞으로도 한국의 지성, 나아가서는 세계의 진리와 자유수호에 이바지할 연세인의 상이 조각되어 있어</Response>
+    </Model>
+    <!--Child Model -->
+    
+    <Model>
+      <Pattern>
+        <Item>키스로드 설명해줘</Item>
+        <Item>키스로드 가르쳐줘</Item>
+        <Item>키스로드 알려줘</Item>
+        <Item>키스로드 대해 설명해줘</Item>
+        <Item>키스로드 대해 가르쳐줘</Item>
+        <Item>키스로드 대해 알려줘</Item>
+      </Pattern>
+      <Response>4월이 되면 키스로드에 아름다운 꽃잎이 가득해, 새내기가 되어 남사친,여사친과 자연스럽게 걸으면서 아름다운 풍경에 취해 키스를 하게 되고, cc가 될수있다는 유명한 길이야</Response>
+    </Model>
+    <!--Child Model -->
+    
+    <Model>
+      <Pattern>
+        <Item>노천극장 설명해줘</Item>
+        <Item>노천극장 가르쳐줘</Item>
+        <Item>노천극장 알려줘</Item>
+        <Item>노천극장 대해 설명해줘</Item>
+        <Item>노천극장 대해 가르쳐줘</Item>
+        <Item>노천극장 대해 알려줘</Item>
+      </Pattern>
+      <Response>공연을 할 수 있는 작은 무대와 여러 동아리방들이 모여 있는 공간이야</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지호 설명해줘</Item>
+        <Item>매지호 가르쳐줘</Item>
+        <Item>매지호 알려줘</Item>
+        <Item>매지호 대해 설명해줘</Item>
+        <Item>매지호 대해 가르쳐줘</Item>
+        <Item>매지호 대해 알려줘</Item>
+      </Pattern>
+      <Response>캠퍼스를 감싸는 크고 아름다운 호수야. 둘레길이 총 2.5km이고, 둘레길을 걷는데 평균 40분이 걸린다고해.
+하지만 수질이 좋지 못하니까 조심하도록해.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지리석조보살입상 설명해줘</Item>
+        <Item>매지리석조보살입상 가르쳐줘</Item>
+        <Item>매지리석조보살입상 알려줘</Item>
+        <Item>매지리석조보살입상 대해 설명해줘</Item>
+        <Item>매지리석조보살입상 대해 가르쳐줘</Item>
+        <Item>매지리석조보살입상 대해 알려줘</Item>
+      </Pattern>
+      <Response>강원도 유형문화재 120호로 매지호 가운데 있는 거북섬의 꼭대기에 세워져 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>매지정 설명해줘</Item>
+        <Item>매지정 가르쳐줘</Item>
+        <Item>매지정 알려줘</Item>
+        <Item>매지정 대해 설명해줘</Item>
+        <Item>매지정 대해 가르쳐줘</Item>
+        <Item>매지정 대해 알려줘</Item>
+        <Item>매지정 어떤 곳이야</Item>
+      </Pattern>
+      <Response>매지호 둘레길을 걷다보면 나오는 정자야. 쉬어가기 좋으니까 걷다가 힘들면 쉬어가자.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>무궁화동산 설명해줘</Item>
+        <Item>무궁화동산 가르쳐줘</Item>
+        <Item>무궁화동산 알려줘</Item>
+        <Item>무궁화동산 대해 설명해줘</Item>
+        <Item>무궁화동산 대해 가르쳐줘</Item>
+        <Item>무궁화동산 대해 알려줘</Item>
+        <Item>무궁화동산 어떤 곳이야</Item>
+      </Pattern>
+      <Response>무궁화동산은 무궁화, 소목나무, 느티나무 등의 다양한 수목들이 있어. 국화선양사업으로 대통령 표창상도 수상한 곳이야.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>무궁화동산 위치 알려줘</Item>
+        <Item>무궁화동산 위치 가르쳐줘</Item>
+        <Item>무궁화동산 위치 어디</Item>
+        <Item>무궁화동산 어디</Item>
+        <Item>무궁화동산 어디 *</Item>
+      </Pattern>
+      <Response>무궁화동산은 교문에서 오른쪽에 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>내 이름은 % </Pattern>
+      <Response>오케이. 너의 이름은 이제부터
+  <User Set="NAME"><Match /></User>야!</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>너 $ 알아</Item>
+        <Item>너는 $ 알아</Item>
+        <Item>넌 $ 알아</Item>
+        <Item>$ 알아</Item>
+        <Item>$ 알려줘</Item>
+        <Item>$ 알려주세요</Item>
+        <Item>$ 알려주시겠습니까</Item>
+        <Item>$ 알려주실 수 있을까요</Item>
+        <Item>$ 무엇인가요</Item>
+        <Item>$ 알고 계시나요</Item>
+        <Item>$ 알아요</Item>
+        <Item>$ 알고 있어</Item>
+        <Item>$ 모르지</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Match /> 대해서 자세하게 질문해줄래?</Item>
+          <Item>
+            <Match /> 오타가 없는 게 확실해?</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="자취방">
+    
+    <Model>
+      <Pattern>
+        <Item>학교 주변 자취방은 어디가 있니</Item>
+        <Item>학교주변 자취방은 어디야</Item>
+        <Item>%자취방%</Item>
+        <Item>%자취방 %</Item>
+        <Item>% 자취방%</Item>
+        <Item>% 자취방 %</Item>
+      </Pattern>
+      <Response>아파트로는 청솔 아파트와 현대 아파트가 있고, 무수막 과 학교 정문 맞은편에 신축빌라가 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="자취방에서 학교까지 지름길">
+    
+    <Model>
+      <Pattern>
+        <Item>자취방에서 학교까지 지름길%</Item>
+        <Item>자취방에서 학교까지 빨리 가는 방법</Item>
+      </Pattern>
+      <Response>청솔 아파트를 내려와서 매지호와 학교가 연결되는 아름다운 길을 통해 학교를 가면 1교시 수업에 늦지 않을꺼야</Response>
+    </Model>
+    
+  </Concept>
+
+  <Concept Name="운동장소">
+    
+    <Model>
+      <Pattern>
+        <Item>운동 어디 해</Item>
+        <Item>운동을 어디 할 수 있을까</Item>
+        <Item>운동 어디 할%</Item>
+        <Item>운동 어디 </Item>
+      </Pattern>
+      <Response>연세 스포츠 센터와 학교 내 운동장이 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="체육관">
+    
+    <Model>
+      <Pattern>
+        <Item>스포츠 센터에서 어떤 운동을 할수있어</Item>
+        <Item>스포츠센터에서 어떤 운동을 할수있어</Item>
+        <Item>스포츠%센터% 어떤 운동%</Item>
+      </Pattern>
+      <Response>헬스,GX(요가,필라테스),수영,골프,클라이밍(동아리의 허락 및 함께해야 할수있음)등을 할 수 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="동아리">
+    
+    <Model>
+      <Pattern>
+        <Item>학교내에 동아리가 어떤 것들이 있어</Item>
+        <Item>학교에 동아리가 어떤 것%</Item>
+        <Item>무슨 동아리%</Item>
+        <Item>어떤 동아리 %</Item>
+        <Item>무슨 동아리 %</Item>
+        <Item>어떤 동아리%</Item>
+      </Pattern>
+      <Response>코로나로 인해 비대면 수업이 진행 되어 동아리 활동이 저조한 상황이야. 그렇지만 활동중인 동아리 들이 있는데, 그건 에브리타임 앱에서 동아리 홍보 관련 페이지 참고해줘</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="동아리 가입 방법">
+    
+    <Model>
+      <Pattern>
+        <Item>동아리 가입방법에 대해 알려줘</Item>
+        <Item>동아리 가입방법%</Item>
+        <Item>동아리 가입방법 %</Item>
+        <Item>동아리 가입 방법에 대해 알려줘</Item>
+        <Item>동아리 가입 방법%</Item>
+        <Item>동아리 가입 방법 %</Item>
+      </Pattern>
+      <Response>코로나로 인해 비대면 수업이 진행 되어 동아리 활동이 저조한 상황이야. 그렇지만 활동중인 동아리 들이 있는데, 그건 에브리 타임 앱에서 동아리 홍보 관련 페이지에 들어가서 문의를 하길 바래 </Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="기숙사 내 편의시설">
+    
+    <Model>
+      <Pattern>
+        <Item>기숙사 편의시설 어떤 *</Item>
+        <Item>기숙사 편의시설 무엇 *</Item>
+      </Pattern>
+      <Response>매지학사에는 조리실,세미나실,세탁실,독서실,휴게실,샤워실이 있어.
+세연학사에는 조리실,세미나실,세탁실,독서실,컴퓨터실이 있어. 그리고 한가지 특이한 점은 기도실이 기숙사 내에 있어서 주말마다 가끔 기도하러 모이곤 
+청연학사에는 조리실,세미나실,세탁실,독서실,컴퓨터실이 있어. 그리고 한가지 특이한 점은 음악실과 테라스가 기숙사 내에 있어서 주말에 가끔 기타를 치는 예쁜 누나와 멋진 형들이 있어</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="도서관 이용시간">
+    
+    <Model>
+      <Pattern>
+        <Item>중앙도서관 영업시간은 어떻게 되</Item>
+        <Item>중앙도서관 영업시간은 어떻게 돼</Item>
+        <Item>중앙도서관 영업시간이 어떻게 되</Item>
+        <Item>중앙도서관 영업시간이 어떻게 돼</Item>
+        <Item>중앙도서관 영업시간%</Item>
+      </Pattern>
+      <Response> B1 일반 열람실은 평일에는 09시 부터 21시 까지야. 그리고 주말과 공휴일에는 열지 않아.
+1층 일반 열람실은 평일 ~ 토요일까지 09시 부터 21시 까지야. 그리고 일요일과 공휴일에는 열지 않아.
+2층 머레이 멀티미디어실은 평일에는 09시 부터 17시 까지야. 그리고 주말과 공휴일에는 열지 않아.
+3층 ~ 5층 자료 열람실에 평일은 09시 부터 21시 까지야. 그리고 토요일은 13시부터 17시 까지 열고, 일요일과 공휴일에는 열지 않아.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="도서관 내 편의시설">
+    
+    <Model>
+      <Pattern>
+        <Item>중앙도서관 편의시설이 어떤 것들이 있어</Item>
+        <Item>중앙도서관 편의시설%</Item>
+        <Item>중앙도서관 편의시설 %</Item>
+        <Item>중앙도서관 편의 시설%</Item>
+        <Item>중앙도서관 편의 시설 %</Item>
+      </Pattern>
+      <Response>지하 1층에는 노트북 열람실과 독서실이 있고, 간단하게 휴식을 취할수 있도록 카페테리아와 음료를 뽑을 수 있는 기계가 있어.
+1층에는 독서실과 개방된 독서실이 있어.
+2층에는 카페 분위기를 물씬 느낄수 있는 공간이 있어. 커피도 팔고 있으니 한번 먹어보는 건 어떄?</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="코로나 바이러스 관련 학교 지침 사항">
+    
+    <Model>
+      <Pattern>
+        <Item>%코로나 바이러스%</Item>
+        <Item>%COVID19%</Item>
+        <Item>%COVID19%</Item>
+        <Item>%코로나바이러스%</Item>
+        <Item>%우한폐렴%</Item>
+        <Item>%우한 폐렴%</Item>
+      </Pattern>
+      <Response>2021년 12월 01일 기준 2학기는 비대면으로 진행중에 있어서 zoom을 이용해 강의를 진행하고 있어. </Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="단과대학">
+    
+    <Model>
+      <Pattern>
+        <Item>%단과대학별 학과 알려줘</Item>
+        <Item>%단과 대학별 학과 알%</Item>
+        <Item>%단대별 학과 알려줘</Item>
+        <Item>%단대별 학과 알%</Item>
+        <Item>%단대별 학과 가르쳐줘</Item>
+        <Item>%단대별 학과 가%</Item>
+      </Pattern>
+      <Response> 인문예술대에는 국어국문학과,영어영문학과,철학과,역사문화학과,디자인예술학과가 있어.
+정경대에는 경영학과,경제학과,국제관계학과,글로벌행정학과가 있어.
+과기대에는 물리학과,생명공학과,수학과,정보통계학과,컴퓨터공학과,패키징학과,화학과,반도체시스템공학과가 있어.
+보건대에는 물리치료학과,방사선학과,보건행정학과,임상병리학과,작업치료학과,환경공학과가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>과기대 어떤 학과 *</Pattern>
+      <Response>과기대에는 물리학과,생명공학과,수학과,정보통계학과,컴퓨터공학과,패키징학과,화학과,반도체시스템공학과가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>인문예술대 어떤 학과 *</Pattern>
+      <Response>인문예술대에는 국어국문학과,영어영문학과,철학과,역사문화학과,디자인예술학과가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>정경대 어떤 학과 *</Pattern>
+      <Response>정경대에는 경영학과,경제학과,국제관계학과,글로벌행정학과가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>보건대 어떤 학과 *</Pattern>
+      <Response>보건대에는 물리치료학과,방사선학과,보건행정학과,임상병리학과,작업치료학과,환경공학과가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>글로벌창의융합대학 어떤 학과 *</Pattern>
+      <Response>글로벌창의융합대학에는 국어국문학전공, 영어영문학전공, 역사문화학전공, 철학전공, 경영학전공, 경제학전공, 글로벌행정학전공, 국제관계학전공, 동아시아국제학부, 글로벌엘리트학부, 산업디자인학전공, 시각디자인학전공, 디지털아트학전공이 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>과학기술융합대학 어떤 학과 *</Pattern>
+      <Response>과학기술융합대학에는 물리및공학물리학전공, 화학및의화학전공, 생명과학기술학부, 패키징및물류학전공, 환경에너지공학부가 있어.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>소프트웨어디지털헬스케어융합대학 어떤 학과 *</Pattern>
+      <Response>소프트웨어디지털헬스케어융합대학에는소프트웨어학부, 데이터사이언스학부, 디지털헬스케어학부, 의공학부, 보건행정학부, 임상병리학과, 물리치료학과, 작업치료학과, 방사선학과, 치위생학과, 보건과학부가 있어.</Response>
+    </Model>
+    
+  </Concept>
+  <Concept Name="자랑">
+    
+    <Model>
+      <Pattern>
+        <Item>미래캠퍼스 자랑해줘</Item>
+        <Item>미래캠퍼스 장점 무엇</Item>
+        <Item>미래캠퍼스 장점 알려줘</Item>
+        <Item>미래캠퍼스 장점 가르쳐줘</Item>
+      </Pattern>
+      <Response>우리학교는 매지호를 비롯한 주위 자연경관으로 인해 캠퍼스가 아름다워!</Response>
+    </Model>
+    
+  </Concept>
+</Siml>
