@@ -11,3 +11,7 @@
 
 ## Reference
 
+## 참고사항
+Unity 파일 내의 TextToSpeech.cs 내부의 API키를 지웠습니다.(API키 보호를 위하여)
+
+본인의 API키를 입력하여 실행하시기 바랍니다.
