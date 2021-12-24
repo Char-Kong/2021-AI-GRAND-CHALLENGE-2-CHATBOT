@@ -10,6 +10,7 @@
 - Visual Studio 2019
 
 ## Reference
+ 이창재, 정호진. SIML Chatbot Tutorial - Part (1~3).
 
 ## 참고사항
 Unity 파일 내의 TextToSpeech.cs 내부의 API키를 지웠습니다.(API키 보호를 위하여)
