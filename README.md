@@ -34,6 +34,9 @@
  - Syn Bot Framework [Link](https://developer.syn.co.in/tutorial/bot/oscova/unity-bot.html)
  - Unity-Chan! Model [Link](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
  - Oculus Lipsync Unity [Link](https://developer.oculus.com/downloads/package/oculus-lipsync-unity/)
+
+## 실제 동작 영상
+<https://youtu.be/FlYy_A0V9iw>
 ------------------
 ## 참고사항
 Unity 파일 내의 TextToSpeech.cs 내부의 API키를 지웠습니다.(API키 보호를 위하여)
