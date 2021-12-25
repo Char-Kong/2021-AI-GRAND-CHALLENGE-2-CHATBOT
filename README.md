@@ -15,6 +15,8 @@
  
  Synbot Tutorial [Link](https://developer.syn.co.in/tutorial/index.html)
  
+ Add a Chatbot to a C# Application using SIML (Synthetic Intelligence Markup Language) [Link1](https://www.codeproject.com/Articles/866760/Add-a-Chatbot-to-a-Csharp-Application-using-SIML-S) [Link2](https://www.codeproject.com/Articles/868466/Add-a-Chatbot-to-a-Csharp-application-using-SIML-2)
+ 
  キャラクターを喋らせる！OVR Lip Syncの導入から問題発生時の解決法まで [Link](https://blog.gcrest.com/archives/404)
  
  ### Unity Assets
