@@ -54,7 +54,7 @@ public class GetContent
 
 public class TextToSpeech : MonoBehaviour
 {
-	private string apiURL = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=AIzaSyDAA11HYeWrjMU5JIt5Ok9M0khCCv5KYTY";
+	private string apiURL = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=APIKEY";
 	SetTextToSpeech tts = new SetTextToSpeech();
 	public AudioSource audioSource_sound = null;
 	public AudioSource audioSource_sync = null;
