@@ -6,7 +6,7 @@
 + Supervised and helped by C-J Lee, S-R Hwang, and H-U Yoon
 
 ## 주제
-SIML기반으로 미래캠퍼스에 대한 정보를 알려주는 챗봇 개발
+- SIML기반으로 미래캠퍼스에 대한 정보를 알려주는 챗봇 개발
 
 ## 개발 환경
 - Syn Bot Studio
@@ -14,18 +14,20 @@ SIML기반으로 미래캠퍼스에 대한 정보를 알려주는 챗봇 개발
 - Visual Studio 2019
 
 ## Reference
- 이창재, 정호진. SIML Chatbot Tutorial - Part (1~3).
+- 이창재, 정호진. SIML Chatbot Tutorial - Part (1~3).
  
- Synbot Tutorial [Link](https://developer.syn.co.in/tutorial/index.html)
+- Synbot Tutorial [Link](https://developer.syn.co.in/tutorial/index.html)
  
- Add a Chatbot to a C# Application using SIML (Synthetic Intelligence Markup Language) [Link1](https://www.codeproject.com/Articles/866760/Add-a-Chatbot-to-a-Csharp-Application-using-SIML-S) [Link2](https://www.codeproject.com/Articles/868466/Add-a-Chatbot-to-a-Csharp-application-using-SIML-2)
+- Add a Chatbot to a C# Application using SIML (Synthetic Intelligence Markup Language) [Link1](https://www.codeproject.com/Articles/866760/Add-a-Chatbot-to-a-Csharp-Application-using-SIML-S) [Link2](https://www.codeproject.com/Articles/868466/Add-a-Chatbot-to-a-Csharp-application-using-SIML-2)
  
- キャラクターを喋らせる！OVR Lip Syncの導入から問題発生時の解決法まで [Link](https://blog.gcrest.com/archives/404)
+- キャラクターを喋らせる！OVR Lip Syncの導入から問題発生時の解決法まで [Link](https://blog.gcrest.com/archives/404)
  
  ### 챗봇 답변 자료 정보
- 학교 관련 정보 [Link1](https://www.yonsei.ac.kr/wj/index.jsp)
- 수시 및 정시 정보 [Link1](https://www.nesin.com/menu_2019_4.html?caseBy=avgJ&code=88)
- 주변 자연경관 정보 [Link1](http://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2113201200000&pageNo=1_1_2_0) [Link2](https://blog.naver.com/jhkimism/221500166348)
+- 학교 관련 정보 [Link1](https://www.yonsei.ac.kr/wj/index.jsp)
+ 
+- 수시 및 정시 정보 [Link1](https://www.nesin.com/menu_2019_4.html?caseBy=avgJ&code=88)
+ 
+- 주변 자연경관 정보 [Link1](http://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2113201200000&pageNo=1_1_2_0) [Link2](https://blog.naver.com/jhkimism/221500166348)
  
  ### Unity Assets
  - Japanese Otaku City [Link](https://assetstore.unity.com/packages/3d/environments/urban/japanese-otaku-city-20359)
