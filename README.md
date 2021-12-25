@@ -17,7 +17,7 @@
  
  キャラクターを喋らせる！OVR Lip Syncの導入から問題発生時の解決法まで [Link](https://blog.gcrest.com/archives/404)
  
- ###Unity Assets
+ ### Unity Assets
  - Japanese Otaku City [Link](https://assetstore.unity.com/packages/3d/environments/urban/japanese-otaku-city-20359)
  - Syn Bot Framework [Link](https://developer.syn.co.in/tutorial/bot/oscova/unity-bot.html)
  - Unity-Chan! Model [Link](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
