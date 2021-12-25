@@ -14,6 +14,15 @@
  이창재, 정호진. SIML Chatbot Tutorial - Part (1~3).
  
  Synbot Tutorial [Link](https://developer.syn.co.in/tutorial/index.html)
+ 
+ キャラクターを喋らせる！OVR Lip Syncの導入から問題発生時の解決法まで [Link](https://blog.gcrest.com/archives/404)
+ 
+ ###Unity Assets
+ - Japanese Otaku City [Link](https://assetstore.unity.com/packages/3d/environments/urban/japanese-otaku-city-20359)
+ - Syn Bot Framework [Link](https://developer.syn.co.in/tutorial/bot/oscova/unity-bot.html)
+ - Unity-Chan! Model [Link](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
+ - Oculus Lipsync Unity [Link](https://developer.oculus.com/downloads/package/oculus-lipsync-unity/)
+ - 
 
 ## 참고사항
 Unity 파일 내의 TextToSpeech.cs 내부의 API키를 지웠습니다.(API키 보호를 위하여)
