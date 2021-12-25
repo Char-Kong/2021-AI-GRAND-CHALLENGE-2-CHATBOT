@@ -5,6 +5,9 @@
 + 팀원 : 임은지, 최정식, 박경원 
 + Supervised and helped by C-J Lee, S-R Hwang, and H-U Yoon
 
+## 주제
+SIML기반으로 미래캠퍼스에 대한 정보를 알려주는 챗
+
 ## 개발 환경
 - Syn Bot Studio
 - Unity 2019.4.17f1
