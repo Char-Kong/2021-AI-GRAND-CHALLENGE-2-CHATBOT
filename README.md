@@ -14,7 +14,7 @@
 - Visual Studio 2019
 
 ## Reference
-- 이창재, 정호진. SIML Chatbot Tutorial - Part (1~3).
+- 이창재, 정호진. SIML Chatbot Tutorial - Part (1~3).(연세대학교 인공지능 수업자료)
  
 - Synbot Tutorial [Link](https://developer.syn.co.in/tutorial/index.html)
  
